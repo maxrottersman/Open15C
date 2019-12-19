@@ -38,7 +38,7 @@ for tag in tag_list:
 
     if tag.name == 'rr:expensesoverassets':
         print('ExpensesOverAssets: ' + tag.name + 'text ' + tag.text)
-        #print(tag.attrs)
+        print(tag.attrs)
         
         
             
