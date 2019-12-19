@@ -22,17 +22,18 @@ for tag in tag_list:
     #rr:ExpensesOverAssets
 
     if tag.name == 'rr:managementfeesoverassets':
-        #print('MgmtFees: ' + tag.name + 'text ' + tag.text)
+        print('MgmtFees: ' + tag.name + 'text ' + tag.text)
         #print(tag.attrs)
         contextref =''
         contextref =tag.attrs.get('contextref')
-        print(contextref)
+        #print(contextref)
         MemberStart = contextref.find('MemberC')
-        print(MemberStart)
+        #print(MemberStart)
         SECSeriesNum = contextref[MemberStart-11:MemberStart-1]
         SECClassNum = contextref[MemberStart+6:MemberStart+16]
         print(SECSeriesNum)
         print(SECClassNum)
+        print(tag.text)
 
 
     if tag.name == 'rr:expensesoverassets':
