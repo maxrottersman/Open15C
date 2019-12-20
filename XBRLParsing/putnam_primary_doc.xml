@@ -1,0 +1,2479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/ncen" xmlns:com="http://www.sec.gov/edgar/common">
+  <schemaVersion>X0201</schemaVersion>
+  <headerData>
+    <submissionType>N-CEN</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <issuerCredentials>
+          <cik>0001005942</cik>
+          <ccc>XXXXXXXX</ccc>
+        </issuerCredentials>
+      </filer>
+      <flags>
+        <returnCopyFlag>false</returnCopyFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+      </flags>
+      <investmentCompanyType>N-1A</investmentCompanyType>
+    </filerInfo>
+    <seriesClass>
+      <reportSeriesClass>
+        <rptSeriesClassInfo>
+          <seriesId>S000023000</seriesId>
+          <includeAllClassesFlag>true</includeAllClassesFlag>
+        </rptSeriesClassInfo>
+        <rptSeriesClassInfo>
+          <seriesId>S000024243</seriesId>
+          <includeAllClassesFlag>true</includeAllClassesFlag>
+        </rptSeriesClassInfo>
+        <rptSeriesClassInfo>
+          <seriesId>S000024245</seriesId>
+          <includeAllClassesFlag>true</includeAllClassesFlag>
+        </rptSeriesClassInfo>
+        <rptSeriesClassInfo>
+          <seriesId>S000024246</seriesId>
+          <includeAllClassesFlag>true</includeAllClassesFlag>
+        </rptSeriesClassInfo>
+        <rptSeriesClassInfo>
+          <seriesId>S000024247</seriesId>
+          <includeAllClassesFlag>true</includeAllClassesFlag>
+        </rptSeriesClassInfo>
+        <rptSeriesClassInfo>
+          <seriesId>S000024248</seriesId>
+          <includeAllClassesFlag>true</includeAllClassesFlag>
+        </rptSeriesClassInfo>
+      </reportSeriesClass>
+    </seriesClass>
+  </headerData>
+  <formData>
+    <generalInfo reportEndingPeriod="2019-08-31" isReportPeriodLt12="N"/>
+    <registrantInfo>
+      <registrantFullName>Putnam Funds Trust</registrantFullName>
+      <investmentCompFileNo>811-07513</investmentCompFileNo>
+      <registrantCik>0001005942</registrantCik>
+      <registrantLei>549300S9JYWEMKQCLW53</registrantLei>
+      <registrantstreet1>100 FEDERAL STREET</registrantstreet1>
+      <registrantcity>BOSTON</registrantcity>
+      <registrantzipCode>02110</registrantzipCode>
+      <registrantstate>US-MA</registrantstate>
+      <registrantcountry>US</registrantcountry>
+      <registrantphoneNumber>1-800-225-1581</registrantphoneNumber>
+      <websites>
+        <website webpage="WWW.PUTNAM.COM"/>
+      </websites>
+      <locationBooksRecords>
+        <locationBooksRecord>
+          <officeName>State Street Bank and Trust Company</officeName>
+          <officeAddress1>225 FRANKLIN STREET</officeAddress1>
+          <officeCity>BOSTON</officeCity>
+          <officeStateCountry officeState="US-MA" officeCountry="US"/>
+          <officeRecordsZipCode>02110</officeRecordsZipCode>
+          <officePhone>1-617-786-3000</officePhone>
+          <booksRecordsDesc>Persons maintaining physical possession of accounts, books and other documents required to be maintained by Section 31(a) of the Investment Company Act of 1940, as amended, and the Rules promulgated thereunder are responded to under B.3.a-g</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>Higgins Michael J.</officeName>
+          <officeAddress1>100 FEDERAL STREET</officeAddress1>
+          <officeCity>BOSTON</officeCity>
+          <officeStateCountry officeState="US-MA" officeCountry="US"/>
+          <officeRecordsZipCode>02110</officeRecordsZipCode>
+          <officePhone>1-800-225-1581</officePhone>
+          <booksRecordsDesc>Persons maintaining physical possession of accounts, books and other documents required to be maintained by Section 31(a) of the Investment Company Act of 1940, as amended, and the Rules promulgated thereunder are responded to under B.3.a-g</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>Putnam Investment Management, LLC</officeName>
+          <officeAddress1>100 FEDERAL STREET</officeAddress1>
+          <officeCity>BOSTON</officeCity>
+          <officeStateCountry officeState="US-MA" officeCountry="US"/>
+          <officeRecordsZipCode>02110</officeRecordsZipCode>
+          <officePhone>1-800-225-1581</officePhone>
+          <booksRecordsDesc>Persons maintaining physical possession of accounts, books and other documents required to be maintained by Section 31(a) of the Investment Company Act of 1940, as amended, and the Rules promulgated thereunder are responded to under B.3.a-g</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>Putnam Retail Management Limited Partnership</officeName>
+          <officeAddress1>100 FEDERAL STREET</officeAddress1>
+          <officeCity>BOSTON</officeCity>
+          <officeStateCountry officeState="US-MA" officeCountry="US"/>
+          <officeRecordsZipCode>02110</officeRecordsZipCode>
+          <officePhone>1-800-225-1581</officePhone>
+          <booksRecordsDesc>Persons maintaining physical possession of accounts, books and other documents required to be maintained by Section 31(a) of the Investment Company Act of 1940, as amended, and the Rules promulgated thereunder are responded to under B.3.a-g</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>Putnam Investor Services, Inc.</officeName>
+          <officeAddress1>100 FEDERAL STREET</officeAddress1>
+          <officeCity>BOSTON</officeCity>
+          <officeStateCountry officeState="US-MA" officeCountry="US"/>
+          <officeRecordsZipCode>02110</officeRecordsZipCode>
+          <officePhone>1-800-225-1581</officePhone>
+          <booksRecordsDesc>Persons maintaining physical possession of accounts, books and other documents required to be maintained by Section 31(a) of the Investment Company Act of 1940, as amended, and the Rules promulgated thereunder are responded to under B.3.a-g</booksRecordsDesc>
+        </locationBooksRecord>
+      </locationBooksRecords>
+      <isRegistrantFirstFiling>N</isRegistrantFirstFiling>
+      <isRegistrantLastFiling>N</isRegistrantLastFiling>
+      <registrantFamilyInvComp isRegistrantFamilyInvComp="Y" familyInvCompFullName="Putnam Family of Funds"/>
+      <registrantClassificationType>N-1A</registrantClassificationType>
+      <totalSeries>23</totalSeries>
+      <terminatedSeries>
+        <terminatedSeriesInfo seriesName="Putnam Global Consumer Fund" seriesId="S000024243" terminationDate="06/2019"/>
+        <terminatedSeriesInfo seriesName="Putnam Global Financials Fund" seriesId="S000024245" terminationDate="06/2019"/>
+        <terminatedSeriesInfo seriesName="Putnam Global Communications Fund" seriesId="S000024248" terminationDate="06/2019"/>
+      </terminatedSeries>
+      <isSecuritiesActRegistration>Y</isSecuritiesActRegistration>
+      <directors>
+        <director>
+          <directorName>Singh Manoj P</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Ahamed Liaquat</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Akhoury Ravi</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Baumann Barbara M</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Domotorffy Katinka</directorName>
+          <crdNumber>004506390</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Hill Catharine Bond</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Joskow Paul L</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Leibler Kenneth R</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Patterson Robert E</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Putnam, III George</directorName>
+          <crdNumber>004355835</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Reynolds Robert L</directorName>
+          <crdNumber>002009065</crdNumber>
+          <isDirectorInterestedPerson>Y</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="N/A"/>
+          </fileNumbers>
+        </director>
+      </directors>
+      <chiefComplianceOfficers>
+        <chiefComplianceOfficer>
+          <ccoName>Clark James F</ccoName>
+          <crdNumber>N/A</crdNumber>
+          <ccoStreet1>100 FEDERAL STREET</ccoStreet1>
+          <ccoCity>BOSTON</ccoCity>
+          <ccoStateCountry ccoState="US-MA" ccoCountry="US"/>
+          <ccoZipCode>02110</ccoZipCode>
+          <ccoPhone>XXXXXX</ccoPhone>
+          <isCcoChangedSinceLastFiling>N</isCcoChangedSinceLastFiling>
+          <ccoEmployers>
+            <ccoEmployer ccoEmployerName="N/A" ccoEmployerId="N/A"/>
+          </ccoEmployers>
+        </chiefComplianceOfficer>
+      </chiefComplianceOfficers>
+      <securityMatterSeriesInfo isRegistrantSubmittedMatter="Y">
+        <seriesInfo seriesName="Putnam Global Consumer Fund" seriesId="S000024243"/>
+        <seriesInfo seriesName="Putnam Global Financials Fund" seriesId="S000024245"/>
+        <seriesInfo seriesName="Putnam Focused Equity Fund" seriesId="S000024246"/>
+        <seriesInfo seriesName="Putnam Global Communications Fund" seriesId="S000024248"/>
+      </securityMatterSeriesInfo>
+      <isPreviousLegalProceeding>N</isPreviousLegalProceeding>
+      <isPreviousProceedingTerminated>N</isPreviousProceedingTerminated>
+      <isClaimFiled>N</isClaimFiled>
+      <coveredByInsurancePolicy isCoveredByInsurancePolicy="Y" isClaimFiledDuringPeriod="N"/>
+      <isFinancialSupportDuringPeriod>N</isFinancialSupportDuringPeriod>
+      <releaseNumbers isExemptionFromAct="Y">
+        <releaseNumberInfo releaseNumber="IC-25271"/>
+        <releaseNumberInfo releaseNumber="IC-20851"/>
+        <releaseNumberInfo releaseNumber="IC-25271"/>
+        <releaseNumberInfo releaseNumber="IC-24210"/>
+        <releaseNumberInfo releaseNumber="IC-20851"/>
+        <releaseNumberInfo releaseNumber="IC-25271"/>
+        <releaseNumberInfo releaseNumber="IC-20851"/>
+        <releaseNumberInfo releaseNumber="IC-25271"/>
+        <releaseNumberInfo releaseNumber="IC-20851"/>
+        <releaseNumberInfo releaseNumber="IC-25271"/>
+        <releaseNumberInfo releaseNumber="IC-20851"/>
+        <releaseNumberInfo releaseNumber="IC-25271"/>
+        <releaseNumberInfo releaseNumber="IC-20851"/>
+      </releaseNumbers>
+      <principalUnderwriters>
+        <principalUnderwriter>
+          <principalUnderwriterName>Putnam Retail Management Limited Partnership</principalUnderwriterName>
+          <principalUnderwriterFileNumber>8-5088</principalUnderwriterFileNumber>
+          <principalUnderwriterCrdNumber>000007325</principalUnderwriterCrdNumber>
+          <principalUnderwriterLei>N/A</principalUnderwriterLei>
+          <principalUnderWriterStateCountry principalUnderWriterState="US-MA" principalUnderWriterCountry="US"/>
+          <isPrincipalUnderwriterAffiliatedWithRegistrant>Y</isPrincipalUnderwriterAffiliatedWithRegistrant>
+        </principalUnderwriter>
+      </principalUnderwriters>
+      <isUnderwriterHiredOrTerminated>N</isUnderwriterHiredOrTerminated>
+      <publicAccountants>
+        <publicAccountant>
+          <publicAccountantName>KPMG LLP</publicAccountantName>
+          <pcaobNumber>00185</pcaobNumber>
+          <publicAccountantLei>N/A</publicAccountantLei>
+          <publicAccountantStateCountry publicAccountantState="US-MA" publicAccountantCountry="US"/>
+        </publicAccountant>
+      </publicAccountants>
+      <isPublicAccountantChanged>N</isPublicAccountantChanged>
+      <isMaterialWeakness>N</isMaterialWeakness>
+      <isOpinionOffered>N</isOpinionOffered>
+      <isMaterialChange>N</isMaterialChange>
+      <isAccountingPrincipleChange>N</isAccountingPrincipleChange>
+      <paymentErrorSeries isPaymentErrorInNetAssetValue="Y">
+        <seriesInfo seriesName="Putnam Focused Equity Fund" seriesId="S000024246"/>
+      </paymentErrorSeries>
+      <paymentDividendSeries isPaymentDividend="Y">
+        <seriesInfo seriesName="Putnam Emerging Markets Equity Fund" seriesId="S000023000"/>
+        <seriesInfo seriesName="Putnam Focused Equity Fund" seriesId="S000024246"/>
+        <seriesInfo seriesName="Putnam Global Technology Fund" seriesId="S000024247"/>
+      </paymentDividendSeries>
+    </registrantInfo>
+    <managementInvestmentQuestionSeriesInfo>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Putnam Emerging Markets Equity Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000023000</mgmtInvSeriesId>
+        <mgmtInvLei>S0SJ0EIZ7FP38W3KHB08</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>7</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>0</numTerminatedClass>
+        <sharesOutstandings>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS A" sharesOutstandingClassId="C000066853" sharesOutstandingTickerSymbol="PEMMX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS B" sharesOutstandingClassId="C000066854" sharesOutstandingTickerSymbol="PEMBX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS C" sharesOutstandingClassId="C000066855" sharesOutstandingTickerSymbol="PEMZX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS M" sharesOutstandingClassId="C000066856" sharesOutstandingTickerSymbol="PEMAX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS R" sharesOutstandingClassId="C000066857" sharesOutstandingTickerSymbol="PEMLX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS R6" sharesOutstandingClassId="C000203063" sharesOutstandingTickerSymbol="PEMQX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM EMERGING MARKETS EQUITY FUND CLASS Y" sharesOutstandingClassId="C000066858" sharesOutstandingTickerSymbol="PEMYX"/>
+        </sharesOutstandings>
+        <fundType>N/A</fundType>
+        <isNonDiversifiedCompany>N</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>Y</isFundSecuritiesLending>
+        <didFundLendSecurities>N</didFundLendSecurities>
+        <securityLendings>
+          <securityLending>
+            <securitiesAgentName>Goldman Sachs Bank USA</securitiesAgentName>
+            <securitiesAgentLei>KD3XUN7C6T14HNAYLU02</securitiesAgentLei>
+            <isSecuritiesAgentAffiliated>N</isSecuritiesAgentAffiliated>
+            <securityAgentIdemnity isSecurityAgentIdemnity="Y">
+              <idemnityProviders>
+                <idemnityProvider idemnityProviderName="N/A" idemnityProviderLei="N/A"/>
+              </idemnityProviders>
+              <didIndemnificationRights>N</didIndemnificationRights>
+            </securityAgentIdemnity>
+          </securityLending>
+        </securityLendings>
+        <collateralManagers>
+          <collateralManager collateralManagerName="The Putnam Advisory Company LLC" collateralManagerLei="88LQ6PPLZCCSTCFX1D09" isCollateralManagerAffliliated="N" isCollateralManagerAffliliatedWithFund="Y"/>
+        </collateralManagers>
+        <paymentToAgentManagers>
+          <paymentToAgentManagerType>Revenue sharing split</paymentToAgentManagerType>
+        </paymentToAgentManagers>
+        <avgPortfolioSecuritiesValue>0.00</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>0.00</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 17e-1 (17 CFR 270.17e-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-6 (17 CFR 270.17a-6)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-7 (17 CFR 270.17a-7)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>Y</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <investmentAdvisers>
+          <investmentAdviser>
+            <investmentAdviserName>Putnam Investment Management, LLC</investmentAdviserName>
+            <investmentAdviserFileNo>801-7974</investmentAdviserFileNo>
+            <investmentAdviserCrdNo>000106629</investmentAdviserCrdNo>
+            <investmentAdviserLei>N/A</investmentAdviserLei>
+            <investmentAdviserStateCountry investmentAdviserState="US-MA" investmentAdviserCountry="US"/>
+            <isInvestmentAdviserHired>N</isInvestmentAdviserHired>
+          </investmentAdviser>
+        </investmentAdvisers>
+        <subAdvisers>
+          <subAdviser>
+            <subAdviserName>Putnam Investments Limited</subAdviserName>
+            <subAdviserFileNo>801-61441</subAdviserFileNo>
+            <subAdviserCrdNo>000122254</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserCountry>GB</subAdviserCountry>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+          <subAdviser>
+            <subAdviserName>The Putnam Advisory Company, LLC</subAdviserName>
+            <subAdviserFileNo>801-5097</subAdviserFileNo>
+            <subAdviserCrdNo>000106631</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserStateCountry subAdviserState="US-MA" subAdviserCountry="US"/>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+        </subAdvisers>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Putnam Investor Services, Inc.</transferAgentName>
+            <transferAgentFileNo>84-06331</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-MA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <pricingServices>
+          <pricingService>
+            <pricingServiceName>Reuters (equities)</pricingServiceName>
+            <pricingServiceLei>549300561UZND4C7B569</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+          <pricingService>
+            <pricingServiceName>ICE Data Services (Corp)</pricingServiceName>
+            <pricingServiceLei>5493000NQ9LYLDBCTL34</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+        </pricingServices>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>State Street Bank and Trust Company</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-MA" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+            <otherCustodianDesc>N</otherCustodianDesc>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Putnam Investor Services, Inc.</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>N/A</shareholderServiceAgentLei>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-MA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokers>
+          <broker>
+            <brokerName>MLCO - BofA Securities, Inc.</brokerName>
+            <brokerFileNo>8-7221</brokerFileNo>
+            <brokerCrdNo>000007691</brokerCrdNo>
+            <brokerLei>549300HN4UKV1E2R3U73</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>158527.9</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>UBSW - UBS SECURITIES L.L.C.</brokerName>
+            <brokerFileNo>8-22651</brokerFileNo>
+            <brokerCrdNo>000007654</brokerCrdNo>
+            <brokerLei>T6FIZBDPKLYJKFCRVK44</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>115823.73</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JPMS - J.P. MORGAN SECURITIES, LLC.</brokerName>
+            <brokerFileNo>8-35008</brokerFileNo>
+            <brokerCrdNo>000000079</brokerCrdNo>
+            <brokerLei>ZBUT11V806EZRVTWT807</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>68367.85</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</brokerName>
+            <brokerFileNo>8-422</brokerFileNo>
+            <brokerCrdNo>000000816</brokerCrdNo>
+            <brokerLei>1V8Y6QCX6YMJ2OELII46</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>53664.79</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>GSCO - GOLDMAN SACHS &amp; CO LLC</brokerName>
+            <brokerFileNo>8-129</brokerFileNo>
+            <brokerCrdNo>000000361</brokerCrdNo>
+            <brokerLei>FOR8UP27PHTHYVLBNG30</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>50761.24</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MSCO - MORGAN STANLEY &amp; CO. LLC</brokerName>
+            <brokerFileNo>8-15869</brokerFileNo>
+            <brokerCrdNo>000008209</brokerCrdNo>
+            <brokerLei>9R7GPTSO7KV3UQJZQ078</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>47174.31</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CGML - CITIGROUP GLOBAL MARKETS INC</brokerName>
+            <brokerFileNo>8-8177</brokerFileNo>
+            <brokerCrdNo>000007059</brokerCrdNo>
+            <brokerLei>6SHGI4ZSSLCXXQSBB395</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>45651.36</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MSUS - MACQUARIE CAPITAL (USA) INC</brokerName>
+            <brokerFileNo>8-47198</brokerFileNo>
+            <brokerCrdNo>000036368</brokerCrdNo>
+            <brokerLei>549300670K07JRB5UQ40</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>31653.95</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>DBAB - DEUTSCHE BANK SECURITIES INC.</brokerName>
+            <brokerFileNo>8-17822</brokerFileNo>
+            <brokerCrdNo>000002525</brokerCrdNo>
+            <brokerLei>9J6MBOOO7BECTDTUZW19</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>28917.42</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>HSBCP - HSBC BANK PLC</brokerName>
+            <brokerFileNo>8-41562</brokerFileNo>
+            <brokerCrdNo>000019585</brokerCrdNo>
+            <brokerLei>MP6I5ZYZBEU3UXPYFY54</brokerLei>
+            <brokerCountry>GB</brokerCountry>
+            <grossCommission>21511.67</grossCommission>
+          </broker>
+        </brokers>
+        <aggregateCommission>732561.61</aggregateCommission>
+        <principalTransactions>
+          <principalTransaction>
+            <principalName>MLCO - BofA Securities, Inc.</principalName>
+            <principalFileNo>8-7221</principalFileNo>
+            <principalCrdNo>000007691</principalCrdNo>
+            <principalLei>549300HN4UKV1E2R3U73</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>543866.21</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>GSCO - GOLDMAN SACHS &amp; CO LLC</principalName>
+            <principalFileNo>8-129</principalFileNo>
+            <principalCrdNo>000000361</principalCrdNo>
+            <principalLei>FOR8UP27PHTHYVLBNG30</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>500281.45</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>CGML - CITIGROUP GLOBAL MARKETS INC</principalName>
+            <principalFileNo>8-8177</principalFileNo>
+            <principalCrdNo>000007059</principalCrdNo>
+            <principalLei>6SHGI4ZSSLCXXQSBB395</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>280346.28</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>UBSW - UBS SECURITIES L.L.C.</principalName>
+            <principalFileNo>8-22651</principalFileNo>
+            <principalCrdNo>000007654</principalCrdNo>
+            <principalLei>T6FIZBDPKLYJKFCRVK44</principalLei>
+            <principalStateCountry principalState="US-CT" principalCountry="US"/>
+            <principalTotalPurchaseSale>211505.48</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>NMRA - NOMURA SECURITIES INTERNATIONAL, INC.</principalName>
+            <principalFileNo>8-15255</principalFileNo>
+            <principalCrdNo>000004297</principalCrdNo>
+            <principalLei>OXTKY6Q8X53C9ILVV871</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>127858.06</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>MSCO - MORGAN STANLEY &amp; CO. LLC</principalName>
+            <principalFileNo>8-15869</principalFileNo>
+            <principalCrdNo>000008209</principalCrdNo>
+            <principalLei>9R7GPTSO7KV3UQJZQ078</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>36800</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BANKAM - BANK OF AMERICA, N.A.</principalName>
+            <principalFileNo>8-7221</principalFileNo>
+            <principalCrdNo>000007691</principalCrdNo>
+            <principalLei>B4TYDEB6GKMZO031MB27</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>605.02</principalTotalPurchaseSale>
+          </principalTransaction>
+        </principalTransactions>
+        <principalAggregatePurchase>1701262.5</principalAggregatePurchase>
+        <isBrokerageResearchPayment>Y</isBrokerageResearchPayment>
+        <mnthlyAvgNetAssets>162297961.97</mnthlyAvgNetAssets>
+        <dailyAvgNetAssets>0</dailyAvgNetAssets>
+        <lineOfCredit hasLineOfCredit="Y">
+          <lineOfCreditDetails>
+            <lineOfCreditDetail>
+              <isCreditLineCommitted>Committed</isCreditLineCommitted>
+              <lineOfCreditSize>317500000</lineOfCreditSize>
+              <lineOfCreditInstitutions>
+                <lineOfCreditInstitution creditInstitutionName="State Street Bank and Trust Company"/>
+              </lineOfCreditInstitutions>
+              <sharedCreditType creditType="Shared">
+                <creditUser fundName="Putnam VT Small Cap Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Future Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Equity Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam International Equity Fund" secFileNo="811-06190"/>
+                <creditUser fundName="Putnam VT Global Asset Allocation Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Equity Fund" secFileNo="811-01403"/>
+                <creditUser fundName="Putnam Tax Free High Yield Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Growth Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam Equity Income Fund" secFileNo="811-02742"/>
+                <creditUser fundName="Putnam VT Mortgage Securities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Conservative Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam California Tax Exempt Income Fund" secFileNo="811-03630"/>
+                <creditUser fundName="Putnam VT International Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Growth Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="George Putnam Balanced Fund" secFileNo="811-00058"/>
+                <creditUser fundName="Putnam International Growth Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Diversified Income Trust" secFileNo="811-05635"/>
+                <creditUser fundName="Putnam Money Market Fund" secFileNo="811-02608"/>
+                <creditUser fundName="Putnam International Capital Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT George Putnam Balanced Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Pennsylvania Tax Exempt Income Fund" secFileNo="811-05802"/>
+                <creditUser fundName="Putnam High Yield Fund" secFileNo="811-04616"/>
+                <creditUser fundName="Putnam VT Small Cap Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Income Trust" secFileNo="811-04524"/>
+                <creditUser fundName="Putnam Sustainable Leaders Fund" secFileNo="811-06128"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Balanced Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam International Value Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Health Care Fund" secFileNo="811-03386"/>
+                <creditUser fundName="Putnam Sustainable Future Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Research Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Securities Fund" secFileNo="811-03897"/>
+                <creditUser fundName="Putnam Minnesota Tax Exempt Income Fund" secFileNo="811-04527"/>
+                <creditUser fundName="Putnam VT Diversified Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Leaders Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam AMT-Free Municipal Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Small Cap Value Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Massachusetts Tax Exempt Income Fund" secFileNo="811-04518"/>
+                <creditUser fundName="Putnam VT Government Money Market Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Research Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam New Jersey Tax Exempt Income Fund" secFileNo="811-05977"/>
+                <creditUser fundName="Putnam VT Global Health Care Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Global Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Small Cap Growth Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam VT Growth Opportunities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam New York Tax Exempt Income Fund" secFileNo="811-03741"/>
+                <creditUser fundName="Putnam VT High Yield Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Tax Exempt Income Fund" secFileNo="811-02675"/>
+                <creditUser fundName="Putnam Convertible Securities Fund" secFileNo="811-02280"/>
+                <creditUser fundName="Putnam Ohio Tax Exempt Income Fund" secFileNo="811-04528"/>
+                <creditUser fundName="Putnam VT Multi-Cap Core Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Income Fund" secFileNo="811-00653"/>
+                <creditUser fundName="Putnam Floating Rate Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Short Duration Bond Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Technology Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Emerging Markets Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Fixed Income Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Asset Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Risk Allocation Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Capital Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Focused Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Cap Core Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Equity Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Ultra Short Duration Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Intermediate-Term Municipal Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Government Money Market Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Multi-Asset Absolute Return Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Opportunities Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam PanAgora Managed Futures Strategy" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Risk Parity Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Market Neutral Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Short-Term Municipal Income Fund" secFileNo="811-07513"/>
+              </sharedCreditType>
+              <isCreditLineUsed>N</isCreditLineUsed>
+            </lineOfCreditDetail>
+            <lineOfCreditDetail>
+              <isCreditLineCommitted>Uncommitted</isCreditLineCommitted>
+              <lineOfCreditSize>235500000</lineOfCreditSize>
+              <lineOfCreditInstitutions>
+                <lineOfCreditInstitution creditInstitutionName="State Street Bank and Trust Company"/>
+              </lineOfCreditInstitutions>
+              <sharedCreditType creditType="Shared">
+                <creditUser fundName="Putnam VT Small Cap Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Future Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Equity Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam International Equity Fund" secFileNo="811-06190"/>
+                <creditUser fundName="Putnam VT Global Asset Allocation Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Equity Fund" secFileNo="811-01403"/>
+                <creditUser fundName="Putnam Tax Free High Yield Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Growth Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam Equity Income Fund" secFileNo="811-02742"/>
+                <creditUser fundName="Putnam VT Mortgage Securities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Conservative Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam California Tax Exempt Income Fund" secFileNo="811-03630"/>
+                <creditUser fundName="Putnam VT International Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Growth Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="George Putnam Balanced Fund" secFileNo="811-00058"/>
+                <creditUser fundName="Putnam International Growth Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Diversified Income Trust" secFileNo="811-05635"/>
+                <creditUser fundName="Putnam Money Market Fund" secFileNo="811-02608"/>
+                <creditUser fundName="Putnam International Capital Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT George Putnam Balanced Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Pennsylvania Tax Exempt Income Fund" secFileNo="811-05802"/>
+                <creditUser fundName="Putnam High Yield Fund" secFileNo="811-04616"/>
+                <creditUser fundName="Putnam VT Small Cap Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Income Trust" secFileNo="811-04524"/>
+                <creditUser fundName="Putnam Sustainable Leaders Fund" secFileNo="811-06128"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Balanced Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam International Value Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Health Care Fund" secFileNo="811-03386"/>
+                <creditUser fundName="Putnam Sustainable Future Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Research Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Securities Fund" secFileNo="811-03897"/>
+                <creditUser fundName="Putnam Minnesota Tax Exempt Income Fund" secFileNo="811-04527"/>
+                <creditUser fundName="Putnam VT Diversified Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Leaders Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam AMT-Free Municipal Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Small Cap Value Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Massachusetts Tax Exempt Income Fund" secFileNo="811-04518"/>
+                <creditUser fundName="Putnam VT Government Money Market Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Research Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam New Jersey Tax Exempt Income Fund" secFileNo="811-05977"/>
+                <creditUser fundName="Putnam VT Global Health Care Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Global Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Small Cap Growth Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam VT Growth Opportunities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam New York Tax Exempt Income Fund" secFileNo="811-03741"/>
+                <creditUser fundName="Putnam VT High Yield Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Tax Exempt Income Fund" secFileNo="811-02675"/>
+                <creditUser fundName="Putnam Convertible Securities Fund" secFileNo="811-02280"/>
+                <creditUser fundName="Putnam Ohio Tax Exempt Income Fund" secFileNo="811-04528"/>
+                <creditUser fundName="Putnam VT Multi-Cap Core Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Income Fund" secFileNo="811-00653"/>
+                <creditUser fundName="Putnam Floating Rate Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Short Duration Bond Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Technology Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Emerging Markets Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Fixed Income Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Asset Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Risk Allocation Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Capital Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Focused Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Cap Core Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Equity Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Ultra Short Duration Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Intermediate-Term Municipal Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Government Money Market Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Multi-Asset Absolute Return Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Opportunities Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam PanAgora Managed Futures Strategy" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Risk Parity Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Market Neutral Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Short-Term Municipal Income Fund" secFileNo="811-07513"/>
+              </sharedCreditType>
+              <isCreditLineUsed>N</isCreditLineUsed>
+            </lineOfCreditDetail>
+          </lineOfCreditDetails>
+        </lineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+        <isSwingPricing>N</isSwingPricing>
+      </managementInvestmentQuestion>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Putnam Global Consumer Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000024243</mgmtInvSeriesId>
+        <mgmtInvLei>FW8BFXRFHRUYJIW7NX25</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>0</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>6</numTerminatedClass>
+        <fundType>N/A</fundType>
+        <isNonDiversifiedCompany>Y</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>Y</isFundSecuritiesLending>
+        <fundLendSecurities didFundLendSecurities="Y">
+          <isFundLiquidated>N</isFundLiquidated>
+          <isFundAdverselyImpacted>N</isFundAdverselyImpacted>
+        </fundLendSecurities>
+        <securityLendings>
+          <securityLending>
+            <securitiesAgentName>Goldman Sachs Bank USA</securitiesAgentName>
+            <securitiesAgentLei>KD3XUN7C6T14HNAYLU02</securitiesAgentLei>
+            <isSecuritiesAgentAffiliated>N</isSecuritiesAgentAffiliated>
+            <securityAgentIdemnity isSecurityAgentIdemnity="Y">
+              <idemnityProviders>
+                <idemnityProvider idemnityProviderName="N/A" idemnityProviderLei="N/A"/>
+              </idemnityProviders>
+              <didIndemnificationRights>N</didIndemnificationRights>
+            </securityAgentIdemnity>
+          </securityLending>
+        </securityLendings>
+        <collateralManagers>
+          <collateralManager collateralManagerName="The Putnam Advisory Company LLC" collateralManagerLei="88LQ6PPLZCCSTCFX1D09" isCollateralManagerAffliliated="N" isCollateralManagerAffliliatedWithFund="Y"/>
+        </collateralManagers>
+        <paymentToAgentManagers>
+          <paymentToAgentManagerType>Revenue sharing split</paymentToAgentManagerType>
+        </paymentToAgentManagers>
+        <avgPortfolioSecuritiesValue>2816462.00</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>12771.00</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 17a-8 (17 CFR 270.17a-8)</relyOnRuleType>
+          <relyOnRuleType>Rule 17e-1 (17 CFR 270.17e-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-6 (17 CFR 270.17a-6)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-7 (17 CFR 270.17a-7)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>Y</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <investmentAdvisers>
+          <investmentAdviser>
+            <investmentAdviserName>Putnam Investment Management, LLC</investmentAdviserName>
+            <investmentAdviserFileNo>801-7974</investmentAdviserFileNo>
+            <investmentAdviserCrdNo>000106629</investmentAdviserCrdNo>
+            <investmentAdviserLei>N/A</investmentAdviserLei>
+            <investmentAdviserStateCountry investmentAdviserState="US-MA" investmentAdviserCountry="US"/>
+            <isInvestmentAdviserHired>N</isInvestmentAdviserHired>
+          </investmentAdviser>
+        </investmentAdvisers>
+        <subAdvisers>
+          <subAdviser>
+            <subAdviserName>Putnam Investments Limited</subAdviserName>
+            <subAdviserFileNo>801-61441</subAdviserFileNo>
+            <subAdviserCrdNo>000122254</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserCountry>GB</subAdviserCountry>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+          <subAdviser>
+            <subAdviserName>The Putnam Advisory Company, LLC</subAdviserName>
+            <subAdviserFileNo>801-5097</subAdviserFileNo>
+            <subAdviserCrdNo>000106631</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserStateCountry subAdviserState="US-MA" subAdviserCountry="US"/>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+        </subAdvisers>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Putnam Investor Services, Inc.</transferAgentName>
+            <transferAgentFileNo>84-06331</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-MA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <pricingServices>
+          <pricingService>
+            <pricingServiceName>Reuters (equities)</pricingServiceName>
+            <pricingServiceLei>549300561UZND4C7B569</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+          <pricingService>
+            <pricingServiceName>ICE Data Services (Corp)</pricingServiceName>
+            <pricingServiceLei>5493000NQ9LYLDBCTL34</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+        </pricingServices>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>State Street Bank and Trust Company</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-MA" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+            <otherCustodianDesc>N</otherCustodianDesc>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Putnam Investor Services, Inc.</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>N/A</shareholderServiceAgentLei>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-MA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokers>
+          <broker>
+            <brokerName>WEED - PIPER JAFFRAY &amp; CO. (formerly WEEDEN &amp; CO. L.P.)</brokerName>
+            <brokerFileNo>8-37267</brokerFileNo>
+            <brokerCrdNo>000016835</brokerCrdNo>
+            <brokerLei>QUQDBTUSOAKFEVMRMF78</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>6582.51</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</brokerName>
+            <brokerFileNo>8-422</brokerFileNo>
+            <brokerCrdNo>000000816</brokerCrdNo>
+            <brokerLei>1V8Y6QCX6YMJ2OELII46</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>4231.21</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>SBER - BERNSTEIN (SANFORD C.) &amp; CO., L.L.C.</brokerName>
+            <brokerFileNo>8-52942</brokerFileNo>
+            <brokerCrdNo>000104474</brokerCrdNo>
+            <brokerLei>549300I7JYZHT7D5CO04</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>1721.49</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JPMS - J.P. MORGAN SECURITIES, LLC.</brokerName>
+            <brokerFileNo>8-35008</brokerFileNo>
+            <brokerCrdNo>000000079</brokerCrdNo>
+            <brokerLei>ZBUT11V806EZRVTWT807</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>1134.26</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JSSF - JMP SECURITIES, L.L.C.</brokerName>
+            <brokerFileNo>8-39613</brokerFileNo>
+            <brokerCrdNo>000022208</brokerCrdNo>
+            <brokerLei>N/A</brokerLei>
+            <brokerStateCountry brokerState="US-CA" brokerCountry="US"/>
+            <grossCommission>907.16</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>GSCO - GOLDMAN SACHS &amp; CO LLC</brokerName>
+            <brokerFileNo>8-129</brokerFileNo>
+            <brokerCrdNo>000000361</brokerCrdNo>
+            <brokerLei>FOR8UP27PHTHYVLBNG30</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>397.85</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>RBCD - RBC CAPITAL MARKETS LLC</brokerName>
+            <brokerFileNo>8-45411</brokerFileNo>
+            <brokerCrdNo>000031194</brokerCrdNo>
+            <brokerLei>549300LCO2FLSSVFFR64</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>390.83</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>NITE - VIRTU AMERICAS, LLC</brokerName>
+            <brokerFileNo>8-68193</brokerFileNo>
+            <brokerCrdNo>000149823</brokerCrdNo>
+            <brokerLei>549300RA02N3BNSWBV74</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>300</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>UBSW - UBS SECURITIES L.L.C.</brokerName>
+            <brokerFileNo>8-22651</brokerFileNo>
+            <brokerCrdNo>000007654</brokerCrdNo>
+            <brokerLei>T6FIZBDPKLYJKFCRVK44</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>227.12</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>BMOC - BMO CAPITAL MARKETS CORP.</brokerName>
+            <brokerFileNo>8-34344</brokerFileNo>
+            <brokerCrdNo>000016686</brokerCrdNo>
+            <brokerLei>RUC0QBLBRPRCU4W1NE59</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>155.74</grossCommission>
+          </broker>
+        </brokers>
+        <aggregateCommission>16301.38</aggregateCommission>
+        <principalTransactions>
+          <principalTransaction>
+            <principalName>CGMI - CITIGROUP GLOBAL MARKETS INC.</principalName>
+            <principalFileNo>8-8177</principalFileNo>
+            <principalCrdNo>000007059</principalCrdNo>
+            <principalLei>MBNUM2BPBDO7JBLYG310</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>83157000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>JPMS - J.P. MORGAN SECURITIES, LLC.</principalName>
+            <principalFileNo>8-35008</principalFileNo>
+            <principalCrdNo>000000079</principalCrdNo>
+            <principalLei>ZBUT11V806EZRVTWT807</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>161822.31</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>DBAB - DEUTSCHE BANK SECURITIES INC.</principalName>
+            <principalFileNo>8-17822</principalFileNo>
+            <principalCrdNo>000002525</principalCrdNo>
+            <principalLei>9J6MBOOO7BECTDTUZW19</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>125000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>WCHV - WELLS FARGO SECURITIES, LLC</principalName>
+            <principalFileNo>8-65876</principalFileNo>
+            <principalCrdNo>000126292</principalCrdNo>
+            <principalLei>VYVVCKR63DVZZN70PB21</principalLei>
+            <principalStateCountry principalState="US-NC" principalCountry="US"/>
+            <principalTotalPurchaseSale>111598.98</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>UBSW - UBS SECURITIES L.L.C.</principalName>
+            <principalFileNo>8-22651</principalFileNo>
+            <principalCrdNo>000007654</principalCrdNo>
+            <principalLei>T6FIZBDPKLYJKFCRVK44</principalLei>
+            <principalStateCountry principalState="US-CT" principalCountry="US"/>
+            <principalTotalPurchaseSale>59877.27</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BCAP - BARCLAYS CAPITAL, INC.</principalName>
+            <principalFileNo>8-41342</principalFileNo>
+            <principalCrdNo>000019714</principalCrdNo>
+            <principalLei>AC28XWWI3WIBK2824319</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>23991.6</principalTotalPurchaseSale>
+          </principalTransaction>
+        </principalTransactions>
+        <principalAggregatePurchase>83639290.16</principalAggregatePurchase>
+        <isBrokerageResearchPayment>Y</isBrokerageResearchPayment>
+        <mnthlyAvgNetAssets>54189612.60</mnthlyAvgNetAssets>
+        <dailyAvgNetAssets>0</dailyAvgNetAssets>
+        <hasLineOfCredit>N</hasLineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+        <isSwingPricing>N</isSwingPricing>
+      </managementInvestmentQuestion>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Putnam Global Financials Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000024245</mgmtInvSeriesId>
+        <mgmtInvLei>ZFYEDBTZOBL6OEG8SY82</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>0</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>6</numTerminatedClass>
+        <fundType>N/A</fundType>
+        <isNonDiversifiedCompany>Y</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>Y</isFundSecuritiesLending>
+        <fundLendSecurities didFundLendSecurities="Y">
+          <isFundLiquidated>N</isFundLiquidated>
+          <isFundAdverselyImpacted>N</isFundAdverselyImpacted>
+        </fundLendSecurities>
+        <securityLendings>
+          <securityLending>
+            <securitiesAgentName>Goldman Sachs Bank USA</securitiesAgentName>
+            <securitiesAgentLei>KD3XUN7C6T14HNAYLU02</securitiesAgentLei>
+            <isSecuritiesAgentAffiliated>N</isSecuritiesAgentAffiliated>
+            <securityAgentIdemnity isSecurityAgentIdemnity="Y">
+              <idemnityProviders>
+                <idemnityProvider idemnityProviderName="N/A" idemnityProviderLei="N/A"/>
+              </idemnityProviders>
+              <didIndemnificationRights>N</didIndemnificationRights>
+            </securityAgentIdemnity>
+          </securityLending>
+        </securityLendings>
+        <collateralManagers>
+          <collateralManager collateralManagerName="The Putnam Advisory Company LLC" collateralManagerLei="88LQ6PPLZCCSTCFX1D09" isCollateralManagerAffliliated="N" isCollateralManagerAffliliatedWithFund="Y"/>
+        </collateralManagers>
+        <paymentToAgentManagers>
+          <paymentToAgentManagerType>Revenue sharing split</paymentToAgentManagerType>
+        </paymentToAgentManagers>
+        <avgPortfolioSecuritiesValue>187818.00</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>531.00</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 17a-8 (17 CFR 270.17a-8)</relyOnRuleType>
+          <relyOnRuleType>Rule 17e-1 (17 CFR 270.17e-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-6 (17 CFR 270.17a-6)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-7 (17 CFR 270.17a-7)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>N</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <investmentAdvisers>
+          <investmentAdviser>
+            <investmentAdviserName>Putnam Investment Management, LLC</investmentAdviserName>
+            <investmentAdviserFileNo>801-7974</investmentAdviserFileNo>
+            <investmentAdviserCrdNo>000106629</investmentAdviserCrdNo>
+            <investmentAdviserLei>N/A</investmentAdviserLei>
+            <investmentAdviserStateCountry investmentAdviserState="US-MA" investmentAdviserCountry="US"/>
+            <isInvestmentAdviserHired>N</isInvestmentAdviserHired>
+          </investmentAdviser>
+        </investmentAdvisers>
+        <subAdvisers>
+          <subAdviser>
+            <subAdviserName>Putnam Investments Limited</subAdviserName>
+            <subAdviserFileNo>801-61441</subAdviserFileNo>
+            <subAdviserCrdNo>000122254</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserCountry>GB</subAdviserCountry>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+          <subAdviser>
+            <subAdviserName>The Putnam Advisory Company, LLC</subAdviserName>
+            <subAdviserFileNo>801-5097</subAdviserFileNo>
+            <subAdviserCrdNo>000106631</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserStateCountry subAdviserState="US-MA" subAdviserCountry="US"/>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+        </subAdvisers>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Putnam Investor Services, Inc.</transferAgentName>
+            <transferAgentFileNo>84-06331</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-MA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <pricingServices>
+          <pricingService>
+            <pricingServiceName>Reuters (equities)</pricingServiceName>
+            <pricingServiceLei>549300561UZND4C7B569</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+        </pricingServices>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>State Street Bank and Trust Company</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-MA" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+            <otherCustodianDesc>N</otherCustodianDesc>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Putnam Investor Services, Inc.</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>N/A</shareholderServiceAgentLei>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-MA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokers>
+          <broker>
+            <brokerName>MLCO - BofA Securities, Inc.</brokerName>
+            <brokerFileNo>8-7221</brokerFileNo>
+            <brokerCrdNo>000007691</brokerCrdNo>
+            <brokerLei>549300HN4UKV1E2R3U73</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>2107.71</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</brokerName>
+            <brokerFileNo>8-422</brokerFileNo>
+            <brokerCrdNo>000000816</brokerCrdNo>
+            <brokerLei>1V8Y6QCX6YMJ2OELII46</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>2044.26</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>WEED - PIPER JAFFRAY &amp; CO. (formerly WEEDEN &amp; CO. L.P.)</brokerName>
+            <brokerFileNo>8-37267</brokerFileNo>
+            <brokerCrdNo>000016835</brokerCrdNo>
+            <brokerLei>QUQDBTUSOAKFEVMRMF78</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>1765.56</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>UBSW - UBS SECURITIES L.L.C.</brokerName>
+            <brokerFileNo>8-22651</brokerFileNo>
+            <brokerCrdNo>000007654</brokerCrdNo>
+            <brokerLei>T6FIZBDPKLYJKFCRVK44</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>1526.18</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>GSCO - GOLDMAN SACHS &amp; CO LLC</brokerName>
+            <brokerFileNo>8-129</brokerFileNo>
+            <brokerCrdNo>000000361</brokerCrdNo>
+            <brokerLei>FOR8UP27PHTHYVLBNG30</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>1369.38</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JPMS - J.P. MORGAN SECURITIES, LLC.</brokerName>
+            <brokerFileNo>8-35008</brokerFileNo>
+            <brokerCrdNo>000000079</brokerCrdNo>
+            <brokerLei>ZBUT11V806EZRVTWT807</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>1095.9</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>RBCD - RBC CAPITAL MARKETS LLC</brokerName>
+            <brokerFileNo>8-45411</brokerFileNo>
+            <brokerCrdNo>000031194</brokerCrdNo>
+            <brokerLei>549300LCO2FLSSVFFR64</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>893</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CGML - CITIGROUP GLOBAL MARKETS INC</brokerName>
+            <brokerFileNo>8-8177</brokerFileNo>
+            <brokerCrdNo>000007059</brokerCrdNo>
+            <brokerLei>6SHGI4ZSSLCXXQSBB395</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>711.72</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>STFL - STIFEL, NICOLAUS &amp; COMPANY INCORPORATED</brokerName>
+            <brokerFileNo>8-1447</brokerFileNo>
+            <brokerCrdNo>000000793</brokerCrdNo>
+            <brokerLei>5WUVMA08EYG4KEUPW589</brokerLei>
+            <brokerStateCountry brokerState="US-MO" brokerCountry="US"/>
+            <grossCommission>486</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>HSBCP - HSBC BANK PLC</brokerName>
+            <brokerFileNo>8-41562</brokerFileNo>
+            <brokerCrdNo>000019585</brokerCrdNo>
+            <brokerLei>MP6I5ZYZBEU3UXPYFY54</brokerLei>
+            <brokerCountry>GB</brokerCountry>
+            <grossCommission>432.23</grossCommission>
+          </broker>
+        </brokers>
+        <aggregateCommission>13453.1</aggregateCommission>
+        <principalTransactions>
+          <principalTransaction>
+            <principalName>CGMI - CITIGROUP GLOBAL MARKETS INC.</principalName>
+            <principalFileNo>8-8177</principalFileNo>
+            <principalCrdNo>000007059</principalCrdNo>
+            <principalLei>MBNUM2BPBDO7JBLYG310</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>39890000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>MSCO - MORGAN STANLEY &amp; CO. LLC</principalName>
+            <principalFileNo>8-15869</principalFileNo>
+            <principalCrdNo>000008209</principalCrdNo>
+            <principalLei>9R7GPTSO7KV3UQJZQ078</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>23355</principalTotalPurchaseSale>
+          </principalTransaction>
+        </principalTransactions>
+        <principalAggregatePurchase>39913355</principalAggregatePurchase>
+        <isBrokerageResearchPayment>Y</isBrokerageResearchPayment>
+        <mnthlyAvgNetAssets>23112866.54</mnthlyAvgNetAssets>
+        <dailyAvgNetAssets>0</dailyAvgNetAssets>
+        <hasLineOfCredit>N</hasLineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+        <isSwingPricing>N</isSwingPricing>
+      </managementInvestmentQuestion>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Putnam Focused Equity Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000024246</mgmtInvSeriesId>
+        <mgmtInvLei>024DELVYES1ONBTJWD69</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>7</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>0</numTerminatedClass>
+        <sharesOutstandings>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS M" sharesOutstandingClassId="C000071532" sharesOutstandingTickerSymbol="PGIHX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS Y" sharesOutstandingClassId="C000071534" sharesOutstandingTickerSymbol="PGILX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS A" sharesOutstandingClassId="C000071529" sharesOutstandingTickerSymbol="PGIAX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS B" sharesOutstandingClassId="C000071530" sharesOutstandingTickerSymbol="PGIVX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS C" sharesOutstandingClassId="C000071531" sharesOutstandingTickerSymbol="PGIEX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS R" sharesOutstandingClassId="C000071533" sharesOutstandingTickerSymbol="PGIOX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM FOCUSED EQUITY FUND CLASS R6" sharesOutstandingClassId="C000203064" sharesOutstandingTickerSymbol="PGWTX"/>
+        </sharesOutstandings>
+        <fundType>N/A</fundType>
+        <isNonDiversifiedCompany>Y</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>Y</isFundSecuritiesLending>
+        <fundLendSecurities didFundLendSecurities="Y">
+          <isFundLiquidated>N</isFundLiquidated>
+          <isFundAdverselyImpacted>N</isFundAdverselyImpacted>
+        </fundLendSecurities>
+        <securityLendings>
+          <securityLending>
+            <securitiesAgentName>Goldman Sachs Bank USA</securitiesAgentName>
+            <securitiesAgentLei>KD3XUN7C6T14HNAYLU02</securitiesAgentLei>
+            <isSecuritiesAgentAffiliated>N</isSecuritiesAgentAffiliated>
+            <securityAgentIdemnity isSecurityAgentIdemnity="Y">
+              <idemnityProviders>
+                <idemnityProvider idemnityProviderName="N/A" idemnityProviderLei="N/A"/>
+              </idemnityProviders>
+              <didIndemnificationRights>N</didIndemnificationRights>
+            </securityAgentIdemnity>
+          </securityLending>
+        </securityLendings>
+        <collateralManagers>
+          <collateralManager collateralManagerName="The Putnam Advisory Company LLC" collateralManagerLei="88LQ6PPLZCCSTCFX1D09" isCollateralManagerAffliliated="N" isCollateralManagerAffliliatedWithFund="Y"/>
+        </collateralManagers>
+        <paymentToAgentManagers>
+          <paymentToAgentManagerType>Revenue sharing split</paymentToAgentManagerType>
+        </paymentToAgentManagers>
+        <avgPortfolioSecuritiesValue>1523249.00</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>28212.00</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 17a-8 (17 CFR 270.17a-8)</relyOnRuleType>
+          <relyOnRuleType>Rule 17e-1 (17 CFR 270.17e-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-6 (17 CFR 270.17a-6)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-7 (17 CFR 270.17a-7)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>Y</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <investmentAdvisers>
+          <investmentAdviser>
+            <investmentAdviserName>Putnam Investment Management, LLC</investmentAdviserName>
+            <investmentAdviserFileNo>801-7974</investmentAdviserFileNo>
+            <investmentAdviserCrdNo>000106629</investmentAdviserCrdNo>
+            <investmentAdviserLei>N/A</investmentAdviserLei>
+            <investmentAdviserStateCountry investmentAdviserState="US-MA" investmentAdviserCountry="US"/>
+            <isInvestmentAdviserHired>N</isInvestmentAdviserHired>
+          </investmentAdviser>
+        </investmentAdvisers>
+        <subAdvisers>
+          <subAdviser>
+            <subAdviserName>Putnam Investments Limited</subAdviserName>
+            <subAdviserFileNo>801-61441</subAdviserFileNo>
+            <subAdviserCrdNo>000122254</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserCountry>GB</subAdviserCountry>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+          <subAdviser>
+            <subAdviserName>The Putnam Advisory Company, LLC</subAdviserName>
+            <subAdviserFileNo>801-5097</subAdviserFileNo>
+            <subAdviserCrdNo>000106631</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserStateCountry subAdviserState="US-MA" subAdviserCountry="US"/>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+        </subAdvisers>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Putnam Investor Services, Inc.</transferAgentName>
+            <transferAgentFileNo>84-06331</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-MA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <pricingServices>
+          <pricingService>
+            <pricingServiceName>Reuters (equities)</pricingServiceName>
+            <pricingServiceLei>549300561UZND4C7B569</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+          <pricingService>
+            <pricingServiceName>ICE Data Services (Corp)</pricingServiceName>
+            <pricingServiceLei>5493000NQ9LYLDBCTL34</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+        </pricingServices>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>State Street Bank and Trust Company</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-MA" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+            <otherCustodianDesc>N</otherCustodianDesc>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Putnam Investor Services, Inc.</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>N/A</shareholderServiceAgentLei>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-MA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokers>
+          <broker>
+            <brokerName>GSCO - GOLDMAN SACHS &amp; CO LLC</brokerName>
+            <brokerFileNo>8-129</brokerFileNo>
+            <brokerCrdNo>000000361</brokerCrdNo>
+            <brokerLei>FOR8UP27PHTHYVLBNG30</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>48475.98</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MSCO - MORGAN STANLEY &amp; CO. LLC</brokerName>
+            <brokerFileNo>8-15869</brokerFileNo>
+            <brokerCrdNo>000008209</brokerCrdNo>
+            <brokerLei>9R7GPTSO7KV3UQJZQ078</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>25053.45</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>RBCD - RBC CAPITAL MARKETS LLC</brokerName>
+            <brokerFileNo>8-45411</brokerFileNo>
+            <brokerCrdNo>000031194</brokerCrdNo>
+            <brokerLei>549300LCO2FLSSVFFR64</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>16787.05</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MLCO - BofA Securities, Inc.</brokerName>
+            <brokerFileNo>8-7221</brokerFileNo>
+            <brokerCrdNo>000007691</brokerCrdNo>
+            <brokerLei>549300HN4UKV1E2R3U73</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>13162.15</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</brokerName>
+            <brokerFileNo>8-422</brokerFileNo>
+            <brokerCrdNo>000000816</brokerCrdNo>
+            <brokerLei>1V8Y6QCX6YMJ2OELII46</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>9825.8</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JPMS - J.P. MORGAN SECURITIES, LLC.</brokerName>
+            <brokerFileNo>8-35008</brokerFileNo>
+            <brokerCrdNo>000000079</brokerCrdNo>
+            <brokerLei>ZBUT11V806EZRVTWT807</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>6960.37</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>UBSW - UBS SECURITIES L.L.C.</brokerName>
+            <brokerFileNo>8-22651</brokerFileNo>
+            <brokerCrdNo>000007654</brokerCrdNo>
+            <brokerLei>T6FIZBDPKLYJKFCRVK44</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>6285.38</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CGML - CITIGROUP GLOBAL MARKETS INC</brokerName>
+            <brokerFileNo>8-8177</brokerFileNo>
+            <brokerCrdNo>000007059</brokerCrdNo>
+            <brokerLei>6SHGI4ZSSLCXXQSBB395</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>5902.61</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JEFF - JEFFERIES LLC</brokerName>
+            <brokerFileNo>8-15074</brokerFileNo>
+            <brokerCrdNo>000002347</brokerCrdNo>
+            <brokerLei>NY9Q8VBNB6D1L6YV0J84</brokerLei>
+            <brokerStateCountry brokerState="US-NJ" brokerCountry="US"/>
+            <grossCommission>5753.22</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>SBER - BERNSTEIN (SANFORD C.) &amp; CO., L.L.C.</brokerName>
+            <brokerFileNo>8-52942</brokerFileNo>
+            <brokerCrdNo>000104474</brokerCrdNo>
+            <brokerLei>549300I7JYZHT7D5CO04</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>5744.19</grossCommission>
+          </broker>
+        </brokers>
+        <aggregateCommission>176346.63</aggregateCommission>
+        <principalTransactions>
+          <principalTransaction>
+            <principalName>MLCO - BofA Securities, Inc.</principalName>
+            <principalFileNo>8-7221</principalFileNo>
+            <principalCrdNo>000007691</principalCrdNo>
+            <principalLei>549300HN4UKV1E2R3U73</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>19187707.84</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BNPP - BNP PARIBAS</principalName>
+            <principalFileNo>8-32682</principalFileNo>
+            <principalCrdNo>000015794</principalCrdNo>
+            <principalLei>RCNB6OTYUAMMP879YW96</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>18375000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>CGMI - CITIGROUP GLOBAL MARKETS INC.</principalName>
+            <principalFileNo>8-8177</principalFileNo>
+            <principalCrdNo>000007059</principalCrdNo>
+            <principalLei>MBNUM2BPBDO7JBLYG310</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>18375000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>HSBCP - HSBC BANK PLC</principalName>
+            <principalFileNo>8-41562</principalFileNo>
+            <principalCrdNo>000019585</principalCrdNo>
+            <principalLei>MP6I5ZYZBEU3UXPYFY54</principalLei>
+            <principalCountry>GB</principalCountry>
+            <principalTotalPurchaseSale>18375000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>NMRA - NOMURA SECURITIES INTERNATIONAL, INC.</principalName>
+            <principalFileNo>8-15255</principalFileNo>
+            <principalCrdNo>000004297</principalCrdNo>
+            <principalLei>OXTKY6Q8X53C9ILVV871</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>730941.63</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>JPMS - J.P. MORGAN SECURITIES, LLC.</principalName>
+            <principalFileNo>8-35008</principalFileNo>
+            <principalCrdNo>000000079</principalCrdNo>
+            <principalLei>ZBUT11V806EZRVTWT807</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>425812.52</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>WCHV - WELLS FARGO SECURITIES, LLC</principalName>
+            <principalFileNo>8-65876</principalFileNo>
+            <principalCrdNo>000126292</principalCrdNo>
+            <principalLei>VYVVCKR63DVZZN70PB21</principalLei>
+            <principalStateCountry principalState="US-NC" principalCountry="US"/>
+            <principalTotalPurchaseSale>323076.61</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>AMHE - AMHERST SECURITIES GROUP L.P.</principalName>
+            <principalFileNo>8-45364</principalFileNo>
+            <principalCrdNo>000031141</principalCrdNo>
+            <principalLei>GR1JCST0OG1YC8O1XP88</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>203602.26</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>GSCO - GOLDMAN SACHS &amp; CO LLC</principalName>
+            <principalFileNo>8-129</principalFileNo>
+            <principalCrdNo>000000361</principalCrdNo>
+            <principalLei>FOR8UP27PHTHYVLBNG30</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>198000.11</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BCAP - BARCLAYS CAPITAL, INC.</principalName>
+            <principalFileNo>8-41342</principalFileNo>
+            <principalCrdNo>000019714</principalCrdNo>
+            <principalLei>AC28XWWI3WIBK2824319</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>190607.31</principalTotalPurchaseSale>
+          </principalTransaction>
+        </principalTransactions>
+        <principalAggregatePurchase>76575789.33</principalAggregatePurchase>
+        <isBrokerageResearchPayment>Y</isBrokerageResearchPayment>
+        <mnthlyAvgNetAssets>106172440.51</mnthlyAvgNetAssets>
+        <dailyAvgNetAssets>0</dailyAvgNetAssets>
+        <lineOfCredit hasLineOfCredit="Y">
+          <lineOfCreditDetails>
+            <lineOfCreditDetail>
+              <isCreditLineCommitted>Committed</isCreditLineCommitted>
+              <lineOfCreditSize>317500000</lineOfCreditSize>
+              <lineOfCreditInstitutions>
+                <lineOfCreditInstitution creditInstitutionName="State Street Bank and Trust Company"/>
+              </lineOfCreditInstitutions>
+              <sharedCreditType creditType="Shared">
+                <creditUser fundName="Putnam VT Small Cap Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Future Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Equity Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam International Equity Fund" secFileNo="811-06190"/>
+                <creditUser fundName="Putnam VT Global Asset Allocation Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Equity Fund" secFileNo="811-01403"/>
+                <creditUser fundName="Putnam Tax Free High Yield Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Growth Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam Equity Income Fund" secFileNo="811-02742"/>
+                <creditUser fundName="Putnam VT Mortgage Securities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Conservative Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam California Tax Exempt Income Fund" secFileNo="811-03630"/>
+                <creditUser fundName="Putnam VT International Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Growth Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="George Putnam Balanced Fund" secFileNo="811-00058"/>
+                <creditUser fundName="Putnam International Growth Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Diversified Income Trust" secFileNo="811-05635"/>
+                <creditUser fundName="Putnam Money Market Fund" secFileNo="811-02608"/>
+                <creditUser fundName="Putnam International Capital Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT George Putnam Balanced Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Pennsylvania Tax Exempt Income Fund" secFileNo="811-05802"/>
+                <creditUser fundName="Putnam High Yield Fund" secFileNo="811-04616"/>
+                <creditUser fundName="Putnam VT Small Cap Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Income Trust" secFileNo="811-04524"/>
+                <creditUser fundName="Putnam Sustainable Leaders Fund" secFileNo="811-06128"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Balanced Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam International Value Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Health Care Fund" secFileNo="811-03386"/>
+                <creditUser fundName="Putnam Sustainable Future Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Research Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Securities Fund" secFileNo="811-03897"/>
+                <creditUser fundName="Putnam Minnesota Tax Exempt Income Fund" secFileNo="811-04527"/>
+                <creditUser fundName="Putnam VT Diversified Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Leaders Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam AMT-Free Municipal Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Small Cap Value Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Massachusetts Tax Exempt Income Fund" secFileNo="811-04518"/>
+                <creditUser fundName="Putnam VT Government Money Market Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Research Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam New Jersey Tax Exempt Income Fund" secFileNo="811-05977"/>
+                <creditUser fundName="Putnam VT Global Health Care Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Global Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Small Cap Growth Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam VT Growth Opportunities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam New York Tax Exempt Income Fund" secFileNo="811-03741"/>
+                <creditUser fundName="Putnam VT High Yield Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Tax Exempt Income Fund" secFileNo="811-02675"/>
+                <creditUser fundName="Putnam Convertible Securities Fund" secFileNo="811-02280"/>
+                <creditUser fundName="Putnam Ohio Tax Exempt Income Fund" secFileNo="811-04528"/>
+                <creditUser fundName="Putnam VT Multi-Cap Core Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Income Fund" secFileNo="811-00653"/>
+                <creditUser fundName="Putnam Floating Rate Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Short Duration Bond Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Technology Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Emerging Markets Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Fixed Income Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Asset Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Risk Allocation Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Capital Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Focused Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Cap Core Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Equity Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Ultra Short Duration Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Intermediate-Term Municipal Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Government Money Market Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Multi-Asset Absolute Return Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Opportunities Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam PanAgora Managed Futures Strategy" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Risk Parity Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Market Neutral Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Short-Term Municipal Income Fund" secFileNo="811-07513"/>
+              </sharedCreditType>
+              <isCreditLineUsed>N</isCreditLineUsed>
+            </lineOfCreditDetail>
+            <lineOfCreditDetail>
+              <isCreditLineCommitted>Uncommitted</isCreditLineCommitted>
+              <lineOfCreditSize>235500000</lineOfCreditSize>
+              <lineOfCreditInstitutions>
+                <lineOfCreditInstitution creditInstitutionName="State Street Bank and Trust Company"/>
+              </lineOfCreditInstitutions>
+              <sharedCreditType creditType="Shared">
+                <creditUser fundName="Putnam VT Small Cap Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Future Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Equity Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam International Equity Fund" secFileNo="811-06190"/>
+                <creditUser fundName="Putnam VT Global Asset Allocation Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Equity Fund" secFileNo="811-01403"/>
+                <creditUser fundName="Putnam Tax Free High Yield Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Growth Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam Equity Income Fund" secFileNo="811-02742"/>
+                <creditUser fundName="Putnam VT Mortgage Securities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Conservative Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam California Tax Exempt Income Fund" secFileNo="811-03630"/>
+                <creditUser fundName="Putnam VT International Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Growth Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="George Putnam Balanced Fund" secFileNo="811-00058"/>
+                <creditUser fundName="Putnam International Growth Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Diversified Income Trust" secFileNo="811-05635"/>
+                <creditUser fundName="Putnam Money Market Fund" secFileNo="811-02608"/>
+                <creditUser fundName="Putnam International Capital Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT George Putnam Balanced Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Pennsylvania Tax Exempt Income Fund" secFileNo="811-05802"/>
+                <creditUser fundName="Putnam High Yield Fund" secFileNo="811-04616"/>
+                <creditUser fundName="Putnam VT Small Cap Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Income Trust" secFileNo="811-04524"/>
+                <creditUser fundName="Putnam Sustainable Leaders Fund" secFileNo="811-06128"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Balanced Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam International Value Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Health Care Fund" secFileNo="811-03386"/>
+                <creditUser fundName="Putnam Sustainable Future Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Research Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Securities Fund" secFileNo="811-03897"/>
+                <creditUser fundName="Putnam Minnesota Tax Exempt Income Fund" secFileNo="811-04527"/>
+                <creditUser fundName="Putnam VT Diversified Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Leaders Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam AMT-Free Municipal Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Small Cap Value Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Massachusetts Tax Exempt Income Fund" secFileNo="811-04518"/>
+                <creditUser fundName="Putnam VT Government Money Market Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Research Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam New Jersey Tax Exempt Income Fund" secFileNo="811-05977"/>
+                <creditUser fundName="Putnam VT Global Health Care Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Global Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Small Cap Growth Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam VT Growth Opportunities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam New York Tax Exempt Income Fund" secFileNo="811-03741"/>
+                <creditUser fundName="Putnam VT High Yield Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Tax Exempt Income Fund" secFileNo="811-02675"/>
+                <creditUser fundName="Putnam Convertible Securities Fund" secFileNo="811-02280"/>
+                <creditUser fundName="Putnam Ohio Tax Exempt Income Fund" secFileNo="811-04528"/>
+                <creditUser fundName="Putnam VT Multi-Cap Core Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Income Fund" secFileNo="811-00653"/>
+                <creditUser fundName="Putnam Floating Rate Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Short Duration Bond Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Technology Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Emerging Markets Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Fixed Income Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Asset Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Risk Allocation Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Capital Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Focused Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Cap Core Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Equity Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Ultra Short Duration Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Intermediate-Term Municipal Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Government Money Market Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Multi-Asset Absolute Return Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Opportunities Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam PanAgora Managed Futures Strategy" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Risk Parity Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Market Neutral Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Short-Term Municipal Income Fund" secFileNo="811-07513"/>
+              </sharedCreditType>
+              <isCreditLineUsed>N</isCreditLineUsed>
+            </lineOfCreditDetail>
+          </lineOfCreditDetails>
+        </lineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+        <isSwingPricing>N</isSwingPricing>
+      </managementInvestmentQuestion>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Putnam Global Technology Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000024247</mgmtInvSeriesId>
+        <mgmtInvLei>1NEBKD2M708V57IB7U66</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>7</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>0</numTerminatedClass>
+        <sharesOutstandings>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS A" sharesOutstandingClassId="C000071535" sharesOutstandingTickerSymbol="PGTAX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS C" sharesOutstandingClassId="C000071537" sharesOutstandingTickerSymbol="PGTDX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS B" sharesOutstandingClassId="C000071536" sharesOutstandingTickerSymbol="PGTPX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS M" sharesOutstandingClassId="C000071538" sharesOutstandingTickerSymbol="PGTMX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS R" sharesOutstandingClassId="C000071539" sharesOutstandingTickerSymbol="PGTRX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS Y" sharesOutstandingClassId="C000071540" sharesOutstandingTickerSymbol="PGTYX"/>
+          <sharesOutstanding sharesOutstandingClassName="PUTNAM GLOBAL TECHNOLOGY FUND CLASS R6" sharesOutstandingClassId="C000203065" sharesOutstandingTickerSymbol="PTTEX"/>
+        </sharesOutstandings>
+        <fundType>N/A</fundType>
+        <isNonDiversifiedCompany>Y</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>Y</isFundSecuritiesLending>
+        <fundLendSecurities didFundLendSecurities="Y">
+          <isFundLiquidated>N</isFundLiquidated>
+          <isFundAdverselyImpacted>N</isFundAdverselyImpacted>
+        </fundLendSecurities>
+        <securityLendings>
+          <securityLending>
+            <securitiesAgentName>Goldman Sachs Bank USA</securitiesAgentName>
+            <securitiesAgentLei>KD3XUN7C6T14HNAYLU02</securitiesAgentLei>
+            <isSecuritiesAgentAffiliated>N</isSecuritiesAgentAffiliated>
+            <securityAgentIdemnity isSecurityAgentIdemnity="Y">
+              <idemnityProviders>
+                <idemnityProvider idemnityProviderName="N/A" idemnityProviderLei="N/A"/>
+              </idemnityProviders>
+              <didIndemnificationRights>N</didIndemnificationRights>
+            </securityAgentIdemnity>
+          </securityLending>
+        </securityLendings>
+        <collateralManagers>
+          <collateralManager collateralManagerName="The Putnam Advisory Company LLC" collateralManagerLei="88LQ6PPLZCCSTCFX1D09" isCollateralManagerAffliliated="N" isCollateralManagerAffliliatedWithFund="Y"/>
+        </collateralManagers>
+        <paymentToAgentManagers>
+          <paymentToAgentManagerType>Revenue sharing split</paymentToAgentManagerType>
+        </paymentToAgentManagers>
+        <avgPortfolioSecuritiesValue>32409878.00</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>164985.00</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 17a-8 (17 CFR 270.17a-8)</relyOnRuleType>
+          <relyOnRuleType>Rule 17e-1 (17 CFR 270.17e-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-6 (17 CFR 270.17a-6)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-7 (17 CFR 270.17a-7)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>N</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <investmentAdvisers>
+          <investmentAdviser>
+            <investmentAdviserName>Putnam Investment Management, LLC</investmentAdviserName>
+            <investmentAdviserFileNo>801-7974</investmentAdviserFileNo>
+            <investmentAdviserCrdNo>000106629</investmentAdviserCrdNo>
+            <investmentAdviserLei>N/A</investmentAdviserLei>
+            <investmentAdviserStateCountry investmentAdviserState="US-MA" investmentAdviserCountry="US"/>
+            <isInvestmentAdviserHired>N</isInvestmentAdviserHired>
+          </investmentAdviser>
+        </investmentAdvisers>
+        <subAdvisers>
+          <subAdviser>
+            <subAdviserName>Putnam Investments Limited</subAdviserName>
+            <subAdviserFileNo>801-61441</subAdviserFileNo>
+            <subAdviserCrdNo>000122254</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserCountry>GB</subAdviserCountry>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+          <subAdviser>
+            <subAdviserName>The Putnam Advisory Company, LLC</subAdviserName>
+            <subAdviserFileNo>801-5097</subAdviserFileNo>
+            <subAdviserCrdNo>000106631</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserStateCountry subAdviserState="US-MA" subAdviserCountry="US"/>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+        </subAdvisers>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Putnam Investor Services, Inc.</transferAgentName>
+            <transferAgentFileNo>84-06331</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-MA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <pricingServices>
+          <pricingService>
+            <pricingServiceName>ICE Data Services (Corp)</pricingServiceName>
+            <pricingServiceLei>5493000NQ9LYLDBCTL34</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+          <pricingService>
+            <pricingServiceName>Reuters (equities)</pricingServiceName>
+            <pricingServiceLei>549300561UZND4C7B569</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+        </pricingServices>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>State Street Bank and Trust Company</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-MA" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+            <otherCustodianDesc>N</otherCustodianDesc>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Putnam Investor Services, Inc.</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>N/A</shareholderServiceAgentLei>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-MA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokers>
+          <broker>
+            <brokerName>GSCO - GOLDMAN SACHS &amp; CO LLC</brokerName>
+            <brokerFileNo>8-129</brokerFileNo>
+            <brokerCrdNo>000000361</brokerCrdNo>
+            <brokerLei>FOR8UP27PHTHYVLBNG30</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>154806.14</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MLCO - BofA Securities, Inc.</brokerName>
+            <brokerFileNo>8-7221</brokerFileNo>
+            <brokerCrdNo>000007691</brokerCrdNo>
+            <brokerLei>549300HN4UKV1E2R3U73</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>82025.44</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MSCO - MORGAN STANLEY &amp; CO. LLC</brokerName>
+            <brokerFileNo>8-15869</brokerFileNo>
+            <brokerCrdNo>000008209</brokerCrdNo>
+            <brokerLei>9R7GPTSO7KV3UQJZQ078</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>77488.55</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JPMS - J.P. MORGAN SECURITIES, LLC.</brokerName>
+            <brokerFileNo>8-35008</brokerFileNo>
+            <brokerCrdNo>000000079</brokerCrdNo>
+            <brokerLei>ZBUT11V806EZRVTWT807</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>73957.03</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>UBSW - UBS SECURITIES L.L.C.</brokerName>
+            <brokerFileNo>8-22651</brokerFileNo>
+            <brokerCrdNo>000007654</brokerCrdNo>
+            <brokerLei>T6FIZBDPKLYJKFCRVK44</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>48620.7</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CGML - CITIGROUP GLOBAL MARKETS INC</brokerName>
+            <brokerFileNo>8-8177</brokerFileNo>
+            <brokerCrdNo>000007059</brokerCrdNo>
+            <brokerLei>6SHGI4ZSSLCXXQSBB395</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>35756.19</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CLSA - CLSA LIMITED</brokerName>
+            <brokerFileNo>8-69166</brokerFileNo>
+            <brokerCrdNo>000165533</brokerCrdNo>
+            <brokerLei>213800CF5G9GRZD2RV79</brokerLei>
+            <brokerCountry>HK</brokerCountry>
+            <grossCommission>34022.32</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>WEED - PIPER JAFFRAY &amp; CO. (formerly WEEDEN &amp; CO. L.P.)</brokerName>
+            <brokerFileNo>8-37267</brokerFileNo>
+            <brokerCrdNo>000016835</brokerCrdNo>
+            <brokerLei>QUQDBTUSOAKFEVMRMF78</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>21152.76</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>RAJA - RAYMOND JAMES &amp; ASSOCIATES, INC.</brokerName>
+            <brokerFileNo>8-10999</brokerFileNo>
+            <brokerCrdNo>000000705</brokerCrdNo>
+            <brokerLei>U4ONQX15J3RO8XCKE979</brokerLei>
+            <brokerStateCountry brokerState="US-FL" brokerCountry="US"/>
+            <grossCommission>21093.32</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</brokerName>
+            <brokerFileNo>8-422</brokerFileNo>
+            <brokerCrdNo>000000816</brokerCrdNo>
+            <brokerLei>1V8Y6QCX6YMJ2OELII46</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>20398.49</grossCommission>
+          </broker>
+        </brokers>
+        <aggregateCommission>736298</aggregateCommission>
+        <principalTransactions>
+          <principalTransaction>
+            <principalName>GSCO - GOLDMAN SACHS &amp; CO LLC</principalName>
+            <principalFileNo>8-129</principalFileNo>
+            <principalCrdNo>000000361</principalCrdNo>
+            <principalLei>FOR8UP27PHTHYVLBNG30</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>10351598.8</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>JPMS - J.P. MORGAN SECURITIES, LLC.</principalName>
+            <principalFileNo>8-35008</principalFileNo>
+            <principalCrdNo>000000079</principalCrdNo>
+            <principalLei>ZBUT11V806EZRVTWT807</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>6011056.55</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>CGML - CITIGROUP GLOBAL MARKETS INC</principalName>
+            <principalFileNo>8-8177</principalFileNo>
+            <principalCrdNo>000007059</principalCrdNo>
+            <principalLei>6SHGI4ZSSLCXXQSBB395</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>2767692.96</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>MSCO - MORGAN STANLEY &amp; CO. LLC</principalName>
+            <principalFileNo>8-15869</principalFileNo>
+            <principalCrdNo>000008209</principalCrdNo>
+            <principalLei>9R7GPTSO7KV3UQJZQ078</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>2527496.04</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>MLCO - BofA Securities, Inc.</principalName>
+            <principalFileNo>8-7221</principalFileNo>
+            <principalCrdNo>000007691</principalCrdNo>
+            <principalLei>549300HN4UKV1E2R3U73</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>1024170.85</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BMOC - BMO CAPITAL MARKETS CORP.</principalName>
+            <principalFileNo>8-34344</principalFileNo>
+            <principalCrdNo>000016686</principalCrdNo>
+            <principalLei>RUC0QBLBRPRCU4W1NE59</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>754103.73</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>JEFF - JEFFERIES LLC</principalName>
+            <principalFileNo>8-15074</principalFileNo>
+            <principalCrdNo>000002347</principalCrdNo>
+            <principalLei>NY9Q8VBNB6D1L6YV0J84</principalLei>
+            <principalStateCountry principalState="US-NJ" principalCountry="US"/>
+            <principalTotalPurchaseSale>703695</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>NMRA - NOMURA SECURITIES INTERNATIONAL, INC.</principalName>
+            <principalFileNo>8-15255</principalFileNo>
+            <principalCrdNo>000004297</principalCrdNo>
+            <principalLei>OXTKY6Q8X53C9ILVV871</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>670949.33</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BCAP - BARCLAYS CAPITAL, INC.</principalName>
+            <principalFileNo>8-41342</principalFileNo>
+            <principalCrdNo>000019714</principalCrdNo>
+            <principalLei>AC28XWWI3WIBK2824319</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>611040.92</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</principalName>
+            <principalFileNo>8-422</principalFileNo>
+            <principalCrdNo>000000816</principalCrdNo>
+            <principalLei>1V8Y6QCX6YMJ2OELII46</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>600408</principalTotalPurchaseSale>
+          </principalTransaction>
+        </principalTransactions>
+        <principalAggregatePurchase>26871912.42</principalAggregatePurchase>
+        <isBrokerageResearchPayment>Y</isBrokerageResearchPayment>
+        <mnthlyAvgNetAssets>396096727.30</mnthlyAvgNetAssets>
+        <dailyAvgNetAssets>0</dailyAvgNetAssets>
+        <lineOfCredit hasLineOfCredit="Y">
+          <lineOfCreditDetails>
+            <lineOfCreditDetail>
+              <isCreditLineCommitted>Committed</isCreditLineCommitted>
+              <lineOfCreditSize>317500000</lineOfCreditSize>
+              <lineOfCreditInstitutions>
+                <lineOfCreditInstitution creditInstitutionName="State Street Bank and Trust Company"/>
+              </lineOfCreditInstitutions>
+              <sharedCreditType creditType="Shared">
+                <creditUser fundName="Putnam VT Small Cap Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Future Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Equity Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam International Equity Fund" secFileNo="811-06190"/>
+                <creditUser fundName="Putnam VT Global Asset Allocation Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Equity Fund" secFileNo="811-01403"/>
+                <creditUser fundName="Putnam Tax Free High Yield Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Growth Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam Equity Income Fund" secFileNo="811-02742"/>
+                <creditUser fundName="Putnam VT Mortgage Securities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Conservative Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam California Tax Exempt Income Fund" secFileNo="811-03630"/>
+                <creditUser fundName="Putnam VT International Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Growth Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="George Putnam Balanced Fund" secFileNo="811-00058"/>
+                <creditUser fundName="Putnam International Growth Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Diversified Income Trust" secFileNo="811-05635"/>
+                <creditUser fundName="Putnam Money Market Fund" secFileNo="811-02608"/>
+                <creditUser fundName="Putnam International Capital Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT George Putnam Balanced Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Pennsylvania Tax Exempt Income Fund" secFileNo="811-05802"/>
+                <creditUser fundName="Putnam High Yield Fund" secFileNo="811-04616"/>
+                <creditUser fundName="Putnam VT Small Cap Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Income Trust" secFileNo="811-04524"/>
+                <creditUser fundName="Putnam Sustainable Leaders Fund" secFileNo="811-06128"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Balanced Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam International Value Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Health Care Fund" secFileNo="811-03386"/>
+                <creditUser fundName="Putnam Sustainable Future Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Research Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Securities Fund" secFileNo="811-03897"/>
+                <creditUser fundName="Putnam Minnesota Tax Exempt Income Fund" secFileNo="811-04527"/>
+                <creditUser fundName="Putnam VT Diversified Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Leaders Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam AMT-Free Municipal Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Small Cap Value Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Massachusetts Tax Exempt Income Fund" secFileNo="811-04518"/>
+                <creditUser fundName="Putnam VT Government Money Market Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Research Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam New Jersey Tax Exempt Income Fund" secFileNo="811-05977"/>
+                <creditUser fundName="Putnam VT Global Health Care Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Global Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Small Cap Growth Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam VT Growth Opportunities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam New York Tax Exempt Income Fund" secFileNo="811-03741"/>
+                <creditUser fundName="Putnam VT High Yield Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Tax Exempt Income Fund" secFileNo="811-02675"/>
+                <creditUser fundName="Putnam Convertible Securities Fund" secFileNo="811-02280"/>
+                <creditUser fundName="Putnam Ohio Tax Exempt Income Fund" secFileNo="811-04528"/>
+                <creditUser fundName="Putnam VT Multi-Cap Core Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Income Fund" secFileNo="811-00653"/>
+                <creditUser fundName="Putnam Floating Rate Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Short Duration Bond Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Technology Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Emerging Markets Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Fixed Income Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Asset Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Risk Allocation Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Capital Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Focused Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Cap Core Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Equity Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Ultra Short Duration Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Intermediate-Term Municipal Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Government Money Market Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Multi-Asset Absolute Return Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Opportunities Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam PanAgora Managed Futures Strategy" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Risk Parity Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Market Neutral Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Short-Term Municipal Income Fund" secFileNo="811-07513"/>
+              </sharedCreditType>
+              <isCreditLineUsed>N</isCreditLineUsed>
+            </lineOfCreditDetail>
+            <lineOfCreditDetail>
+              <isCreditLineCommitted>Uncommitted</isCreditLineCommitted>
+              <lineOfCreditSize>235500000</lineOfCreditSize>
+              <lineOfCreditInstitutions>
+                <lineOfCreditInstitution creditInstitutionName="State Street Bank and Trust Company"/>
+              </lineOfCreditInstitutions>
+              <sharedCreditType creditType="Shared">
+                <creditUser fundName="Putnam VT Small Cap Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Future Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Equity Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam International Equity Fund" secFileNo="811-06190"/>
+                <creditUser fundName="Putnam VT Global Asset Allocation Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Equity Fund" secFileNo="811-01403"/>
+                <creditUser fundName="Putnam Tax Free High Yield Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Growth Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam Equity Income Fund" secFileNo="811-02742"/>
+                <creditUser fundName="Putnam VT Mortgage Securities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Conservative Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam California Tax Exempt Income Fund" secFileNo="811-03630"/>
+                <creditUser fundName="Putnam VT International Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Growth Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="George Putnam Balanced Fund" secFileNo="811-00058"/>
+                <creditUser fundName="Putnam International Growth Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Diversified Income Trust" secFileNo="811-05635"/>
+                <creditUser fundName="Putnam Money Market Fund" secFileNo="811-02608"/>
+                <creditUser fundName="Putnam International Capital Opportunities Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT George Putnam Balanced Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT International Growth Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Pennsylvania Tax Exempt Income Fund" secFileNo="811-05802"/>
+                <creditUser fundName="Putnam High Yield Fund" secFileNo="811-04616"/>
+                <creditUser fundName="Putnam VT Small Cap Value Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Global Income Trust" secFileNo="811-04524"/>
+                <creditUser fundName="Putnam Sustainable Leaders Fund" secFileNo="811-06128"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Balanced Fund" secFileNo="811-07121"/>
+                <creditUser fundName="Putnam International Value Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Health Care Fund" secFileNo="811-03386"/>
+                <creditUser fundName="Putnam Sustainable Future Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Research Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Securities Fund" secFileNo="811-03897"/>
+                <creditUser fundName="Putnam Minnesota Tax Exempt Income Fund" secFileNo="811-04527"/>
+                <creditUser fundName="Putnam VT Diversified Income Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Sustainable Leaders Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam AMT-Free Municipal Fund" secFileNo="811-04345"/>
+                <creditUser fundName="Putnam Small Cap Value Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Massachusetts Tax Exempt Income Fund" secFileNo="811-04518"/>
+                <creditUser fundName="Putnam VT Government Money Market Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Research Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam New Jersey Tax Exempt Income Fund" secFileNo="811-05977"/>
+                <creditUser fundName="Putnam VT Global Health Care Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam VT Global Equity Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Small Cap Growth Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam VT Growth Opportunities Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam New York Tax Exempt Income Fund" secFileNo="811-03741"/>
+                <creditUser fundName="Putnam VT High Yield Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Tax Exempt Income Fund" secFileNo="811-02675"/>
+                <creditUser fundName="Putnam Convertible Securities Fund" secFileNo="811-02280"/>
+                <creditUser fundName="Putnam Ohio Tax Exempt Income Fund" secFileNo="811-04528"/>
+                <creditUser fundName="Putnam VT Multi-Cap Core Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Income Fund" secFileNo="811-00653"/>
+                <creditUser fundName="Putnam Floating Rate Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Short Duration Bond Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Global Technology Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Emerging Markets Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Fixed Income Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Asset Absolute Return Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Asset Allocation Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Dynamic Risk Allocation Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Capital Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Focused Equity Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Multi-Cap Core Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Equity Spectrum Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Ultra Short Duration Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Intermediate-Term Municipal Income Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam Government Money Market Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam VT Multi-Asset Absolute Return Fund" secFileNo="811-05346"/>
+                <creditUser fundName="Putnam Mortgage Opportunities Fund" secFileNo="811-07513"/>
+                <creditUser fundName="Putnam PanAgora Managed Futures Strategy" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Risk Parity Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam PanAgora Market Neutral Fund" secFileNo="811-07237"/>
+                <creditUser fundName="Putnam Short-Term Municipal Income Fund" secFileNo="811-07513"/>
+              </sharedCreditType>
+              <isCreditLineUsed>N</isCreditLineUsed>
+            </lineOfCreditDetail>
+          </lineOfCreditDetails>
+        </lineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+        <isSwingPricing>N</isSwingPricing>
+      </managementInvestmentQuestion>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Putnam Global Communications Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000024248</mgmtInvSeriesId>
+        <mgmtInvLei>YMG7ZC4T9IRJBFOXK651</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>0</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>6</numTerminatedClass>
+        <fundType>N/A</fundType>
+        <isNonDiversifiedCompany>Y</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>Y</isFundSecuritiesLending>
+        <fundLendSecurities didFundLendSecurities="Y">
+          <isFundLiquidated>N</isFundLiquidated>
+          <isFundAdverselyImpacted>N</isFundAdverselyImpacted>
+        </fundLendSecurities>
+        <securityLendings>
+          <securityLending>
+            <securitiesAgentName>Goldman Sachs Bank USA</securitiesAgentName>
+            <securitiesAgentLei>KD3XUN7C6T14HNAYLU02</securitiesAgentLei>
+            <isSecuritiesAgentAffiliated>N</isSecuritiesAgentAffiliated>
+            <securityAgentIdemnity isSecurityAgentIdemnity="Y">
+              <idemnityProviders>
+                <idemnityProvider idemnityProviderName="N/A" idemnityProviderLei="N/A"/>
+              </idemnityProviders>
+              <didIndemnificationRights>N</didIndemnificationRights>
+            </securityAgentIdemnity>
+          </securityLending>
+        </securityLendings>
+        <collateralManagers>
+          <collateralManager collateralManagerName="The Putnam Advisory Company LLC" collateralManagerLei="88LQ6PPLZCCSTCFX1D09" isCollateralManagerAffliliated="N" isCollateralManagerAffliliatedWithFund="Y"/>
+        </collateralManagers>
+        <paymentToAgentManagers>
+          <paymentToAgentManagerType>Revenue sharing split</paymentToAgentManagerType>
+        </paymentToAgentManagers>
+        <avgPortfolioSecuritiesValue>250160.00</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>722.00</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 17a-8 (17 CFR 270.17a-8)</relyOnRuleType>
+          <relyOnRuleType>Rule 17e-1 (17 CFR 270.17e-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-6 (17 CFR 270.17a-6)</relyOnRuleType>
+          <relyOnRuleType>Rule 17a-7 (17 CFR 270.17a-7)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>Y</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <investmentAdvisers>
+          <investmentAdviser>
+            <investmentAdviserName>Putnam Investment Management, LLC</investmentAdviserName>
+            <investmentAdviserFileNo>801-7974</investmentAdviserFileNo>
+            <investmentAdviserCrdNo>000106629</investmentAdviserCrdNo>
+            <investmentAdviserLei>N/A</investmentAdviserLei>
+            <investmentAdviserStateCountry investmentAdviserState="US-MA" investmentAdviserCountry="US"/>
+            <isInvestmentAdviserHired>N</isInvestmentAdviserHired>
+          </investmentAdviser>
+        </investmentAdvisers>
+        <subAdvisers>
+          <subAdviser>
+            <subAdviserName>Putnam Investments Limited</subAdviserName>
+            <subAdviserFileNo>801-61441</subAdviserFileNo>
+            <subAdviserCrdNo>000122254</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserCountry>GB</subAdviserCountry>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+          <subAdviser>
+            <subAdviserName>The Putnam Advisory Company, LLC</subAdviserName>
+            <subAdviserFileNo>801-5097</subAdviserFileNo>
+            <subAdviserCrdNo>000106631</subAdviserCrdNo>
+            <subAdviserLei>N/A</subAdviserLei>
+            <isSubAdviserAffiliated>Y</isSubAdviserAffiliated>
+            <subAdviserStateCountry subAdviserState="US-MA" subAdviserCountry="US"/>
+            <isSubAdviserHired>N</isSubAdviserHired>
+          </subAdviser>
+        </subAdvisers>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Putnam Investor Services, Inc.</transferAgentName>
+            <transferAgentFileNo>84-06331</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-MA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <pricingServices>
+          <pricingService>
+            <pricingServiceName>Reuters (equities)</pricingServiceName>
+            <pricingServiceLei>549300561UZND4C7B569</pricingServiceLei>
+            <pricingServiceStateCountry pricingServiceState="US-NY" pricingServiceCountry="US"/>
+            <isPricingServiceAffiliated>N</isPricingServiceAffiliated>
+          </pricingService>
+        </pricingServices>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>State Street Bank and Trust Company</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-MA" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+            <otherCustodianDesc>N</otherCustodianDesc>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Putnam Investor Services, Inc.</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>N/A</shareholderServiceAgentLei>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-MA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokers>
+          <broker>
+            <brokerName>BCAP - BARCLAYS CAPITAL, INC.</brokerName>
+            <brokerFileNo>8-41342</brokerFileNo>
+            <brokerCrdNo>000019714</brokerCrdNo>
+            <brokerLei>AC28XWWI3WIBK2824319</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>4503.88</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CSFB - CREDIT SUISSE SECURITIES (USA), LLC</brokerName>
+            <brokerFileNo>8-422</brokerFileNo>
+            <brokerCrdNo>000000816</brokerCrdNo>
+            <brokerLei>1V8Y6QCX6YMJ2OELII46</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>3694.79</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>GSCO - GOLDMAN SACHS &amp; CO LLC</brokerName>
+            <brokerFileNo>8-129</brokerFileNo>
+            <brokerCrdNo>000000361</brokerCrdNo>
+            <brokerLei>FOR8UP27PHTHYVLBNG30</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>1003.36</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>UBSW - UBS SECURITIES L.L.C.</brokerName>
+            <brokerFileNo>8-22651</brokerFileNo>
+            <brokerCrdNo>000007654</brokerCrdNo>
+            <brokerLei>T6FIZBDPKLYJKFCRVK44</brokerLei>
+            <brokerStateCountry brokerState="US-CT" brokerCountry="US"/>
+            <grossCommission>938.32</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>SPHN - STEPHENS, INC.</brokerName>
+            <brokerFileNo>8-1927</brokerFileNo>
+            <brokerCrdNo>000003496</brokerCrdNo>
+            <brokerLei>213800LH6T9XDYZCA534</brokerLei>
+            <brokerStateCountry brokerState="US-AR" brokerCountry="US"/>
+            <grossCommission>752</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>CGML - CITIGROUP GLOBAL MARKETS INC</brokerName>
+            <brokerFileNo>8-8177</brokerFileNo>
+            <brokerCrdNo>000007059</brokerCrdNo>
+            <brokerLei>6SHGI4ZSSLCXXQSBB395</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>680.83</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JONE - JONESTRADING</brokerName>
+            <brokerFileNo>8-26089</brokerFileNo>
+            <brokerCrdNo>000006888</brokerCrdNo>
+            <brokerLei>2138008JJ5PA8H5UIL69</brokerLei>
+            <brokerStateCountry brokerState="US-MA" brokerCountry="US"/>
+            <grossCommission>588</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>JPMS - J.P. MORGAN SECURITIES, LLC.</brokerName>
+            <brokerFileNo>8-35008</brokerFileNo>
+            <brokerCrdNo>000000079</brokerCrdNo>
+            <brokerLei>ZBUT11V806EZRVTWT807</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>539.43</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>MLCO - BofA Securities, Inc.</brokerName>
+            <brokerFileNo>8-7221</brokerFileNo>
+            <brokerCrdNo>000007691</brokerCrdNo>
+            <brokerLei>549300HN4UKV1E2R3U73</brokerLei>
+            <brokerStateCountry brokerState="US-NY" brokerCountry="US"/>
+            <grossCommission>382.65</grossCommission>
+          </broker>
+          <broker>
+            <brokerName>RAJA - RAYMOND JAMES &amp; ASSOCIATES, INC.</brokerName>
+            <brokerFileNo>8-10999</brokerFileNo>
+            <brokerCrdNo>000000705</brokerCrdNo>
+            <brokerLei>U4ONQX15J3RO8XCKE979</brokerLei>
+            <brokerStateCountry brokerState="US-FL" brokerCountry="US"/>
+            <grossCommission>194</grossCommission>
+          </broker>
+        </brokers>
+        <aggregateCommission>13581.69</aggregateCommission>
+        <principalTransactions>
+          <principalTransaction>
+            <principalName>CGMI - CITIGROUP GLOBAL MARKETS INC.</principalName>
+            <principalFileNo>8-8177</principalFileNo>
+            <principalCrdNo>000007059</principalCrdNo>
+            <principalLei>MBNUM2BPBDO7JBLYG310</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>20578000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>HSBCP - HSBC BANK PLC</principalName>
+            <principalFileNo>8-41562</principalFileNo>
+            <principalCrdNo>000019585</principalCrdNo>
+            <principalLei>MP6I5ZYZBEU3UXPYFY54</principalLei>
+            <principalCountry>GB</principalCountry>
+            <principalTotalPurchaseSale>15301000</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>BCAP - BARCLAYS CAPITAL, INC.</principalName>
+            <principalFileNo>8-41342</principalFileNo>
+            <principalCrdNo>000019714</principalCrdNo>
+            <principalLei>AC28XWWI3WIBK2824319</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>753494.2</principalTotalPurchaseSale>
+          </principalTransaction>
+          <principalTransaction>
+            <principalName>RBCD - RBC CAPITAL MARKETS LLC</principalName>
+            <principalFileNo>8-45411</principalFileNo>
+            <principalCrdNo>000031194</principalCrdNo>
+            <principalLei>549300LCO2FLSSVFFR64</principalLei>
+            <principalStateCountry principalState="US-NY" principalCountry="US"/>
+            <principalTotalPurchaseSale>110133</principalTotalPurchaseSale>
+          </principalTransaction>
+        </principalTransactions>
+        <principalAggregatePurchase>36742627.2</principalAggregatePurchase>
+        <isBrokerageResearchPayment>Y</isBrokerageResearchPayment>
+        <mnthlyAvgNetAssets>20624306.84</mnthlyAvgNetAssets>
+        <dailyAvgNetAssets>0</dailyAvgNetAssets>
+        <hasLineOfCredit>N</hasLineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+        <isSwingPricing>N</isSwingPricing>
+      </managementInvestmentQuestion>
+    </managementInvestmentQuestionSeriesInfo>
+    <attachmentsTab>
+      <isLegalProceedings>false</isLegalProceedings>
+      <isProvisionFinancialSupport>false</isProvisionFinancialSupport>
+      <isIPAReportInternalControl>true</isIPAReportInternalControl>
+      <isChangeAccPrinciples>false</isChangeAccPrinciples>
+      <isInfoRequiredEO>false</isInfoRequiredEO>
+      <isOtherInfoRequired>false</isOtherInfoRequired>
+    </attachmentsTab>
+    <signature registrantSignedName="Putnam Funds Trust" signedDate="2019-11-13" signature="Janet C. Smith" title="Principal Financial Officer"/>
+  </formData>
+</edgarSubmission>
