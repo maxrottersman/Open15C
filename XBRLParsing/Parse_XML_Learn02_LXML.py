@@ -37,9 +37,11 @@ print(root.tag)
 #     if not len(tag):
 #         print(tag.tag," | ",tag.text)
 
+
 showTags = False
-FoundSubTags = False
+
 for tag in tree.iter():
+#root = etree.Element("managementInvestmentQuestionSeriesInfo")
     # Didn't work because tags with no data/attributs are 0, which the fund sections are
     #if not len(tag):
         if tag.tag == 'managementInvestmentQuestion':
@@ -53,13 +55,19 @@ for tag in tree.iter():
         #         FoundSubTags = False
 
         if showTags == True:
-           if tag.text != None:
-               #print(tag.getchildren())
-               if tag.getchildren() == []:
-                   #print(tag)
-                   #print(tag.getchildren)
-                   print(tag.tag," | ",tag.text)
-
+            tagparent = tag.getparent()
+            tagchildren = tag.getchildren()
+            
+            #print(tag.getparent())
+            #if tag.getparent().tag.tostring().text == 'managementInvestmentQuestion' 
+            
+            if tagparent.tag == 'managementInvestmentQuestion':
+                if tag.tag == 'mgmtInvFundName':
+                    print('*** START FUND SECTION ***')
+                if len(tag.text) > 0 and len(tagchildren) == 0:
+                    print(tag.tag," | ",tag.text)
+                    #if tag.tag == 'brokers':
+            
 #print(registrantFullName)
 
 # for node in root:
