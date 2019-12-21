@@ -65,7 +65,7 @@ for tag in tree.iter():
                 if tag.tag == 'mgmtInvFundName':
                     print('*** START FUND SECTION ***')
                 if len(tag.text) > 0 and len(tagchildren) == 0:
-                    print(tag.tag," | ",tag.text)
+                    print(tag.tag.strip(),"|",tag.text.strip()) #,end='')
                     #if tag.tag == 'brokers':
             
 #print(registrantFullName)
