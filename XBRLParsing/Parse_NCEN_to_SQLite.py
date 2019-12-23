@@ -4,9 +4,32 @@ from os import path
 from io import StringIO, BytesIO
 import re
 
+import sqlite3
+from sqlite3 import Error
+
 fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\alger_n_cen.xml'
 fn_xslt = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\strip_namespace.xsl'
 fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\alger_n_cen_clean.xml'
+
+dbstr = r'C:\Files2020_Dev\ByProject\Open15C_DataOnly\SECedgar.sqlite'
+
+#
+# Create CONNECTION to SQLite Database
+#
+def create_connection(db_file):
+    """ create a database connection to the SQLite database
+        specified by db_file
+    :param db_file: database file
+    :return: Connection object or None
+    """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+        print("connected")
+    except Error as e:
+        print(e)
+ 
+    return conn
 
 def prepareXML():
     # ONLY IF WE HAVE NOT ARLEADY PROCESSED
@@ -109,16 +132,106 @@ def create_SQLfields():
     'isInterfundBorrowing', \
     'isSwingPricing', \
     '')
-    
         
     return sqlFields
 
+def create_dataForfields():    
+
+    dataForFields = [ \
+    '', \
+    '', \
+    '', \
+    '', \
+    0, \
+    0, \
+    0, \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    '', \
+    0, \
+    0, \
+    '', \
+    0, \
+    '', \
+    '', \
+    '', \
+    0]
+
+    return dataForFields
+
+def NCEN_to_dataForFields(tree, sqlFields, dataForFields):
+    connSQLite = create_connection(dbstr)
+    showTags = False
+
+    for tag in tree.iter():
+    #root = etree.Element("managementInvestmentQuestionSeriesInfo")
+        # Didn't work because tags with no data/attributs are 0, which the fund sections are
+        #if not len(tag):
+            if tag.tag == 'managementInvestmentQuestion':
+                showTags = True
+                # Init vars
+                
+            if tag.tag == 'attachmentsTab':
+                showTags = False
+
+            # if tag.tag == '':
+            #     FoundSubTags = True
+            #     else:
+            #         FoundSubTags = False
+
+            if showTags == True:
+                tagparent = tag.getparent()
+                tagchildren = tag.getchildren()
+                
+                #print(tag.getparent())
+                #if tag.getparent().tag.tostring().text == 'managementInvestmentQuestion' 
+                
+                if tagparent.tag == 'managementInvestmentQuestion':
+                    if tag.tag == 'mgmtInvFundName':
+                        print('*** START FUND SECTION ***')
+                        dataForFieldsTemp = create_dataForfields() # List for data
+                    if len(tag.text) > 0 and len(tagchildren) == 0:
+                        for i,f in enumerate(sqlFields):
+                            if tag.tag.strip() == f:
+                                dataForFieldsTemp[i] = tag.text.strip()
+
+                        #print(tag.tag.strip(),"|",tag.text.strip()) #,end='')
+                        #if tag.tag == 'brokers':
+                    if tag.tag == 'isSwingPricing':
+                        for f in dataForFieldsTemp:
+                            pass
+                            # print out values
+                            #print(f)
+                        # save to database
+                        print(len(dataForFieldsTemp))
+                        connSQLite.executemany('INSERT INTO Extract_NCEN VALUES \
+                            (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', [dataForFieldsTemp])
+                        connSQLite.commit()
             
 if __name__ == '__main__':
-    #tree = prepareXML()
+    tree = prepareXML()
     #walkNCEN(tree)
-    SQLfields = create_SQLfields()
-    print(SQLfields[3])
+    sqlFields = create_SQLfields()
+    #print(SQLFields[3])
+    dataForFields = create_dataForfields()
+    #dataForFields[3] = "max"
+    #print(dataForFields[3])
+    NCEN_to_dataForFields(tree, sqlFields, dataForFields)
 
 
 #print(registrantFullName)
