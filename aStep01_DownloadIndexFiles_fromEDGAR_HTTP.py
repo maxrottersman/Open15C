@@ -12,11 +12,13 @@ import csv
 import os
 from bs4 import BeautifulSoup
 import re
-import wget
+from pathlib import Path, PureWindowsPath
 
-ScriptPath = os.path.dirname(os.path.realpath(__file__))
-SECIndexesPath = ScriptPath + "\\SECIndexes\\"
+ScriptPath = Path.cwd() # new way of getting script folder in both win/linux
+SECIndexesPath = ScriptPath / 'SEC_IndexFiles'
 print(SECIndexesPath)
+
+#exit()
 #filename = 'master.20130306.idx'
 
 def main():
@@ -33,20 +35,22 @@ def main():
     
     soup = BeautifulSoup(response.content, "html.parser")
     #print(soup)    
-    #Call main()
     for td in soup.findAll("td"):
         for a in td.findAll("a"):
             if a.find(text=re.compile("master")):
-                print(a.text)
-                urlToGet = url + a.text
-                #url = 'http://i3.ytimg.com/vi/J---aiyznGQ/mqdefault.jpg'
-                try:
-                    os.remove(SECIndexesPath + a.text)
-                except OSError:
-                    pass
+                SECIndexFileNameOnly = str(a.text)
+                SECIndexFile = SECIndexesPath / SECIndexFileNameOnly # full path and name
                 
-                wget.download(urlToGet, SECIndexesPath + a.text)
-                #return #debug test one
+                urlToGet = url + str(SECIndexFileNameOnly)
+                #print(urlToGet)
+                #print(SECIndexFile)
+
+                r = requests.get(urlToGet)
+                               
+                with open(SECIndexFile, 'wb') as f:
+                    f.write(r.content)
+
+                return #debug test one
     
 if __name__ == '__main__':
     main()
