@@ -15,8 +15,12 @@ import re
 from pathlib import Path, PureWindowsPath
 
 ScriptPath = Path.cwd() # new way of getting script folder in both win/linux
-SECIndexesPath = ScriptPath / 'SEC_IndexFiles' # / adds right in all os
+ScriptPathParent = Path.cwd().resolve().parent # Parent
+DataPath = ScriptPathParent / 'Open15C_Data'
+SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
 print(SECIndexesPath)
+#exit()
+#DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 
 #exit()
 #filename = 'master.20130306.idx'
@@ -28,7 +32,6 @@ def main():
     #with open(SECIndexesPath + "\\aLatestIndexes.txt") as f:
     #    EDGARindexfiles = f.readlines()
 
-    url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR1/'
     response = requests.get(url)
     print(response)
     #print(response.text)
