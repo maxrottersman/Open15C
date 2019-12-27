@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Created:     22/02/2013
+# Created:     22/02/2013 updated 12/2019
 # Copyright:   (c) Max Rottersman 2013
 # Licence:     <your licence>
 # OPENS aLatestIndexes.txt and download index file IF NOT EXISTS LOCALLY
@@ -15,7 +15,7 @@ import re
 from pathlib import Path, PureWindowsPath
 
 ScriptPath = Path.cwd() # new way of getting script folder in both win/linux
-SECIndexesPath = ScriptPath / 'SEC_IndexFiles'
+SECIndexesPath = ScriptPath / 'SEC_IndexFiles' # / adds right in all os
 print(SECIndexesPath)
 
 #exit()
