@@ -20,17 +20,15 @@ ScriptPathParent = Path.cwd().resolve().parent # Parent
 DataPath = ScriptPathParent / 'Open15C_Data'
 SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
 DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
-#print(SECIndexesPath)
-#exit()
 
 # --------- CONFIG --------------
 fromDate = '20190101' # will be greater-than or equl
 endDate = '20190105'
 # 48BPOS, NSAR and N1A
 FileTypeFunds = [r'485bpos' ,r'485bpos/a',r'485apos',r'485apos/a',r'nsar-a',r'nsar-a/a', r'nsar-b',r'nsar-b/a',r'n-1a',r'n-1a/a',r'n-cen']
-# -------------------------------
 valid_chars = '-_., abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 sfilename = 'master.20130215.idx'
+# -------------------------------
 
 #
 # Get Index files in our daily download from SEC folder
@@ -46,8 +44,6 @@ def getIndexFiles():
     #print(EDGARindexfilesWithPath)
 
     return EDGARindexfilesWithPath
-
-
 #
 # Create CONNECTION to SQLite Database
 #
@@ -73,7 +69,6 @@ def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
     with open(filename, 'r') as file_obj:
         for line in csv.reader(file_obj,
               delimiter=separator): # Strips whitespace after delimiter.
-              # Your custom delimiter.
               #, skipinitialspace=True
             if line: # Make sure there's at least one entry.
                 if len(line) > 3:
@@ -86,24 +81,15 @@ def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
                         fnnum = re.sub("\D", "", fn) # removes dashes (-) in string, making numeric only
                         nurl = "http://www.sec.gov/Archives/" + path + "" + fnnum + "/" + fn.replace('.txt','-index.htm')
 
-                         #print pair # or could be pair[1]
                         regname = line[1]
                         regname = str(''.join(s for s in regname if s in valid_chars)) # remove any tabs, etc.
                         #newfilename = regname + "__" + d[3] + "__" + d[0] + "__" + str(fcnt).zfill(3) + ".htm"
-
-                        # Write to file method
-                        #if (newfilename != oldfilename):
-                        #    recstring = regname+"|"+d[3]+"|"+d[0] + "|" +d[5] + "|" + newfilename + "\n"
-                            #print(pair[2] + '|' + regname+"|"+pair[3]+"|"+pair[0] + "|" +pair[5])
-
-                        #recordList = [regname,d[3],d[2],d[0],d[5],'','']
+                        
                         print(line)
-                        # CIK, name, form, date, file
+                        # Need list of tuples for executemany to work
                         DataTuple = (regname, line[3],line[2],line[0],nurl,line[4],'')
 
-                        DataFiling.append(DataTuple) # append was just pointer to list
-
-                        #yield line[0] , line[1], line[2], line[3], line[4], nurl
+                        DataFiling.append(DataTuple) 
     return DataFiling
 
 #
@@ -111,36 +97,23 @@ def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
 #
 def SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling):
 
-    #tuple_recs = tuple(DataFiling)
-
     connSQLite = create_connection(DataPathSQLiteDB)
 
-    print(DataPathSQLiteDB)
+    #print(DataPathSQLiteDB)
     #exit()
        
     sql = 'INSERT into EdgarFilings'
     sql = sql + '(RegName,FilingDate,Filetype,CIK,SECFilingIndexURL,MasterFileURL,MasterFileDate)'
     sql = sql + " values (?, ?, ?, ?, ?, ?, ?)"
-    #sql = sql + "('" + regname + "',"
-    #sql = sql + "'" + pair[3] + "',"
-    #sql = sql + "'" + pair[2] + "',"
-    #sql = sql + "" + pair[0] + ","
-    #sql = sql + "'" + pair[5] + "',"
-    #sql = sql + "'" + '' + "',"
-    #sql = sql + "'" + '' + "')"
-
+    
     try:
         print(sql + '\n')
         cursor = connSQLite.cursor()
         cursor.executemany(sql, DataFiling) #!!!! REMEMBER those brackets or weird number of params
         connSQLite.commit()
         cursor.close()
-        #cursor.execute(sql)
-        #conn.commit()
-       
 
     except: 
-        pass
         print("Failed to insert multiple records into sqlite table")
 
     finally:
@@ -148,12 +121,9 @@ def SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling):
             connSQLite.close()
             print("The SQLite connection is closed")
 
-#sys.exit()
-
-
-#
+##########################
 #  CALL MAIN
-#
+##########################
 if __name__ == '__main__':
 
     EDGARindexfilesWithPath = getIndexFiles()
@@ -175,7 +145,6 @@ if __name__ == '__main__':
         flagRecordExists = True
 
         # # First check if days filings in database
-        # # DO LATER
         
         connSQLite = create_connection(DataPathSQLiteDB)
         try:
@@ -197,14 +166,14 @@ if __name__ == '__main__':
         finally:
             pass
 
-        # have we checked for records
-        #exit()
-                
+        # We check for records, now...
                 
         # If we date process rante
         if (yyyymmdd >= fromDate and yyyymmdd <= endDate) and flagRecordExists == False:
+            # open edgar idx file and parse contents into our data form
             DataFiling = get_EDGAR_Fund_Records_From_CSV_file(str_fn_withpath, "|")
             print(DataFiling)
+            # Now insert our data into the db
             SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling)
 
 
