@@ -14,6 +14,8 @@ from bs4 import BeautifulSoup
 import re
 from pathlib import Path, PureWindowsPath
 
+url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR1/'
+
 ScriptPath = Path.cwd() # new way of getting script folder in both win/linux
 ScriptPathParent = Path.cwd().resolve().parent # Parent
 DataPath = ScriptPathParent / 'Open15C_Data'
@@ -53,7 +55,7 @@ def main():
                 with open(SECIndexFile, 'wb') as f:
                     f.write(r.content)
 
-                return #debug test one
+                #return #debug test one
     
 if __name__ == '__main__':
     main()

@@ -23,11 +23,13 @@ DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 
 # --------- CONFIG --------------
 fromDate = '20190101' # will be greater-than or equl
-endDate = '20190105'
+endDate = '20190131'
 # 48BPOS, NSAR and N1A
-FileTypeFunds = [r'485bpos' ,r'485bpos/a',r'485apos',r'485apos/a',r'nsar-a',r'nsar-a/a', r'nsar-b',r'nsar-b/a',r'n-1a',r'n-1a/a',r'n-cen']
+# no longer: r'nsar-a',r'nsar-a/a', r'nsar-b',r'nsar-b/a',
+# no interest in A: like r'485apos/a',r'485apos'
+FileTypeFunds = [r'485bpos' ,r'485bpos/a',r'n-1a',r'n-1a/a',r'n-cen']
 valid_chars = '-_., abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
-sfilename = 'master.20130215.idx'
+sfilename = 'master.20130215.idx' # dummmy start
 # -------------------------------
 
 #
@@ -64,13 +66,13 @@ def create_connection(db_file):
 
 
 def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
-    DataItems = ['','','','','','','']
     DataFiling = []
+    oldline = ''
     with open(filename, 'r') as file_obj:
         for line in csv.reader(file_obj,
               delimiter=separator): # Strips whitespace after delimiter.
               #, skipinitialspace=True
-            if line: # Make sure there's at least one entry.
+            if line and (line != oldline): # Make sure there's at least one entry and not equal to last one.
                 if len(line) > 3:
                     filetype = str(line[2]).strip().lower()
                     #print filetype
@@ -85,11 +87,12 @@ def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
                         regname = str(''.join(s for s in regname if s in valid_chars)) # remove any tabs, etc.
                         #newfilename = regname + "__" + d[3] + "__" + d[0] + "__" + str(fcnt).zfill(3) + ".htm"
                         
-                        print(line)
+                        #print(line)
                         # Need list of tuples for executemany to work
                         DataTuple = (regname, line[3],line[2],line[0],nurl,line[4],'')
 
                         DataFiling.append(DataTuple) 
+            oldline = line
     return DataFiling
 
 #
@@ -107,7 +110,7 @@ def SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling):
     sql = sql + " values (?, ?, ?, ?, ?, ?, ?)"
     
     try:
-        print(sql + '\n')
+        #print(sql + '\n')
         cursor = connSQLite.cursor()
         cursor.executemany(sql, DataFiling) #!!!! REMEMBER those brackets or weird number of params
         connSQLite.commit()
@@ -156,7 +159,7 @@ if __name__ == '__main__':
             
             if exist is None:
                 flagRecordExists = False
-                print('This date NOT in EdgarFilings')
+                print(yyyymmdd + ' is NOT in EdgarFilings')
             else:
                 flagRecordExists = True
                 print('This date in EdgarFilings')
@@ -170,9 +173,10 @@ if __name__ == '__main__':
                 
         # If we date process rante
         if (yyyymmdd >= fromDate and yyyymmdd <= endDate) and flagRecordExists == False:
+            print("Processing: "+yyyymmdd)
             # open edgar idx file and parse contents into our data form
             DataFiling = get_EDGAR_Fund_Records_From_CSV_file(str_fn_withpath, "|")
-            print(DataFiling)
+            #print(DataFiling)
             # Now insert our data into the db
             SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling)
 
