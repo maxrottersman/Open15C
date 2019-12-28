@@ -97,17 +97,11 @@ def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
                             #print(pair[2] + '|' + regname+"|"+pair[3]+"|"+pair[0] + "|" +pair[5])
 
                         #recordList = [regname,d[3],d[2],d[0],d[5],'','']
-
+                        print(line)
                         # CIK, name, form, date, file
-                        DataItems[0] = line[0]
-                        DataItems[1] = regname
-                        DataItems[2] = line[2]
-                        DataItems[3] = line[3]
-                        DataItems[4] = line[4]
-                        DataItems[5] = nurl
-                        DataItems[6] = ''
+                        DataTuple = (regname, line[3],line[2],line[0],nurl,line[4],'')
 
-                        DataFiling.append(DataItems)
+                        DataFiling.append(DataTuple) # append was just pointer to list
 
                         #yield line[0] , line[1], line[2], line[3], line[4], nurl
     return DataFiling
@@ -115,15 +109,18 @@ def get_EDGAR_Fund_Records_From_CSV_file(filename, separator):
 #
 # Insert into SQL db
 #
-def SQLInsertFilingsData(connSQLite, DataFiling):
+def SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling):
 
-    if (not connSQLite):
-        connSQLite = create_connection(DataPathSQLiteDB)
+    #tuple_recs = tuple(DataFiling)
 
+    connSQLite = create_connection(DataPathSQLiteDB)
+
+    print(DataPathSQLiteDB)
+    #exit()
        
-    sql = 'INSERT into EdgarFilings '
-    sql = sql + '([RegName],[FilingDate],[Filetype],[CIK],[SECFilingIndexURL],[MasterFileURL],[MasterFileDate])'
-    sql = sql + " VALUES (?,?,?,?,?,?,?)"
+    sql = 'INSERT into EdgarFilings'
+    sql = sql + '(RegName,FilingDate,Filetype,CIK,SECFilingIndexURL,MasterFileURL,MasterFileDate)'
+    sql = sql + " values (?, ?, ?, ?, ?, ?, ?)"
     #sql = sql + "('" + regname + "',"
     #sql = sql + "'" + pair[3] + "',"
     #sql = sql + "'" + pair[2] + "',"
@@ -135,7 +132,7 @@ def SQLInsertFilingsData(connSQLite, DataFiling):
     try:
         print(sql + '\n')
         cursor = connSQLite.cursor()
-        cursor.executemany(sql,[recordList]) #!!!! REMEMBER those brackets or weird number of params
+        cursor.executemany(sql, DataFiling) #!!!! REMEMBER those brackets or weird number of params
         connSQLite.commit()
         cursor.close()
         #cursor.execute(sql)
@@ -144,7 +141,7 @@ def SQLInsertFilingsData(connSQLite, DataFiling):
 
     except: 
         pass
-        #print("Failed to insert multiple records into sqlite table")
+        print("Failed to insert multiple records into sqlite table")
 
     finally:
         if (connSQLite):
@@ -160,13 +157,9 @@ def SQLInsertFilingsData(connSQLite, DataFiling):
 if __name__ == '__main__':
 
     EDGARindexfilesWithPath = getIndexFiles()
-    #exit
-    # Open our database
-    connSQLite = create_connection(DataPathSQLiteDB)
-
-    # master.20190103.idx # maybe, for testing
-    #print(EDGARindexfiles)
+    
     print(EDGARindexfilesWithPath)
+    
     for fn in EDGARindexfilesWithPath:
         str_fn_withpath = str(fn)
         str_fn = str(Path(fn).name)
@@ -183,6 +176,8 @@ if __name__ == '__main__':
 
         # # First check if days filings in database
         # # DO LATER
+        
+        connSQLite = create_connection(DataPathSQLiteDB)
         try:
             sqlcheck = "Select FilingDate FROM EdgarFilings where [FilingDate] ='" + yyyymmdd + "' LIMIT 1" 
             cursorcheck = connSQLite.cursor()
@@ -192,22 +187,25 @@ if __name__ == '__main__':
             
             if exist is None:
                 flagRecordExists = False
-                print('This date in EdgarFilings')
+                print('This date NOT in EdgarFilings')
             else:
                 flagRecordExists = True
-                print('This date NOT in EdgarFilings')
+                print('This date in EdgarFilings')
                 
         except:
             print("dbCheck Record failure!")
         finally:
             pass
+
+        # have we checked for records
+        #exit()
                 
                 
         # If we date process rante
         if (yyyymmdd >= fromDate and yyyymmdd <= endDate) and flagRecordExists == False:
             DataFiling = get_EDGAR_Fund_Records_From_CSV_file(str_fn_withpath, "|")
             print(DataFiling)
-            SQLInsertFilingsData(connSQLite, DataFiling)
+            SQLInsertFilingsData(DataPathSQLiteDB, connSQLite, DataFiling)
 
 
         
