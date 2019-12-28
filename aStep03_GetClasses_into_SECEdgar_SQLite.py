@@ -3,26 +3,49 @@ from bs4 import BeautifulSoup
 import os
 import sys
 import re
+
+from pathlib import Path
+
 import sqlite3
 from sqlite3 import Error
 import requests
 
-ScriptPath = os.path.dirname(os.path.realpath(__file__))
-SECIndexesPath = ScriptPath + "\\SECIndexes"
 
 # --------- CONFIG --------------
-fromDate = '20190101' # will be greater-than or equl
-endDate = '20190105'
+ScriptPath = Path.cwd() # new way of getting script folder in both win/linux
+ScriptPathParent = Path.cwd().resolve().parent # Parent
+DataPath = ScriptPathParent / 'Open15C_Data'
+SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
+DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 
-dbstr = r'C:\ff_factory2019\pyEDGAR\db\SECedgar.sqlite'
-sDB = dbstr #ScriptPath + r'\SECIndexes\edgarfilingsfunds.accdb'
-sDBTarget = dbstr #r'C:\ff_Factory2007\NSAR\FRMatch2012.accdb'
+fromDate = '20190101' # will be greater-than or equl
+endDate = '20190131'
 # -------------------------------
 
 sURLFile = ''#'c:\\Files2013_EDGAR\\pyEDGAR\\testdocs\\nsarindex3.htm'
-lSECFilingsIndexURLs = []
+lSECFilingsIndexURLs = [] # make this global
 sql=''
 
+#
+# Create CONNECTION to SQLite Database
+#
+def create_connection(db_file):
+    """ create a database connection to the SQLite database
+        specified by db_file
+    :param db_file: database file
+    :return: Connection object or None
+    """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+        print("connected")
+    except Error as e:
+        print(e)
+ 
+    return conn
+#
+# Get files to go mine
+#
 def dbLoad_lSECFilingsIndexURLs():
     
     try:
@@ -35,7 +58,7 @@ def dbLoad_lSECFilingsIndexURLs():
         rows  = cursor.fetchall()
         if rows != None:
             for r in rows:
-                lSECFilingsIndexURLs.append(r)
+                lSECFilingsIndexURLs.append(r) #global from up top
     except:
         print("db error!")
         cursor.close()
@@ -45,15 +68,12 @@ def dbLoad_lSECFilingsIndexURLs():
 
 def InsertNewFundClasses():
     s =''
-    t= ''
-    rtext = ''
     CIK = ''
     SeriesName = ''
     SeriesNum =''
     ClassName = ''
     ClassNum =''
     Symbol = ''
-    FundName = ''
     flagInClass = False
     cnt = 0
 
@@ -62,7 +82,7 @@ def InsertNewFundClasses():
         print(cnt)
         #soup = BeautifulSoup(open(sURLFile).read())
         r = requests.get(indexpath[0])
-        soup = BeautifulSoup(r.text)
+        soup = BeautifulSoup(r.text,features="html.parser")
 
         # Get filing dates
         DateAdd = soup.find(text="Filing Date").findNext('div').contents[0]
@@ -163,14 +183,7 @@ def InsertNewFundClasses():
                         Symbol + "','" +
                         DateAdd + "'" + ")")
 
-                        print(sql)
-
-                 #   sql = ("insert into CIKseriesclasses(CIK, SeriesNum, SeriesName, ClassNum, ClassName, Symbol) values ('" + CIK + "','" +
-                 #   SeriesNum + "','" +
-                 #   SeriesName + "','" +
-                 #   ClassNum + "','" +
-                 #   ClassName + "','" +
-                 #   Symbol + "'"+ "')"')
+                        #print(sql)
                         
                         try:
                             cursor = connSQLite.cursor()
@@ -185,13 +198,6 @@ def InsertNewFundClasses():
 
                         finally:
                             cursor.close()
-                           
-
-                    #cursor.execute("insert into CIKseriesclasses
-                    #([CIK], [SeriesNum], [SeriesName], [ClassNum], [ClassName], [Symbol])
-                    #values ('" + CIK + "','" + SeriesNum + "','" + SeriesName + "','" +
-                    #ClassNum + "','" + ClassName + "','" + Symbol + "'"+ ")" )
-                    #conn.commit()
 
                     #if cnt > 30:
                     #    return main
@@ -205,32 +211,19 @@ def InsertNewFundClasses():
 def dbtest():
     pass
 
-#
-# Create CONNECTION to SQLite Database
-#
-def create_connection(db_file):
-    """ create a database connection to the SQLite database
-        specified by db_file
-    :param db_file: database file
-    :return: Connection object or None
-    """
-    conn = None
-    try:
-        conn = sqlite3.connect(db_file)
-        print("connected")
-    except Error as e:
-        print(e)
- 
-    return conn
+
 
 #
 # IT ALL BEGINS ON MAIN
 #
 if __name__ == '__main__':
-     connSQLite = create_connection(dbstr)
+     connSQLite = create_connection(DataPathSQLiteDB)
+     # will use data range from top
      dbLoad_lSECFilingsIndexURLs()
+     # print them out
      for l in lSECFilingsIndexURLs:
         print(l)
+    # go through each one, download, parse, write to db
      InsertNewFundClasses()
      print("Done!")
 
