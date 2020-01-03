@@ -1,0 +1,3 @@
+python -m pip install psycopg2 --user
+python -m pip install sshtunnel --user
+python -m pip install pypi --user
