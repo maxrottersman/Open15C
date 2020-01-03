@@ -174,17 +174,17 @@ if __name__ == '__main__':
         # We check for records, now...
                 
         # If we date process rante
-        if (yyyymmdd >= fromDate and yyyymmdd <= endDate) and flagRecordExists == False:
+        """ if (yyyymmdd >= fromDate and yyyymmdd <= endDate) and flagRecordExists == False:
             print("Processing: "+yyyymmdd)
             # open edgar idx file and parse contents into our data form
             DataFiling = get_EDGAR_Fund_Records_From_CSV_file(str_fn_withpath, "|")
             #print(DataFiling)
             # Now insert our data into the db
-            SQLInsertFilingsData(DataFiling)
+            SQLInsertFilingsData(DataFiling) """
 
+
+            
+            
+                        
 
         
-        
-                    
-
-    
