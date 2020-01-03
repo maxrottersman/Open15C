@@ -1,3 +1,44 @@
 python -m pip install psycopg2 --user
 python -m pip install sshtunnel --user
 python -m pip install pypi --user
+
+# Postgress
+CREATE TABLE EdgarFilings (RegName varchar(120), FilingDate varchar(8), FileType varchar(15), CIK varchar(12), SECFilingIndexURL varchar(250), MasterFileURL varchar(250), MasterFileDate varchar(8), ID varchar(12))
+
+CREATE TABLE SECMasterClass (ID varchar(12), CIK varchar(12), SeriesName varchar(80), SeriesNum varchar(12), ClassName varchar(50), ClassNum varchar(12), Symbol varchar(15), Registrant_Name varchar(120), Series_Name_Portfolio varchar(120), FundCharKey varchar(120), DateAdd varchar(8), FundType varchar(15), OpenEnd varchar(1), Incept varchar(8), PriorityMatch varchar(8), MASS varchar(12), MCAT varchar(12))
+
+CREATE TABLE Extract_NCEN (
+mgmtInvFundName varchar(50), 
+mgmtInvSeriesId varchar(50), 
+mgmtInvLei varchar(50), 
+isFirstFilingByFund varchar(50), 
+numAuthorizedClass INTEGER, 
+numAddedClass INTEGER, 
+numTerminatedClass INTEGER, 
+fundType varchar(50), 
+isNonDiversifiedCompany varchar(50), 
+isForeignSubsidiary varchar(50), 
+isFundSecuritiesLending varchar(50), 
+didFundLendSecurities varchar(50), 
+paymentToAgentManagerType varchar(50), 
+avgPortfolioSecuritiesValue varchar(50), 
+netIncomeSecuritiesLending varchar(50), 
+relyOnRuleType varchar(50), 
+isExpenseLimitationInPlace varchar(50), 
+isExpenseReducedOrWaived varchar(50), 
+isFeesWaivedRecoupable varchar(50), 
+isExpenseWaivedRecoupable varchar(50), 
+isTransferAgentHiredOrTerminated varchar(50), 
+isPricingServiceHiredOrTerminated varchar(50), 
+isCustodianHiredOrTerminated varchar(50), 
+isShareholderServiceHiredTerminated varchar(50), 
+isAdminHiredOrTerminated varchar(50), 
+aggregateCommission REAL, 
+principalAggregatePurchase REAL, 
+isBrokerageResearchPayment varchar(50), 
+mnthlyAvgNetAssets REAL, 
+hasLineOfCredit varchar(50), 
+isInterfundBorrowing varchar(50), 
+isSwingPricing varchar(50), 
+InsertDate INTEGER)
+
