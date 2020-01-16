@@ -19,7 +19,7 @@ SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
 DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 
 fromDate = '20190101' # will be greater-than or equl
-endDate = '20190131'
+endDate = '20191231'
 # -------------------------------
 
 sURLFile = ''#'c:\\Files2013_EDGAR\\pyEDGAR\\testdocs\\nsarindex3.htm'

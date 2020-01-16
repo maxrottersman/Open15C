@@ -23,11 +23,11 @@ DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 
 # --------- CONFIG --------------
 fromDate = '20190101' # will be greater-than or equl
-endDate = '20190131'
+endDate = '20191231'
 # 48BPOS, NSAR and N1A
 # no longer: r'nsar-a',r'nsar-a/a', r'nsar-b',r'nsar-b/a',
 # no interest in A: like r'485apos/a',r'485apos'
-FileTypeFunds = [r'485bpos' ,r'485bpos/a',r'n-1a',r'n-1a/a',r'n-cen']
+FileTypeFunds = [r'485bpos' ,r'485bpos/a',r'n-1a',r'n-1a/a',r'n-cen',r'n-cen/a']
 valid_chars = '-_., abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 sfilename = 'master.20130215.idx' # dummmy start
 # -------------------------------
