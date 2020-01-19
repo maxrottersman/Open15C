@@ -20,7 +20,7 @@ for tag in tag_list:
     # if tag.name == 'rr:ExpensesOverAssets':
     #     print('MgmtFees: ' + tag.name + 'text ' + tag.text)
 
-    #print(tag.name + ' |  ' + tag.text + '\n')  
+    print(tag.name + ' |  ' + tag.text + '\n')  
 
     if tag.name == 'rr:managementfeesoverassets':
         print('MgmtFees: ' + tag.name + 'text ' + tag.text)    

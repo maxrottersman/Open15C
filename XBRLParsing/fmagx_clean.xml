@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl>
+  <schemaRef type="simple" href="wox-20190617.xsd"/>
+  <context id="Trust">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_D0331FidelityMagellanFundKPRO06Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundKPRO06Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundKPRO06Member</explicitMember>
+        <explicitMember dimension="rr:ProspectusShareClassAxis">wox:C000064273Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_C000064273_ReturnBeforeTaxes_D0331FidelityMagellanFundKPRO06Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundKPRO06Member</explicitMember>
+        <explicitMember dimension="rr:PerformanceMeasureAxis">wox:ReturnBeforeTaxesMember</explicitMember>
+        <explicitMember dimension="rr:ProspectusShareClassAxis">wox:C000064273Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_IndexSP001_D0331FidelityMagellanFundKPRO06Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundKPRO06Member</explicitMember>
+        <explicitMember dimension="rr:PerformanceMeasureAxis">wox:IndexSP001Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_D0331FidelityMagellanFundRetailPRO05Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundRetailPRO05Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundRetailPRO05Member</explicitMember>
+        <explicitMember dimension="rr:ProspectusShareClassAxis">wox:C000019441Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_C000019441_ReturnBeforeTaxes_D0331FidelityMagellanFundRetailPRO05Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundRetailPRO05Member</explicitMember>
+        <explicitMember dimension="rr:PerformanceMeasureAxis">wox:ReturnBeforeTaxesMember</explicitMember>
+        <explicitMember dimension="rr:ProspectusShareClassAxis">wox:C000019441Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_C000019441_AfterTaxesOnDistributions_D0331FidelityMagellanFundRetailPRO05Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundRetailPRO05Member</explicitMember>
+        <explicitMember dimension="rr:PerformanceMeasureAxis">rr:AfterTaxesOnDistributionsMember</explicitMember>
+        <explicitMember dimension="rr:ProspectusShareClassAxis">wox:C000019441Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_C000019441_AfterTaxesOnDistributionsAndSales_D0331FidelityMagellanFundRetailPRO05Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundRetailPRO05Member</explicitMember>
+        <explicitMember dimension="rr:PerformanceMeasureAxis">rr:AfterTaxesOnDistributionsAndSalesMember</explicitMember>
+        <explicitMember dimension="rr:ProspectusShareClassAxis">wox:C000019441Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <context id="S000007112_IndexSP001_D0331FidelityMagellanFundRetailPRO05Member">
+    <entity>
+      <identifier scheme="http://www.sec.gov/CIK">0000061397</identifier>
+      <segment>
+        <explicitMember dimension="dei:LegalEntityAxis">wox:S000007112Member</explicitMember>
+        <explicitMember dimension="dei:DocumentInformationDocumentAxis">wox:D0331FidelityMagellanFundRetailPRO05Member</explicitMember>
+        <explicitMember dimension="rr:PerformanceMeasureAxis">wox:IndexSP001Member</explicitMember>
+      </segment>
+    </entity>
+    <period>
+      <startDate>2019-05-30</startDate>
+      <endDate>2019-05-30</endDate>
+    </period>
+  </context>
+  <unit id="USD">
+    <measure>iso4217:USD</measure>
+  </unit>
+  <unit id="Ratio">
+    <measure>xbrli:pure</measure>
+  </unit>
+  <unit id="Shares">
+    <measure>xbrli:shares</measure>
+  </unit>
+  <unit id="USDperShare">
+    <divide>
+      <unitNumerator>
+        <measure>iso4217:USD</measure>
+      </unitNumerator>
+      <unitDenominator>
+        <measure>xbrli:shares</measure>
+      </unitDenominator>
+    </divide>
+  </unit>
+  <EntityCentralIndexKey contextRef="Trust">0000061397</EntityCentralIndexKey>
+  <EntityRegistrantName contextRef="Trust">FIDELITY MAGELLAN FUND</EntityRegistrantName>
+  <DocumentType contextRef="Trust">485BPOS</DocumentType>
+  <DocumentCreationDate contextRef="Trust">2019-05-28</DocumentCreationDate>
+  <DocumentEffectiveDate contextRef="Trust">2019-05-30</DocumentEffectiveDate>
+  <DocumentPeriodEndDate contextRef="Trust">2019-03-31</DocumentPeriodEndDate>
+  <AmendmentFlag contextRef="Trust">false</AmendmentFlag>
+  <EntityInvCompanyType contextRef="Trust">N-1A</EntityInvCompanyType>
+  <ProspectusDate contextRef="Trust">2019-05-30</ProspectusDate>
+  <RiskReturnHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: bold 20pt Arial, Helvetica, sans-serif;"&gt;Fund Summary&lt;/p&gt;&lt;p style="font: normal 12pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Fund/Class&lt;/b&gt;:&lt;br/&gt;&lt;b&gt;Fidelity® Magellan® Fund&lt;/b&gt;/K&lt;/p&gt;</RiskReturnHeading>
+  <ObjectiveHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;Investment Objective&lt;/font&gt;</ObjectiveHeading>
+  <ObjectivePrimaryTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The fund seeks capital appreciation.&lt;/p&gt;</ObjectivePrimaryTextBlock>
+  <ExpenseHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Fee Table&lt;/b&gt;&lt;/font&gt;</ExpenseHeading>
+  <ExpenseNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The following table describes the fees and expenses that may be incurred when you buy and hold shares of the fund. &lt;/p&gt;</ExpenseNarrativeTextBlock>
+  <ShareholderFeesCaption contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: bold 11pt Arial, sans-serif; margin-bottom: 0px;"&gt;Shareholder fees&lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;&lt;/p&gt;</ShareholderFeesCaption>
+  <ShareholderFeesTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">~ http://www.proofPlus.com/role/ShareholderFeesS000007112_D0331FidelityMagellanFundKPRO06 column period compact * ~</ShareholderFeesTableTextBlock>
+  <ShareholderFeeOther contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member" unitRef="USD" decimals="0">0</ShareholderFeeOther>
+  <OperatingExpensesCaption contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: bold 11pt Arial, sans-serif; margin-bottom: 0px;"&gt;Annual Operating Expenses&lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;(expenses that you pay each year as a % of the value of your investment)&lt;/p&gt;</OperatingExpensesCaption>
+  <AnnualFundOperatingExpensesTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">~ http://www.proofPlus.com/role/OperatingExpensesS000007112_D0331FidelityMagellanFundKPRO06 column period compact * ~</AnnualFundOperatingExpensesTableTextBlock>
+  <ManagementFeesOverAssets contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0052</ManagementFeesOverAssets>
+  <DistributionAndService12b1FeesOverAssets contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.00</DistributionAndService12b1FeesOverAssets>
+  <OtherExpensesOverAssets contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0007</OtherExpensesOverAssets>
+  <ExpensesNotCorrelatedToRatioDueToAcquiredFundFees contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;Differs from the ratios of expenses to average net assets in the Financial Highlights section of the prospectus because of acquired fund fees and expenses. For the period, acquired fund fees and expenses are less than 0.01% and are included in other expenses.&lt;/font&gt;</ExpensesNotCorrelatedToRatioDueToAcquiredFundFees>
+  <ExpensesOverAssets id="id_footnote_elem_495245838_8" contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0059</ExpensesOverAssets>
+  <ExpenseExampleNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;This &lt;b&gt;example&lt;/b&gt; helps compare the cost of investing in the fund with the cost of investing in other funds. &lt;/p&gt;&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;Let's say, hypothetically, that the annual return for shares of the fund is 5% and that your shareholder fees and the annual operating expenses for shares of the fund are exactly as described in the fee table. This example illustrates the effect of fees and expenses, but is not meant to suggest actual or expected fees and expenses or returns, all of which may vary. For every $10,000 you invested, here's how much you would pay in total expenses if you sell all of your shares at the end of each time period indicated: &lt;/p&gt;</ExpenseExampleNarrativeTextBlock>
+  <ExpenseExampleYear01 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="USD" decimals="0">60</ExpenseExampleYear01>
+  <ExpenseExampleYear03 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="USD" decimals="0">189</ExpenseExampleYear03>
+  <ExpenseExampleYear05 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="USD" decimals="0">329</ExpenseExampleYear05>
+  <ExpenseExampleYear10 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="USD" decimals="0">738</ExpenseExampleYear10>
+  <ExpenseExampleWithRedemptionTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">~ http://www.proofPlus.com/role/ExpenseExampleS000007112_D0331FidelityMagellanFundKPRO06 column period compact * ~</ExpenseExampleWithRedemptionTableTextBlock>
+  <ExpenseExampleByYearCaption contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;Sell All Shares&lt;/p&gt;</ExpenseExampleByYearCaption>
+  <PortfolioTurnoverHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Portfolio Turnover&lt;/b&gt;&lt;/font&gt;</PortfolioTurnoverHeading>
+  <PortfolioTurnoverRate contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.42</PortfolioTurnoverRate>
+  <PortfolioTurnoverTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The fund pays transaction costs, such as commissions, when it buys and sells securities (or "turns over" its portfolio). A higher portfolio turnover rate may indicate higher transaction costs and may result in higher taxes when fund shares are held in a taxable account. These costs, which are not reflected in annual operating expenses or in the example, affect the fund's performance. During the most recent fiscal year, the fund's portfolio turnover rate was 42% of the average value of its portfolio. &lt;/p&gt;</PortfolioTurnoverTextBlock>
+  <StrategyHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Principal Investment Strategies&lt;/b&gt;&lt;/font&gt;</StrategyHeading>
+  <StrategyNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Normally investing primarily in common stocks.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Investing in domestic and foreign issuers.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Investing in either "growth" stocks or "value" stocks or both.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Using fundamental analysis of factors such as each issuer's financial condition and industry position, as well as market and economic conditions, to select investments.&lt;/li&gt;&lt;/ul&gt;</StrategyNarrativeTextBlock>
+  <RiskHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Principal Investment Risks&lt;/b&gt;&lt;/font&gt;</RiskHeading>
+  <RiskNotInsuredDepositoryInstitution contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;An investment in the fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency.&lt;/font&gt;</RiskNotInsuredDepositoryInstitution>
+  <RiskLoseMoney contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;You could lose money by investing in the fund.&lt;/font&gt;</RiskLoseMoney>
+  <RiskNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Stock Market Volatility.&lt;/i&gt;&lt;/b&gt; Stock markets are volatile and can decline significantly in response to adverse issuer, political, regulatory, market, or economic developments. Different parts of the market, including different market sectors, and different types of securities can react differently to these developments.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Foreign Exposure.&lt;/i&gt;&lt;/b&gt; Foreign markets can be more volatile than the U.S. market due to increased risks of adverse issuer, political, regulatory, market, or economic developments and can perform differently from the U.S. market. &lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Issuer-Specific Changes.&lt;/i&gt;&lt;/b&gt; The value of an individual security or particular type of security can be more volatile than, and can perform differently from, the market as a whole. &lt;/li&gt;&lt;/ul&gt;&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;An investment in the fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency. You could lose money by investing in the fund. &lt;/p&gt;</RiskNarrativeTextBlock>
+  <BarChartAndPerformanceTableHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Performance&lt;/b&gt;&lt;/font&gt;</BarChartAndPerformanceTableHeading>
+  <PerformanceInformationIllustratesVariabilityOfReturns contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;The information illustrates the changes in the performance of the fund's shares from year to year and compares the performance of the fund's shares to the performance of a securities market index over various periods of time.&lt;/font&gt;</PerformanceInformationIllustratesVariabilityOfReturns>
+  <PerformancePastDoesNotIndicateFuture contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;Past performance is not an indication of future performance.&lt;/font&gt;</PerformancePastDoesNotIndicateFuture>
+  <PerformanceAvailabilityWebSiteAddress contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;www.401k.com and log in&lt;/font&gt;</PerformanceAvailabilityWebSiteAddress>
+  <PerformanceNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The following information is intended to help you understand the risks of investing in the fund. The information illustrates the changes in the performance of the fund's shares from year to year and compares the performance of the fund's shares to the performance of a securities market index over various periods of time. The index description appears in the "Additional Index Information" section of the prospectus. Past performance is not an indication of future performance. &lt;/p&gt;&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;Visit www.401k.com and log in for more recent performance information.&lt;/p&gt;</PerformanceNarrativeTextBlock>
+  <BarChartHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font:bold 11pt Arial, sans-serif; margin-bottom: 0px;"&gt;Year-by-Year Returns&lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;Calendar Years&lt;/p&gt;</BarChartHeading>
+  <AnnualReturn2009 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.4139</AnnualReturn2009>
+  <AnnualReturn2010 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1255</AnnualReturn2010>
+  <AnnualReturn2011 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">-0.1143</AnnualReturn2011>
+  <AnnualReturn2012 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1813</AnnualReturn2012>
+  <AnnualReturn2013 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.3544</AnnualReturn2013>
+  <AnnualReturn2014 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1419</AnnualReturn2014>
+  <AnnualReturn2015 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0416</AnnualReturn2015>
+  <AnnualReturn2016 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0534</AnnualReturn2016>
+  <AnnualReturn2017 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.2663</AnnualReturn2017>
+  <AnnualReturn2018 contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">-0.0558</AnnualReturn2018>
+  <BarChartTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">~ http://www.proofPlus.com/role/AnnualTotalReturnsBarChartS000007112_D0331FidelityMagellanFundKPRO06 column period compact *  ~</BarChartTableTextBlock>
+  <HighestQuarterlyReturnLabel contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">Highest Quarter Return</HighestQuarterlyReturnLabel>
+  <BarChartHighestQuarterlyReturn contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1914</BarChartHighestQuarterlyReturn>
+  <BarChartHighestQuarterlyReturnDate contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">2009-06-30</BarChartHighestQuarterlyReturnDate>
+  <LowestQuarterlyReturnLabel contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">Lowest Quarter Return</LowestQuarterlyReturnLabel>
+  <BarChartLowestQuarterlyReturn contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">-0.1962</BarChartLowestQuarterlyReturn>
+  <BarChartLowestQuarterlyReturnDate contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">2011-09-30</BarChartLowestQuarterlyReturnDate>
+  <YearToDateReturnLabel contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">Year-to-Date Return</YearToDateReturnLabel>
+  <BarChartYearToDateReturn contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1419</BarChartYearToDateReturn>
+  <BarChartYearToDateReturnDate contextRef="S000007112_C000064273_D0331FidelityMagellanFundKPRO06Member">2019-03-31</BarChartYearToDateReturnDate>
+  <BarChartClosingTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;table style="font: normal 9pt Arial, sans-serif;" border="0" cellspacing="5" cellpadding="0" width="745"&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;During the periods shown in the chart:&lt;/td&gt;&lt;td align="right" valign="top"&gt;Returns&lt;/td&gt;&lt;td align="right" valign="top"&gt;Quarter ended&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;Highest Quarter Return&lt;/td&gt;&lt;td align="right" valign="top" &gt;19.14%&lt;/td&gt;&lt;td align="right" valign="top"&gt;June 30, 2009&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;Lowest Quarter Return&lt;/td&gt;&lt;td align="right" valign="top"&gt;-19.62%&lt;/td&gt;&lt;td align="right" valign="top"&gt;September 30, 2011&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;Year-to-Date Return&lt;/td&gt;&lt;td align="right" valign="top"&gt;14.19%&lt;/td&gt;&lt;td align="right" valign="top"&gt;March 31, 2019&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</BarChartClosingTextBlock>
+  <PerformanceTableHeading contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Average Annual Returns&lt;/b&gt;&lt;/font&gt;</PerformanceTableHeading>
+  <PerformanceTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">~ http://www.proofPlus.com/role/AverageAnnualTotalReturnsS000007112_D0331FidelityMagellanFundKPRO06 column period compact * ~</PerformanceTableTextBlock>
+  <AverageAnnualReturnLabel contextRef="S000007112_C000064273_ReturnBeforeTaxes_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Class K&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnLabel>
+  <AverageAnnualReturnColumnName contextRef="S000007112_C000064273_ReturnBeforeTaxes_D0331FidelityMagellanFundKPRO06Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Fidelity® Magellan® Fund&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnColumnName>
+  <AverageAnnualReturnYear01 contextRef="S000007112_C000064273_ReturnBeforeTaxes_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">-0.0558</AverageAnnualReturnYear01>
+  <AverageAnnualReturnYear05 contextRef="S000007112_C000064273_ReturnBeforeTaxes_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0842</AverageAnnualReturnYear05>
+  <AverageAnnualReturnYear10 contextRef="S000007112_C000064273_ReturnBeforeTaxes_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1295</AverageAnnualReturnYear10>
+  <AverageAnnualReturnYear01 contextRef="S000007112_IndexSP001_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">-0.0438</AverageAnnualReturnYear01>
+  <AverageAnnualReturnYear05 contextRef="S000007112_IndexSP001_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.0849</AverageAnnualReturnYear05>
+  <AverageAnnualReturnYear10 contextRef="S000007112_IndexSP001_D0331FidelityMagellanFundKPRO06Member" unitRef="Ratio" decimals="INF">0.1312</AverageAnnualReturnYear10>
+  <PerformanceTableNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundKPRO06Member">&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;For the periods ended December 31, 2018&lt;/p&gt;</PerformanceTableNarrativeTextBlock>
+  <RiskReturnHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: bold 20pt Arial, Helvetica, sans-serif;"&gt;Fund Summary&lt;/p&gt;&lt;p style="font: normal 12pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Fund/Class&lt;/b&gt;:&lt;br/&gt;&lt;b&gt;Fidelity® Magellan® Fund&lt;/b&gt;/Fidelity® Magellan® Fund&lt;/p&gt;</RiskReturnHeading>
+  <ObjectiveHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;Investment Objective&lt;/font&gt;</ObjectiveHeading>
+  <ObjectivePrimaryTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The fund seeks capital appreciation.&lt;/p&gt;</ObjectivePrimaryTextBlock>
+  <ExpenseHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Fee Table&lt;/b&gt;&lt;/font&gt;</ExpenseHeading>
+  <ExpenseNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The following table describes the fees and expenses that may be incurred when you buy and hold shares of the fund. &lt;/p&gt;</ExpenseNarrativeTextBlock>
+  <ShareholderFeesCaption contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: bold 11pt Arial, sans-serif; margin-bottom: 0px;"&gt;Shareholder fees&lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;&lt;/p&gt;</ShareholderFeesCaption>
+  <ShareholderFeesTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">~ http://www.proofPlus.com/role/ShareholderFeesS000007112_D0331FidelityMagellanFundRetailPRO05 column period compact * ~</ShareholderFeesTableTextBlock>
+  <ShareholderFeeOther contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member" unitRef="USD" decimals="0">0</ShareholderFeeOther>
+  <OperatingExpensesCaption contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: bold 11pt Arial, sans-serif; margin-bottom: 0px;"&gt;Annual Operating Expenses&lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;(expenses that you pay each year as a % of the value of your investment)&lt;/p&gt;</OperatingExpensesCaption>
+  <AnnualFundOperatingExpensesTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">~ http://www.proofPlus.com/role/OperatingExpensesS000007112_D0331FidelityMagellanFundRetailPRO05 column period compact * ~</AnnualFundOperatingExpensesTableTextBlock>
+  <ManagementFeesOverAssets contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0052</ManagementFeesOverAssets>
+  <DistributionAndService12b1FeesOverAssets contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.00</DistributionAndService12b1FeesOverAssets>
+  <OtherExpensesOverAssets contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0015</OtherExpensesOverAssets>
+  <ExpensesOverAssets contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0067</ExpensesOverAssets>
+  <ExpenseExampleNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;This &lt;b&gt;example&lt;/b&gt; helps compare the cost of investing in the fund with the cost of investing in other funds. &lt;/p&gt;&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;Let's say, hypothetically, that the annual return for shares of the fund is 5% and that your shareholder fees and the annual operating expenses for shares of the fund are exactly as described in the fee table. This example illustrates the effect of fees and expenses, but is not meant to suggest actual or expected fees and expenses or returns, all of which may vary. For every $10,000 you invested, here's how much you would pay in total expenses if you sell all of your shares at the end of each time period indicated: &lt;/p&gt;</ExpenseExampleNarrativeTextBlock>
+  <ExpenseExampleYear01 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="USD" decimals="0">68</ExpenseExampleYear01>
+  <ExpenseExampleYear03 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="USD" decimals="0">214</ExpenseExampleYear03>
+  <ExpenseExampleYear05 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="USD" decimals="0">373</ExpenseExampleYear05>
+  <ExpenseExampleYear10 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="USD" decimals="0">835</ExpenseExampleYear10>
+  <ExpenseExampleWithRedemptionTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">~ http://www.proofPlus.com/role/ExpenseExampleS000007112_D0331FidelityMagellanFundRetailPRO05 column period compact * ~</ExpenseExampleWithRedemptionTableTextBlock>
+  <ExpenseExampleByYearCaption contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;Sell All Shares&lt;/p&gt;</ExpenseExampleByYearCaption>
+  <PortfolioTurnoverHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Portfolio Turnover&lt;/b&gt;&lt;/font&gt;</PortfolioTurnoverHeading>
+  <PortfolioTurnoverRate contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.42</PortfolioTurnoverRate>
+  <PortfolioTurnoverTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The fund pays transaction costs, such as commissions, when it buys and sells securities (or "turns over" its portfolio). A higher portfolio turnover rate may indicate higher transaction costs and may result in higher taxes when fund shares are held in a taxable account. These costs, which are not reflected in annual operating expenses or in the example, affect the fund's performance. During the most recent fiscal year, the fund's portfolio turnover rate was 42% of the average value of its portfolio. &lt;/p&gt;</PortfolioTurnoverTextBlock>
+  <StrategyHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Principal Investment Strategies&lt;/b&gt;&lt;/font&gt;</StrategyHeading>
+  <StrategyNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Normally investing primarily in common stocks.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Investing in domestic and foreign issuers.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Investing in either "growth" stocks or "value" stocks or both.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li style="padding-bottom: 10px;"&gt;Using fundamental analysis of factors such as each issuer's financial condition and industry position, as well as market and economic conditions, to select investments.&lt;/li&gt;&lt;/ul&gt;</StrategyNarrativeTextBlock>
+  <RiskHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Principal Investment Risks&lt;/b&gt;&lt;/font&gt;</RiskHeading>
+  <RiskNotInsuredDepositoryInstitution contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;An investment in the fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency.&lt;/font&gt;</RiskNotInsuredDepositoryInstitution>
+  <RiskLoseMoney contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;You could lose money by investing in the fund.&lt;/font&gt;</RiskLoseMoney>
+  <RiskNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Stock Market Volatility.&lt;/i&gt;&lt;/b&gt; Stock markets are volatile and can decline significantly in response to adverse issuer, political, regulatory, market, or economic developments. Different parts of the market, including different market sectors, and different types of securities can react differently to these developments.&lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Foreign Exposure.&lt;/i&gt;&lt;/b&gt; Foreign markets can be more volatile than the U.S. market due to increased risks of adverse issuer, political, regulatory, market, or economic developments and can perform differently from the U.S. market. &lt;/li&gt;&lt;/ul&gt;&lt;ul style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Issuer-Specific Changes.&lt;/i&gt;&lt;/b&gt; The value of an individual security or particular type of security can be more volatile than, and can perform differently from, the market as a whole. &lt;/li&gt;&lt;/ul&gt;&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;An investment in the fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency. You could lose money by investing in the fund. &lt;/p&gt;</RiskNarrativeTextBlock>
+  <BarChartAndPerformanceTableHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Performance&lt;/b&gt;&lt;/font&gt;</BarChartAndPerformanceTableHeading>
+  <PerformanceInformationIllustratesVariabilityOfReturns contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;The information illustrates the changes in the performance of the fund's shares from year to year and compares the performance of the fund's shares to the performance of a securities market index over various periods of time.&lt;/font&gt;</PerformanceInformationIllustratesVariabilityOfReturns>
+  <PerformancePastDoesNotIndicateFuture contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;Past performance (before and after taxes) is not an indication of future performance.&lt;/font&gt;</PerformancePastDoesNotIndicateFuture>
+  <PerformanceAvailabilityWebSiteAddress contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;www.fidelity.com&lt;/font&gt;</PerformanceAvailabilityWebSiteAddress>
+  <PerformanceNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;The following information is intended to help you understand the risks of investing in the fund. The information illustrates the changes in the performance of the fund's shares from year to year and compares the performance of the fund's shares to the performance of a securities market index over various periods of time. The index description appears in the "Additional Index Information" section of the prospectus. Past performance (before and after taxes) is not an indication of future performance. &lt;/p&gt;&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;Visit www.fidelity.com for more recent performance information.&lt;/p&gt;</PerformanceNarrativeTextBlock>
+  <BarChartHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font:bold 11pt Arial, sans-serif; margin-bottom: 0px;"&gt;Year-by-Year Returns&lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;Calendar Years&lt;/p&gt;</BarChartHeading>
+  <AnnualReturn2009 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.4113</AnnualReturn2009>
+  <AnnualReturn2010 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1241</AnnualReturn2010>
+  <AnnualReturn2011 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.1155</AnnualReturn2011>
+  <AnnualReturn2012 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1799</AnnualReturn2012>
+  <AnnualReturn2013 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.3530</AnnualReturn2013>
+  <AnnualReturn2014 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1408</AnnualReturn2014>
+  <AnnualReturn2015 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0406</AnnualReturn2015>
+  <AnnualReturn2016 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0524</AnnualReturn2016>
+  <AnnualReturn2017 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.2651</AnnualReturn2017>
+  <AnnualReturn2018 contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.0560</AnnualReturn2018>
+  <BarChartTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">~ http://www.proofPlus.com/role/AnnualTotalReturnsBarChartS000007112_D0331FidelityMagellanFundRetailPRO05 column period compact *  ~</BarChartTableTextBlock>
+  <HighestQuarterlyReturnLabel contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">Highest Quarter Return</HighestQuarterlyReturnLabel>
+  <BarChartHighestQuarterlyReturn contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1909</BarChartHighestQuarterlyReturn>
+  <BarChartHighestQuarterlyReturnDate contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">2009-06-30</BarChartHighestQuarterlyReturnDate>
+  <LowestQuarterlyReturnLabel contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">Lowest Quarter Return</LowestQuarterlyReturnLabel>
+  <BarChartLowestQuarterlyReturn contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.1964</BarChartLowestQuarterlyReturn>
+  <BarChartLowestQuarterlyReturnDate contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">2011-09-30</BarChartLowestQuarterlyReturnDate>
+  <YearToDateReturnLabel contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">Year-to-Date Return</YearToDateReturnLabel>
+  <BarChartYearToDateReturn contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1405</BarChartYearToDateReturn>
+  <BarChartYearToDateReturnDate contextRef="S000007112_C000019441_D0331FidelityMagellanFundRetailPRO05Member">2019-03-31</BarChartYearToDateReturnDate>
+  <BarChartClosingTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;table style="font: normal 9pt Arial, sans-serif;" border="0" cellspacing="5" cellpadding="0" width="745"&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;During the periods shown in the chart:&lt;/td&gt;&lt;td align="right" valign="top"&gt;Returns&lt;/td&gt;&lt;td align="right" valign="top"&gt;Quarter ended&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;Highest Quarter Return&lt;/td&gt;&lt;td align="right" valign="top" &gt;19.09%&lt;/td&gt;&lt;td align="right" valign="top"&gt;June 30, 2009&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;Lowest Quarter Return&lt;/td&gt;&lt;td align="right" valign="top"&gt;-19.64%&lt;/td&gt;&lt;td align="right" valign="top"&gt;September 30, 2011&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top"&gt;Year-to-Date Return&lt;/td&gt;&lt;td align="right" valign="top"&gt;14.05%&lt;/td&gt;&lt;td align="right" valign="top"&gt;March 31, 2019&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</BarChartClosingTextBlock>
+  <PerformanceTableHeading contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="font: bold 16pt Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;Average Annual Returns&lt;/b&gt;&lt;/font&gt;</PerformanceTableHeading>
+  <PerformanceTableUsesHighestFederalRate contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;After-tax returns are calculated using the historical highest individual federal marginal income tax rates, but do not reflect the impact of state or local taxes.&lt;/font&gt;</PerformanceTableUsesHighestFederalRate>
+  <PerformanceTableNotRelevantToTaxDeferred contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;The after-tax returns shown are not relevant if you hold your shares in a retirement account or in another tax-deferred arrangement, such as an employee benefit plan (profit sharing, 401(k), or 403(b) plan).&lt;/font&gt;</PerformanceTableNotRelevantToTaxDeferred>
+  <PerformanceTableExplanationAfterTaxHigher contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" size="3"&gt;Return After Taxes on Distributions and Sale of Fund Shares may be higher than other returns for the same period due to a tax benefit of realizing a capital loss upon the sale of fund shares.&lt;/font&gt;</PerformanceTableExplanationAfterTaxHigher>
+  <PerformanceTableTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">~ http://www.proofPlus.com/role/AverageAnnualTotalReturnsS000007112_D0331FidelityMagellanFundRetailPRO05 column period compact * ~</PerformanceTableTextBlock>
+  <AverageAnnualReturnLabel contextRef="S000007112_C000019441_ReturnBeforeTaxes_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Return Before Taxes&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnLabel>
+  <AverageAnnualReturnColumnName contextRef="S000007112_C000019441_ReturnBeforeTaxes_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Fidelity® Magellan® Fund&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnColumnName>
+  <AverageAnnualReturnYear01 contextRef="S000007112_C000019441_ReturnBeforeTaxes_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.0560</AverageAnnualReturnYear01>
+  <AverageAnnualReturnYear05 contextRef="S000007112_C000019441_ReturnBeforeTaxes_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0833</AverageAnnualReturnYear05>
+  <AverageAnnualReturnYear10 contextRef="S000007112_C000019441_ReturnBeforeTaxes_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1282</AverageAnnualReturnYear10>
+  <AverageAnnualReturnLabel contextRef="S000007112_C000019441_AfterTaxesOnDistributions_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Return After Taxes on Distributions&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnLabel>
+  <AverageAnnualReturnColumnName contextRef="S000007112_C000019441_AfterTaxesOnDistributions_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Fidelity® Magellan® Fund&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnColumnName>
+  <AverageAnnualReturnYear01 contextRef="S000007112_C000019441_AfterTaxesOnDistributions_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.0774</AverageAnnualReturnYear01>
+  <AverageAnnualReturnYear05 contextRef="S000007112_C000019441_AfterTaxesOnDistributions_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0609</AverageAnnualReturnYear05>
+  <AverageAnnualReturnYear10 contextRef="S000007112_C000019441_AfterTaxesOnDistributions_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1136</AverageAnnualReturnYear10>
+  <AverageAnnualReturnLabel contextRef="S000007112_C000019441_AfterTaxesOnDistributionsAndSales_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Return After Taxes on Distributions and Sale of Fund Shares&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnLabel>
+  <AverageAnnualReturnColumnName contextRef="S000007112_C000019441_AfterTaxesOnDistributionsAndSales_D0331FidelityMagellanFundRetailPRO05Member">&lt;font style="FONT-FAMILY: Times New Roman" &gt;&lt;b&gt;Fidelity® Magellan® Fund&lt;/b&gt;&lt;/font&gt;</AverageAnnualReturnColumnName>
+  <AverageAnnualReturnYear01 contextRef="S000007112_C000019441_AfterTaxesOnDistributionsAndSales_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.0166</AverageAnnualReturnYear01>
+  <AverageAnnualReturnYear05 contextRef="S000007112_C000019441_AfterTaxesOnDistributionsAndSales_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0630</AverageAnnualReturnYear05>
+  <AverageAnnualReturnYear10 contextRef="S000007112_C000019441_AfterTaxesOnDistributionsAndSales_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1049</AverageAnnualReturnYear10>
+  <AverageAnnualReturnYear01 contextRef="S000007112_IndexSP001_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">-0.0438</AverageAnnualReturnYear01>
+  <AverageAnnualReturnYear05 contextRef="S000007112_IndexSP001_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.0849</AverageAnnualReturnYear05>
+  <AverageAnnualReturnYear10 contextRef="S000007112_IndexSP001_D0331FidelityMagellanFundRetailPRO05Member" unitRef="Ratio" decimals="INF">0.1312</AverageAnnualReturnYear10>
+  <PerformanceTableNarrativeTextBlock contextRef="S000007112_D0331FidelityMagellanFundRetailPRO05Member">&lt;p style="font: normal 11pt 'Times New Roman', serif; color: #000000;"&gt;After-tax returns are calculated using the historical highest individual federal marginal income tax rates, but do not reflect the impact of state or local taxes. Actual after-tax returns may differ depending on your individual circumstances. The after-tax returns shown are not relevant if you hold your shares in a retirement account or in another tax-deferred arrangement, such as an employee benefit plan (profit sharing, 401(k), or 403(b) plan). Return After Taxes on Distributions and Sale of Fund Shares may be higher than other returns for the same period due to a tax benefit of realizing a capital loss upon the sale of fund shares. &lt;/p&gt;&lt;p style="font: bold 9pt Arial, sans-serif; margin-top: 0px"&gt;For the periods ended December 31, 2018&lt;/p&gt;</PerformanceTableNarrativeTextBlock>
+  <footnoteLink type="extended" role="http://www.xbrl.org/2003/role/link">
+    <footnote type="resource" label="footnote_491211043" role="http://www.xbrl.org/2003/role/footnote" lang="en-US">Differs from the ratios of expenses to average net assets in the Financial Highlights section of the prospectus because of acquired fund fees and expenses. For the period, acquired fund fees and expenses are less than 0.01% and are included in other expenses.</footnote>
+    <loc type="locator" href="#id_footnote_elem_495245838_8" label="ExpensesOverAssets_495245838_8"/>
+    <footnoteArc type="arc" arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" from="ExpensesOverAssets_495245838_8" to="footnote_491211043" order="1"/>
+  </footnoteLink>
+</xbrl>
