@@ -17,6 +17,7 @@ ScriptPathParent = Path.cwd().resolve().parent # Parent
 DataPath = ScriptPathParent / 'Open15C_Data'
 SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
 DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
+DataSQL1 = DataPath / 'EdgarFilings_GetLatestDate_NCEN.sql'
 
 fromDate = '20190101' # will be greater-than or equl
 endDate = '20191231'
@@ -46,13 +47,18 @@ def create_connection(db_file):
 #
 # Get files to go mine
 #
-def dbLoad_lSECFilingsIndexURLs():
+def dbLoad_lSECFilingsIndexURLs(connSQLite):
     
     try:
+        # Open and read the file as a single buffer
+        #fd = open(DataSQL1, 'r')
+        #sql = fd.read()
+        #fd.close()
         sql = 'Select SECFilingIndexURL FROM EdgarFilings WHERE '
         sql = sql + "FilingDate >= '" + fromDate + "' AND "
         sql = sql + "FilingDate <= '" + endDate + "';"
-        print(sql)
+        #print(sql)
+        #sys.exit()
         cursor = connSQLite.cursor()
         cursor.execute(sql)
         rows  = cursor.fetchall()
@@ -61,10 +67,12 @@ def dbLoad_lSECFilingsIndexURLs():
                 lSECFilingsIndexURLs.append(r) #global from up top
     except:
         print("db error!")
-        cursor.close()
+        #cursor.close()
 
     finally:
         pass
+
+    #return lSECFilingsIndexURLs
 
 def InsertNewFundClasses():
     s =''
@@ -80,6 +88,10 @@ def InsertNewFundClasses():
     for indexpath in lSECFilingsIndexURLs:
         cnt = cnt+1
         print(cnt)
+
+        if cnt > 3:
+            break
+
         #soup = BeautifulSoup(open(sURLFile).read())
         r = requests.get(indexpath[0])
         soup = BeautifulSoup(r.text,features="html.parser")
@@ -219,10 +231,10 @@ def dbtest():
 if __name__ == '__main__':
      connSQLite = create_connection(DataPathSQLiteDB)
      # will use data range from top
-     dbLoad_lSECFilingsIndexURLs()
+     dbLoad_lSECFilingsIndexURLs(connSQLite)
      # print them out
-     for l in lSECFilingsIndexURLs:
-        print(l)
+     #for l in lSECFilingsIndexURLs:
+     #   print(l)
     # go through each one, download, parse, write to db
      InsertNewFundClasses()
      print("Done!")
