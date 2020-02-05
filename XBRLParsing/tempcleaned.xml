@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edgarSubmission>
+  <schemaVersion>X0201</schemaVersion>
+  <headerData>
+    <submissionType>N-CEN</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <issuerCredentials>
+          <cik>0000936373</cik>
+          <ccc>XXXXXXXX</ccc>
+        </issuerCredentials>
+        <fileNumber>811-08962</fileNumber>
+      </filer>
+      <flags>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+      </flags>
+      <investmentCompanyType>N-1A</investmentCompanyType>
+    </filerInfo>
+    <seriesClass>
+      <reportSeriesClass>
+        <rptIncludeAllSeriesFlag>true</rptIncludeAllSeriesFlag>
+      </reportSeriesClass>
+    </seriesClass>
+  </headerData>
+  <formData>
+    <generalInfo reportEndingPeriod="2019-10-18" isReportPeriodLt12="Y"/>
+    <registrantInfo>
+      <registrantFullName>FRANKLIN TEMPLETON MONEY FUND TRUST</registrantFullName>
+      <investmentCompFileNo>811-08962</investmentCompFileNo>
+      <registrantCik>0000936373</registrantCik>
+      <registrantLei>549300W6ZJYM75CASS67</registrantLei>
+      <registrantstreet1>ONE FRANKLIN PARKWAY</registrantstreet1>
+      <registrantcity>SAN MATEO</registrantcity>
+      <registrantzipCode>94403-1906</registrantzipCode>
+      <registrantstate>US-CA</registrantstate>
+      <registrantcountry>US</registrantcountry>
+      <registrantphoneNumber>650-312-2000</registrantphoneNumber>
+      <websites>
+        <website webpage="franklintempleton.com"/>
+      </websites>
+      <locationBooksRecords>
+        <locationBooksRecord>
+          <officeName>Franklin Templeton Distributors, Inc.</officeName>
+          <officeAddress1>One Franklin Parkway</officeAddress1>
+          <officeCity>San Mateo</officeCity>
+          <officeStateCountry officeCountry="US" officeState="US-CA"/>
+          <officeRecordsZipCode>94403-1906</officeRecordsZipCode>
+          <officePhone>650-312-2000</officePhone>
+          <booksRecordsDesc>Records related to its functions as Principal underwriter</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>The Bank of New York Mellon</officeName>
+          <officeAddress1>111 Sanders Creek Parkway</officeAddress1>
+          <officeCity>East Syracuse</officeCity>
+          <officeStateCountry officeCountry="US" officeState="US-NY"/>
+          <officeRecordsZipCode>13057</officeRecordsZipCode>
+          <officePhone>855-231-1706</officePhone>
+          <booksRecordsDesc>Records related to its functions as Custodian</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>Franklin Templeton Services, LLC</officeName>
+          <officeAddress1>One Franklin Parkway</officeAddress1>
+          <officeCity>San Mateo</officeCity>
+          <officeStateCountry officeCountry="US" officeState="US-CA"/>
+          <officeRecordsZipCode>94403-1906</officeRecordsZipCode>
+          <officePhone>650-312-2000</officePhone>
+          <booksRecordsDesc>Records related to its functions as Administrative manager</booksRecordsDesc>
+        </locationBooksRecord>
+        <locationBooksRecord>
+          <officeName>Franklin Templeton Investor Services, LLC</officeName>
+          <officeAddress1>One Franklin Parkway</officeAddress1>
+          <officeCity>San Mateo</officeCity>
+          <officeStateCountry officeCountry="US" officeState="US-CA"/>
+          <officeRecordsZipCode>94403-1906</officeRecordsZipCode>
+          <officePhone>650-312-6641</officePhone>
+          <booksRecordsDesc>Records related to its functions as Transfer agent</booksRecordsDesc>
+        </locationBooksRecord>
+      </locationBooksRecords>
+      <isRegistrantFirstFiling>N</isRegistrantFirstFiling>
+      <isRegistrantLastFiling>Y</isRegistrantLastFiling>
+      <registrantFamilyInvComp isRegistrantFamilyInvComp="Y" familyInvCompFullName="Franklin Templeton Group of Funds"/>
+      <registrantClassificationType>N-1A</registrantClassificationType>
+      <totalSeries>1</totalSeries>
+      <terminatedSeries>
+        <terminatedSeriesInfo seriesName="Franklin Templeton U.S. Government Money Fund" seriesId="S000007559" terminationDate="10/2019"/>
+      </terminatedSeries>
+      <isSecuritiesActRegistration>Y</isSecuritiesActRegistration>
+      <directors>
+        <director>
+          <directorName>J. Michael Luttig</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Terrence J. Checki</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Mary C. Choksi</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Gregory E. Johnson</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>Y</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-22641"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-05387"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-05878"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Harris J. Ashton</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Edith E. Holiday</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Larry D. Thompson</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>N</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+          </fileNumbers>
+        </director>
+        <director>
+          <directorName>Rupert H. Johnson, Jr.</directorName>
+          <crdNumber>N/A</crdNumber>
+          <isDirectorInterestedPerson>Y</isDirectorInterestedPerson>
+          <fileNumbers>
+            <fileNumberInfo fileNumber="811-01608"/>
+            <fileNumberInfo fileNumber="811-07288"/>
+            <fileNumberInfo fileNumber="811-05569"/>
+            <fileNumberInfo fileNumber="811-02781"/>
+            <fileNumberInfo fileNumber="811-06378"/>
+            <fileNumberInfo fileNumber="811-04985"/>
+            <fileNumberInfo fileNumber="811-07866"/>
+            <fileNumberInfo fileNumber="811-03395"/>
+            <fileNumberInfo fileNumber="811-01700"/>
+            <fileNumberInfo fileNumber="811-06481"/>
+            <fileNumberInfo fileNumber="811-04450"/>
+            <fileNumberInfo fileNumber="811-05459"/>
+            <fileNumberInfo fileNumber="811-09869"/>
+            <fileNumberInfo fileNumber="811-07876"/>
+            <fileNumberInfo fileNumber="811-04706"/>
+            <fileNumberInfo fileNumber="811-08962"/>
+            <fileNumberInfo fileNumber="811-08394"/>
+            <fileNumberInfo fileNumber="811-03143"/>
+            <fileNumberInfo fileNumber="811-21357"/>
+            <fileNumberInfo fileNumber="811-06336"/>
+            <fileNumberInfo fileNumber="811-06135"/>
+            <fileNumberInfo fileNumber="811-04892"/>
+            <fileNumberInfo fileNumber="811-10157"/>
+            <fileNumberInfo fileNumber="811-04267"/>
+            <fileNumberInfo fileNumber="811-02605"/>
+            <fileNumberInfo fileNumber="811-04149"/>
+            <fileNumberInfo fileNumber="811-04787"/>
+            <fileNumberInfo fileNumber="811-04894"/>
+            <fileNumberInfo fileNumber="811-03479"/>
+            <fileNumberInfo fileNumber="811-06243"/>
+            <fileNumberInfo fileNumber="811-08226"/>
+            <fileNumberInfo fileNumber="811-07038"/>
+            <fileNumberInfo fileNumber="811-04356"/>
+            <fileNumberInfo fileNumber="811-04986"/>
+            <fileNumberInfo fileNumber="811-07851"/>
+            <fileNumberInfo fileNumber="811-08034"/>
+            <fileNumberInfo fileNumber="811-02790"/>
+            <fileNumberInfo fileNumber="811-00537"/>
+            <fileNumberInfo fileNumber="811-05583"/>
+          </fileNumbers>
+        </director>
+      </directors>
+      <chiefComplianceOfficers>
+        <chiefComplianceOfficer>
+          <ccoName>Robert C. Rosselot</ccoName>
+          <crdNumber>N/A</crdNumber>
+          <ccoStreet1>300 S.E. 2nd Street</ccoStreet1>
+          <ccoCity>Fort Lauderdale</ccoCity>
+          <ccoStateCountry ccoCountry="US" ccoState="US-FL"/>
+          <ccoZipCode>33301-1923</ccoZipCode>
+          <ccoPhone>XXXXXX</ccoPhone>
+          <isCcoChangedSinceLastFiling>N</isCcoChangedSinceLastFiling>
+          <ccoEmployers>
+            <ccoEmployer ccoEmployerName="N/A" ccoEmployerId="N/A"/>
+          </ccoEmployers>
+        </chiefComplianceOfficer>
+      </chiefComplianceOfficers>
+      <isRegistrantSubmittedMatter>N</isRegistrantSubmittedMatter>
+      <isPreviousLegalProceeding>N</isPreviousLegalProceeding>
+      <isPreviousProceedingTerminated>N</isPreviousProceedingTerminated>
+      <isClaimFiled>N</isClaimFiled>
+      <coveredByInsurancePolicy isCoveredByInsurancePolicy="Y" isClaimFiledDuringPeriod="N"/>
+      <isFinancialSupportDuringPeriod>N</isFinancialSupportDuringPeriod>
+      <releaseNumbers isExemptionFromAct="Y">
+        <releaseNumberInfo releaseNumber="IC-15534"/>
+      </releaseNumbers>
+      <principalUnderwriters>
+        <principalUnderwriter>
+          <principalUnderwriterName>Franklin Templeton Distributors, Inc.</principalUnderwriterName>
+          <principalUnderwriterFileNumber>8-5889</principalUnderwriterFileNumber>
+          <principalUnderwriterCrdNumber>000000332</principalUnderwriterCrdNumber>
+          <principalUnderwriterLei>N/A</principalUnderwriterLei>
+          <principalUnderWriterStateCountry principalUnderWriterCountry="US" principalUnderWriterState="US-CA"/>
+          <isPrincipalUnderwriterAffiliatedWithRegistrant>Y</isPrincipalUnderwriterAffiliatedWithRegistrant>
+        </principalUnderwriter>
+      </principalUnderwriters>
+      <isUnderwriterHiredOrTerminated>N</isUnderwriterHiredOrTerminated>
+      <publicAccountants>
+        <publicAccountant>
+          <publicAccountantName>PRICEWATERHOUSECOOPERS LLP</publicAccountantName>
+          <pcaobNumber>238</pcaobNumber>
+          <publicAccountantLei>5493002GVO7EO8RNNS37</publicAccountantLei>
+          <publicAccountantStateCountry publicAccountantCountry="US" publicAccountantState="US-CA"/>
+        </publicAccountant>
+      </publicAccountants>
+      <isPublicAccountantChanged>N</isPublicAccountantChanged>
+      <isMaterialWeakness>N</isMaterialWeakness>
+      <isOpinionOffered>N</isOpinionOffered>
+      <isMaterialChange>N</isMaterialChange>
+      <isAccountingPrincipleChange>N</isAccountingPrincipleChange>
+      <isPaymentErrorInNetAssetValue>N</isPaymentErrorInNetAssetValue>
+      <isPaymentDividend>N</isPaymentDividend>
+    </registrantInfo>
+    <managementInvestmentQuestionSeriesInfo>
+      <managementInvestmentQuestion>
+        <mgmtInvFundName>Franklin Templeton U.S. Government Money Fund</mgmtInvFundName>
+        <mgmtInvSeriesId>S000007559</mgmtInvSeriesId>
+        <mgmtInvLei>549300V82MPFNW3CIX21</mgmtInvLei>
+        <isFirstFilingByFund>N</isFirstFilingByFund>
+        <numAuthorizedClass>3</numAuthorizedClass>
+        <numAddedClass>0</numAddedClass>
+        <numTerminatedClass>0</numTerminatedClass>
+        <sharesOutstandings>
+          <sharesOutstanding sharesOutstandingClassName="Class C" sharesOutstandingClassId="C000020618" sharesOutstandingTickerSymbol="FRIXX"/>
+          <sharesOutstanding sharesOutstandingClassName="Class A" sharesOutstandingClassId="C000041689" sharesOutstandingTickerSymbol="N/A"/>
+          <sharesOutstanding sharesOutstandingClassName="Class R" sharesOutstandingClassId="C000020619" sharesOutstandingTickerSymbol="FMRXX"/>
+        </sharesOutstandings>
+        <fundTypes>
+          <fundType>Money Market Fund</fundType>
+          <masterFeederFundInfo fundType="Master-Feeder Fund">
+            <masterFunds masterFundName="The U.S. Government Money Market Portfolio" masterFundFileNo="811-07038" masterFundSECFileNo="801-26292" masterFundLei="5493005SMQ69NXW3EG49"/>
+          </masterFeederFundInfo>
+        </fundTypes>
+        <isNonDiversifiedCompany>N</isNonDiversifiedCompany>
+        <isForeignSubsidiary>N</isForeignSubsidiary>
+        <isFundSecuritiesLending>N</isFundSecuritiesLending>
+        <didFundLendSecurities>N</didFundLendSecurities>
+        <paymentToAgentManagerType>N/A</paymentToAgentManagerType>
+        <avgPortfolioSecuritiesValue>N/A</avgPortfolioSecuritiesValue>
+        <netIncomeSecuritiesLending>N/A</netIncomeSecuritiesLending>
+        <relyOnRuleTypes>
+          <relyOnRuleType>Rule 12d1-1 (17 CFR 270.12d1-1)</relyOnRuleType>
+          <relyOnRuleType>Rule 32a-4 (17 CFR 270.32a-4)</relyOnRuleType>
+          <relyOnRuleType>Rule 22d-1 (17 CFR 270.22d-1)</relyOnRuleType>
+        </relyOnRuleTypes>
+        <isExpenseLimitationInPlace>Y</isExpenseLimitationInPlace>
+        <isExpenseReducedOrWaived>Y</isExpenseReducedOrWaived>
+        <isFeesWaivedRecoupable>N</isFeesWaivedRecoupable>
+        <isExpenseWaivedRecoupable>N</isExpenseWaivedRecoupable>
+        <transferAgents>
+          <transferAgent>
+            <transferAgentName>Franklin Templeton Investor Services, LLC</transferAgentName>
+            <transferAgentFileNo>84-1036</transferAgentFileNo>
+            <transferAgentLei>N/A</transferAgentLei>
+            <transferAgentStateCountry transferAgentState="US-CA" transferAgentCountry="US"/>
+            <isTransferAgentAffiliated>Y</isTransferAgentAffiliated>
+            <isTransferAgentSubAgent>N</isTransferAgentSubAgent>
+          </transferAgent>
+        </transferAgents>
+        <isTransferAgentHiredOrTerminated>N</isTransferAgentHiredOrTerminated>
+        <isPricingServiceHiredOrTerminated>N</isPricingServiceHiredOrTerminated>
+        <custodians>
+          <custodian>
+            <custodianName>THE BANK OF NEW YORK MELLON</custodianName>
+            <custodianLei>HPFHU0OQ28E4N0NFVK49</custodianLei>
+            <custodianStateCountry custodianState="US-NY" custodianCountry="US"/>
+            <isCustodianAffiliated>N</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Bank - section 17(f)(1) (15 U.S.C. 80a-17(f)(1))</custodyType>
+          </custodian>
+          <custodian>
+            <custodianName>FRANKLIN TEMPLETON INVESTOR SERVICES LLC</custodianName>
+            <custodianLei>N/A</custodianLei>
+            <custodianStateCountry custodianState="US-CA" custodianCountry="US"/>
+            <isCustodianAffiliated>Y</isCustodianAffiliated>
+            <isSubCustodian>N</isSubCustodian>
+            <custodyType>Self - rule 17f-2 (17 CFR 270.17f-2)</custodyType>
+          </custodian>
+        </custodians>
+        <isCustodianHiredOrTerminated>N</isCustodianHiredOrTerminated>
+        <shareholderServicingAgents>
+          <shareholderServicingAgent>
+            <shareholderServiceAgentName>Franklin Templeton Investor Services, LLC</shareholderServiceAgentName>
+            <shareholderServiceAgentLei>84-1036</shareholderServiceAgentLei>
+            <shareholderServiceIdNumberDesc>SEC File number</shareholderServiceIdNumberDesc>
+            <shareholderServiceAgentStateCountry shareholderServiceAgentState="US-CA" shareholderServiceAgentCountry="US"/>
+            <isShareholderServiceAgentAffiliated>Y</isShareholderServiceAgentAffiliated>
+            <isShareholderServiceAgentSubshare>N</isShareholderServiceAgentSubshare>
+          </shareholderServicingAgent>
+        </shareholderServicingAgents>
+        <isShareholderServiceHiredTerminated>N</isShareholderServiceHiredTerminated>
+        <admins>
+          <admin>
+            <adminName>Franklin Templeton Services, LLC</adminName>
+            <adminLei>549300DFD0POOJZ42788</adminLei>
+            <adminStateCountry adminState="US-CA" adminCountry="US"/>
+            <isAdminAffiliated>Y</isAdminAffiliated>
+            <isAdminSubAdmin>N</isAdminSubAdmin>
+          </admin>
+        </admins>
+        <isAdminHiredOrTerminated>N</isAdminHiredOrTerminated>
+        <brokerDealers>
+          <brokerDealer>
+            <brokerDealerName>Franklin Templeton Distributors, Inc.</brokerDealerName>
+            <brokerDealerFileNo>8-5889</brokerDealerFileNo>
+            <brokerDealerCrdNo>000000332</brokerDealerCrdNo>
+            <brokerDealerLei>N/A</brokerDealerLei>
+            <brokerDealerStateCountry brokerDealerState="US-CA" brokerDealerCountry="US"/>
+            <brokerDealerCommission>0</brokerDealerCommission>
+          </brokerDealer>
+          <brokerDealer>
+            <brokerDealerName>Franklin Templeton Investment Services, Inc.</brokerDealerName>
+            <brokerDealerFileNo>8-43206</brokerDealerFileNo>
+            <brokerDealerCrdNo>000027884</brokerDealerCrdNo>
+            <brokerDealerLei>N/A</brokerDealerLei>
+            <brokerDealerStateCountry brokerDealerState="US-CA" brokerDealerCountry="US"/>
+            <brokerDealerCommission>0</brokerDealerCommission>
+          </brokerDealer>
+          <brokerDealer>
+            <brokerDealerName>Franklin Templeton Financial Services Corp.</brokerDealerName>
+            <brokerDealerFileNo>8-29504</brokerDealerFileNo>
+            <brokerDealerCrdNo>000013594</brokerDealerCrdNo>
+            <brokerDealerLei>N/A</brokerDealerLei>
+            <brokerDealerStateCountry brokerDealerState="US-CA" brokerDealerCountry="US"/>
+            <brokerDealerCommission>0</brokerDealerCommission>
+          </brokerDealer>
+        </brokerDealers>
+        <aggregateCommission>0</aggregateCommission>
+        <principalAggregatePurchase>0</principalAggregatePurchase>
+        <isBrokerageResearchPayment>N</isBrokerageResearchPayment>
+        <dailyAvgNetAssets>194185686</dailyAvgNetAssets>
+        <hasLineOfCredit>N</hasLineOfCredit>
+        <isInterfundLending>N</isInterfundLending>
+        <isInterfundBorrowing>N</isInterfundBorrowing>
+      </managementInvestmentQuestion>
+    </managementInvestmentQuestionSeriesInfo>
+    <attachmentsTab>
+      <isLegalProceedings>false</isLegalProceedings>
+      <isProvisionFinancialSupport>false</isProvisionFinancialSupport>
+      <isIPAReportInternalControl>false</isIPAReportInternalControl>
+      <isChangeAccPrinciples>false</isChangeAccPrinciples>
+      <isInfoRequiredEO>true</isInfoRequiredEO>
+      <isOtherInfoRequired>false</isOtherInfoRequired>
+    </attachmentsTab>
+    <signature registrantSignedName="FRANKLIN TEMPLETON MONEY FUND TRUST" signedDate="2019-12-26" signature="Robert Kubilis" title="Chief Financial Officer, Chief Accounting Officer and Treasurer"/>
+  </formData>
+</edgarSubmission>

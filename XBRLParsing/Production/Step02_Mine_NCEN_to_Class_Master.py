@@ -3,13 +3,16 @@ import os
 from os import path
 from io import StringIO, BytesIO
 import re
+import pandas as pd
 
 import sqlite3
 from sqlite3 import Error
 
+from urllib.request import urlopen
+
 fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\alger_n_cen.xml'
 fn_xslt = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\strip_namespace.xsl'
-fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\alger_n_cen_clean.xml'
+fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\tempcleaned.xml'
 
 dbstr = r'C:\Files2020_Dev\ByProject\Open15C_Data\SECedgar.sqlite'
 
@@ -31,11 +34,18 @@ def create_connection(db_file):
  
     return conn
 
-def prepareXML():
-    # ONLY IF WE HAVE NOT ARLEADY PROCESSED
-    if path.exists(fn_cleaned):
-        # Loading XML with Namespace (ns)
-        tree = etree.parse(fn)
+def dbLoad_NCEN_Records(connSQLite, fromDate):
+    
+    sql = "Select ID, XMLFile FROM EdgarFilings WHERE "
+    sql = sql + "(FileType = 'N-CEN' or FileType = 'N-CEN/A') and XMLFile <> '' "
+    sql = sql + "and FilingDate >= '" + fromDate +"';"
+    df = pd.read_sql_query(sql, connSQLite)
+    return df    
+
+def prepareXML(url):
+    #parser = etree.HTMLParser()
+    with urlopen(url) as f:
+        tree = etree.parse(f)
         # Mary it to XSLT that will remove ns
         xslt = etree.parse(fn_xslt)
 
@@ -212,7 +222,7 @@ def NCEN_to_dataForFields(tree, sqlFields, dataForFields):
 
                         #print(tag.tag.strip(),"|",tag.text.strip()) #,end='')
                         #if tag.tag == 'brokers':
-                    if tag.tag == 'isSwingPricing':
+                    if tag.tag == 'isSwingPricing' or tag.tag == 'isInterfundBorrowing':
                         for f in dataForFieldsTemp:
                             pass
                             # print out values
@@ -224,14 +234,17 @@ def NCEN_to_dataForFields(tree, sqlFields, dataForFields):
                         connSQLite.commit()
             
 if __name__ == '__main__':
-    tree = prepareXML()
-    #walkNCEN(tree)
-    sqlFields = create_SQLfields()
-    #print(SQLFields[3])
-    dataForFields = create_dataForfields()
-    #dataForFields[3] = "max"
-    #print(dataForFields[3])
-    NCEN_to_dataForFields(tree, sqlFields, dataForFields)
+    connSQLite = create_connection(dbstr)
+    fromDate = "20191215"
+    df = dbLoad_NCEN_Records(connSQLite, fromDate)
+    print(df)
+
+    for index, row in df.iterrows():
+        print("Begin Parse " + str(row[1]))
+        tree = prepareXML(row[1])
+        sqlFields = create_SQLfields()
+        dataForFields = create_dataForfields()
+        NCEN_to_dataForFields(tree, sqlFields, dataForFields)
 
 
 #print(registrantFullName)
