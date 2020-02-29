@@ -34,7 +34,7 @@ def create_connection(db_file):
 def dbLoad_lSECFilingsIndexURLs(connSQLite):
     
     sql = "Select ID, SECFilingIndexURL FROM EdgarFilings WHERE "
-    sql = sql + "FileType like 'N-CEN%';"
+    sql = sql + "FileType like '485BPOS%';"
     df = pd.read_sql_query(sql, connSQLite)
     return df    
 

@@ -1,0 +1,32 @@
+
+o. Get SEC index files
+	aStep01_DownloadIndexFiles_fromEDGAR_HTTP.py
+		For now will work with 2019 year data
+
+o. Create: EdagarFilings
+	aStep02_IndexFiles_Into_SECEdgar_SQLite.py
+		This creates links to SEC pages of other links to file
+		
+*** N-CEN ***
+		
+o. Create links to N-CEN files
+	Step01_Get_NCEN_Links.py
+	TODO: Do only past certain date insteat of all
+		
+o. Create: SECMasterClass
+	aStep03_GetClasses_into_SECEdgar_SQLite.py
+		Parses page from Edgarfilings into SECClasses
+		which we'll use to pull out data from NCEN/485BPOS
+	
+o. Populate: Extract_NCEN
+	Step02_Mine_NCEN_to_Class_Master.py
+		uses dates passed to it
+		
+*** 485BPOS ***
+
+o. Create Links to N-CEN files
+	Step01_Get_NCEN_Links.py
+	
+o. Populate: Extract_485BPOS
+	TODO
+	

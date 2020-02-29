@@ -28,17 +28,18 @@ def create_connection(db_file):
     conn = None
     try:
         conn = sqlite3.connect(db_file)
-        print("connected")
+        #print("connected")
     except Error as e:
-        print(e)
+        pass
+        #print(e)
  
     return conn
 
-def dbLoad_NCEN_Records(connSQLite, fromDate):
+def dbLoad_NCEN_Records(connSQLite, fromDate, toDate):
     
-    sql = "Select ID, XMLFile FROM EdgarFilings WHERE "
+    sql = "Select ID, XMLFile, FilingDate FROM EdgarFilings WHERE "
     sql = sql + "(FileType = 'N-CEN' or FileType = 'N-CEN/A') and XMLFile <> '' "
-    sql = sql + "and FilingDate >= '" + fromDate +"';"
+    sql = sql + "and FilingDate >= '" + fromDate +"' and FilingDate <= '" + toDate + "';"
     df = pd.read_sql_query(sql, connSQLite)
     return df    
 
@@ -64,7 +65,7 @@ def prepareXML(url):
     
     tree = etree.parse(fn_cleaned)
     root = tree.getroot()
-    print(root.tag)
+    #print(root.tag)
 
     return tree
 
@@ -101,9 +102,11 @@ def walkNCEN(tree):
                 
                 if tagparent.tag == 'managementInvestmentQuestion':
                     if tag.tag == 'mgmtInvFundName':
-                        print('*** START FUND SECTION ***')
+                        pass
+                        #print('*** START FUND SECTION ***')
                     if len(tag.text) > 0 and len(tagchildren) == 0:
-                        print(tag.tag.strip(),"|",tag.text.strip()) #,end='')
+                        pass
+                        #print(tag.tag.strip(),"|",tag.text.strip()) #,end='')
                         #if tag.tag == 'brokers':
 
 def create_SQLfields():
@@ -145,7 +148,7 @@ def create_SQLfields():
         
     return sqlFields
 
-def create_dataForfields():    
+def create_dataForfields(FilingDate):    
 
     dataForFields = [ \
     '', \
@@ -180,11 +183,11 @@ def create_dataForfields():
     '', \
     '', \
     '', \
-    0]
+    FilingDate]
 
     return dataForFields
 
-def NCEN_to_dataForFields(tree, sqlFields, dataForFields):
+def NCEN_to_dataForFields(tree, sqlFields, dataForFields, FilingDate):
     connSQLite = create_connection(dbstr)
     showTags = False
 
@@ -213,8 +216,8 @@ def NCEN_to_dataForFields(tree, sqlFields, dataForFields):
                 
                 if tagparent.tag == 'managementInvestmentQuestion':
                     if tag.tag == 'mgmtInvFundName':
-                        print('*** START FUND SECTION ***')
-                        dataForFieldsTemp = create_dataForfields() # List for data
+                        #print('*** START FUND SECTION ***')
+                        dataForFieldsTemp = create_dataForfields(FilingDate) # List for data
                     if len(tag.text) > 0 and len(tagchildren) == 0:
                         for i,f in enumerate(sqlFields):
                             if tag.tag.strip() == f:
@@ -223,28 +226,29 @@ def NCEN_to_dataForFields(tree, sqlFields, dataForFields):
                         #print(tag.tag.strip(),"|",tag.text.strip()) #,end='')
                         #if tag.tag == 'brokers':
                     if tag.tag == 'isSwingPricing' or tag.tag == 'isInterfundBorrowing':
-                        for f in dataForFieldsTemp:
-                            pass
+                        #for f in dataForFieldsTemp:
+                            #pass
                             # print out values
                             #print(f)
                         # save to database
-                        print(len(dataForFieldsTemp))
+                        #print(len(dataForFieldsTemp))
                         connSQLite.executemany('INSERT INTO Extract_NCEN VALUES \
                             (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', [dataForFieldsTemp])
                         connSQLite.commit()
             
 if __name__ == '__main__':
     connSQLite = create_connection(dbstr)
-    fromDate = "20191215"
-    df = dbLoad_NCEN_Records(connSQLite, fromDate)
-    print(df)
+    fromDate = "20190101"
+    toDate = "20190105"
+    df = dbLoad_NCEN_Records(connSQLite, fromDate, toDate)
+    #print(df)
 
     for index, row in df.iterrows():
-        print("Begin Parse " + str(row[1]))
+        print("Begin Parse " + str(index) + " " + str(row[1]))
         tree = prepareXML(row[1])
         sqlFields = create_SQLfields()
-        dataForFields = create_dataForfields()
-        NCEN_to_dataForFields(tree, sqlFields, dataForFields)
+        dataForFields = create_dataForfields(row[2])
+        NCEN_to_dataForFields(tree, sqlFields, dataForFields, row[2])
 
 
 #print(registrantFullName)

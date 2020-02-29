@@ -78,8 +78,10 @@ def walk485BPOS(tree):
                 saveValue = tag.text
                 saveAttrib = tag.get("contextRef")     # 21 for series/class
                 saveSeries_Class = tag.get("contextRef")[:21]
-
-                print(saveElem + "|" + saveValue + "|" + saveAttrib + "|" + saveSeries_Class)
+                prefix = saveSeries_Class.split("_")[0]
+                suffix = saveSeries_Class.split("_")[1]
+                # Don't need this data now: "|" + saveAttrib +
+                print(prefix + "|" + suffix + "|" + saveSeries_Class + "|" + saveElem + "|" + saveValue +  "\r")
    
 
             
