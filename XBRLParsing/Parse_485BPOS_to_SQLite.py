@@ -7,9 +7,13 @@ import re
 import sqlite3
 from sqlite3 import Error
 
-fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fmagx.xml'
+# TESTING
+#fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fmagx.xml'
+#fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\ftetfiv-20181231.xml'
+fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\mmsf-20190201.xml'
 fn_xslt = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\strip_namespace.xsl'
-fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fmagx_clean.xml'
+#fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fmagx_clean.xml'
+fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fn_cleaned.xml'
 
 dbstr = r'C:\Files2020_Dev\ByProject\Open15C_DataOnly\sqlite\SECedgar.sqlite'
 
@@ -33,7 +37,8 @@ def create_connection(db_file):
 
 def prepareXML():
     # ONLY IF WE HAVE NOT ARLEADY PROCESSED
-    if not path.exists(fn_cleaned):
+    # _cleaned
+    if path.exists(fn):
         # Loading XML with Namespace (ns)
         tree = etree.parse(fn)
         # Mary it to XSLT that will remove ns
@@ -53,6 +58,8 @@ def prepareXML():
             f.write(CleanXMLDoc)
     
     tree = etree.parse(fn_cleaned,etree.XMLParser(encoding='ISO-8859-1', ns_clean=True, recover=True))
+    #magical_parser = etree.XMLParser(encoding='utf-8', recover=True)
+    #tree = etree.parse(fn_cleaned,magical_parser)
     #root = tree.getroot()
     #print(root.tag)
 
@@ -72,8 +79,11 @@ def walk485BPOS(tree):
     # tag.keys() returns list of attributes
     # tag.items() returns name, value pair
     # 
+
         if not tag.get("contextRef") is None:
             if str.startswith(tag.get("contextRef"), "S0"):
+
+
                 saveElem = tag.tag
                 saveValue = tag.text
                 saveAttrib = tag.get("contextRef")     # 21 for series/class
@@ -82,7 +92,7 @@ def walk485BPOS(tree):
                 suffix = saveSeries_Class.split("_")[1]
                 # Don't need this data now: "|" + saveAttrib +
                 print(prefix + "|" + suffix + "|" + saveSeries_Class + "|" + saveElem + "|" + saveValue +  "\r")
-   
+
 
             
 if __name__ == '__main__':

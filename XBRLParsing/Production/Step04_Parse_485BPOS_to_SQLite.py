@@ -8,6 +8,8 @@ import pandas as pd
 import sqlite3
 from sqlite3 import Error
 
+from urllib.request import urlopen
+
 fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fmagx.xml'
 fn_xslt = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\strip_namespace.xsl'
 fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\fmagx_clean.xml'
@@ -69,11 +71,11 @@ def create_GetFieldsList():
        
     return GetFieldsList
 
-def prepareXML():
-    # ONLY IF WE HAVE NOT ARLEADY PROCESSED
-    if not path.exists(fn_cleaned):
-        # Loading XML with Namespace (ns)
-        tree = etree.parse(fn)
+def prepareXML(url):
+
+    with urlopen(url) as f:
+        tree = etree.parse(f)
+
         # Mary it to XSLT that will remove ns
         xslt = etree.parse(fn_xslt)
 
@@ -101,7 +103,7 @@ def prepareXML():
 #     if not len(tag):
 #         print(tag.tag," | ",tag.text)
 
-def walk485BPOS(FileName, FilingDate, tree, GetFieldsList):
+def walk485BPOS(FilingDate, FileName, tree, GetFieldsList):
     connSQLite = create_connection(dbstr)
 
     # List of data we'll add to SQL TABLE
@@ -127,17 +129,20 @@ def walk485BPOS(FileName, FilingDate, tree, GetFieldsList):
                 saveValue = tag.text
                 #saveAttrib = tag.get("contextRef")     # 21 for series/class
                 saveSeries_Class = tag.get("contextRef")[:21]
-                prefix = saveSeries_Class.split("_")[0]
-                suffix = saveSeries_Class.split("_")[1]
-                # Don't need this data now: "|" + saveAttrib +
+                prefix = saveSeries_Class # Default
+                suffix = ''
+                if "_" in saveSeries_Class:
+                    prefix = saveSeries_Class.split("_")[0]
+                    suffix = saveSeries_Class.split("_")[1]
+                    # Don't need this data now: "|" + saveAttrib +
                 if saveElem.lower() in GetFieldsList:
                     print(prefix + "|" + suffix + "|" + saveSeries_Class + "|" + saveElem + "|" + saveValue +  "\r")
                     dataForFields[0] = prefix # Series
                     dataForFields[1] = suffix # Class
                     dataForFields[2] = saveElem # XMLFieldName
                     dataForFields[3] = saveValue # StringValue
-                    dataForFields[4] = '' # FilingDate
-                    dataForFields[5] = '' # FilingValue
+                    dataForFields[4] = FilingDate # FilingDate
+                    dataForFields[5] = FileName # FilingValue
 
                     connSQLite.executemany('INSERT INTO Extract_485BPOS VALUES \
                             (?,?,?,?,?,?)', [dataForFields])
@@ -145,13 +150,19 @@ def walk485BPOS(FileName, FilingDate, tree, GetFieldsList):
             
 if __name__ == '__main__':
     connSQLite = create_connection(dbstr)
-    fromDate = "20190101"
+    fromDate = "20190104"
     toDate = "20190105"
     df = dbLoad_485BPOS_Records(connSQLite, fromDate, toDate)
 
-    tree = prepareXML()
     GetFieldsList = create_GetFieldsList()
-    walk485BPOS('FilingDate', 'FilingName', tree, GetFieldsList)
+
+    for index, row in df.iterrows():
+        print("Begin Parse " + str(index) + " " + str(row[1]) + " " + str(row[2]))
+        tree = prepareXML(row[1])
+        #NCEN_to_dataForFields(tree, sqlFields, dataForFields, row[2])
+        walk485BPOS(row[1], row[2], tree, GetFieldsList)
+
+    
     
 
 

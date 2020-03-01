@@ -28,5 +28,11 @@ o. Create Links to N-CEN files
 	Step01_Get_NCEN_Links.py
 	
 o. Populate: Extract_485BPOS
-	TODO
+	Step04_Parse_485BPOS_to_SQLite_v2.py
+	
+*** SQLITE ***
+o. CREATE_TABLE_SECFundExpenses.sql
+	create table from good rows in SECClasses
+	
+
 	
