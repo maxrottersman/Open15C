@@ -18,7 +18,8 @@ from pathlib import Path, PureWindowsPath
 #url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR1/'
 #url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR2/'
 #url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR3/'
-url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR4/'
+#url = 'https://www.sec.gov/Archives/edgar/daily-index/2019/QTR4/'
+url = 'https://www.sec.gov/Archives/edgar/daily-index/2020/QTR1/'
 
 
 ScriptPath = Path.cwd() # new way of getting script folder in both win/linux

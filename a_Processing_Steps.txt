@@ -2,6 +2,7 @@
 o. Get SEC index files
 	aStep01_DownloadIndexFiles_fromEDGAR_HTTP.py
 		For now will work with 2019 year data
+		Does by quarter
 
 o. Create: EdagarFilings
 	aStep02_IndexFiles_Into_SECEdgar_SQLite.py
@@ -33,6 +34,30 @@ o. Populate: Extract_485BPOS
 *** SQLITE ***
 o. CREATE_TABLE_SECFundExpenses.sql
 	create table from good rows in SECClasses
+	
+	
+SAVE CREATE SECMasterSeries
+DELETE for now
+
+CREATE TABLE "SECMasterSeries" (
+	"CIK"	TEXT,
+	"SeriesName"	TEXT,
+	"SeriesNum"	TEXT,
+	"SECFamilyName"	TEXT,
+	"Complex"	TEXT,
+	"Registrant_Name"	TEXT,
+	"Series_Name_Portfolio"	TEXT,
+	"FundCharKey"	TEXT,
+	"FCKDate"	TEXT,
+	"DateAdd"	TEXT,
+	"FundType"	TEXT,
+	"OpenEnd"	TEXT,
+	"Incept"	TEXT,
+	"TickerList"	TEXT,
+	"PriorityMatch"	TEXT,
+	"MASS"	TEXT,
+	"ID"	TEXT
+);
 	
 
 	

@@ -65,12 +65,15 @@ if __name__ == '__main__':
         #print(row[0])
         #print(row[1])
         XMLFile = 'http://www.sec.gov' + get_XML_url(row[1])
-        sql = """UPDATE EdgarFilings SET XMLFile = ? WHERE ID = ?"""
-        data = (XMLFile, row[0])
-        cursor = connSQLite.cursor()
-        cursor.execute(sql,data)
-        connSQLite.commit()
-        cursor.close()
+
+            # Only if we have a full link, not partial HAVEN'T TESTED
+            if XMLFile != 'http://www.sec.gov':
+                sql = """UPDATE EdgarFilings SET XMLFile = ? WHERE ID = ?"""
+                data = (XMLFile, row[0])
+                cursor = connSQLite.cursor()
+                cursor.execute(sql,data)
+                connSQLite.commit()
+                cursor.close()
 
         cnt += 1
         print(cnt)

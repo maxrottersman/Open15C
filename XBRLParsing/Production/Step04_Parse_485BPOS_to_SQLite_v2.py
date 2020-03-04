@@ -172,8 +172,8 @@ def walk485BPOS(FilingDate, FileName, tree, GetFieldsList):
         
 if __name__ == '__main__':
     connSQLite = create_connection(dbstr)
-    fromDate = "20190101"
-    toDate = "20190131"
+    fromDate = "20191201"
+    toDate = "20191231"
     df = dbLoad_485BPOS_Records(connSQLite, fromDate, toDate)
 
     GetFieldsList = create_GetFieldsList()

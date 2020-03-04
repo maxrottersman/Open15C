@@ -19,8 +19,8 @@ SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
 DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 DataSQL1 = DataPath / 'EdgarFilings_GetLatestDate_NCEN.sql'
 
-fromDate = '20190101' # will be greater-than or equl
-endDate = '20191231'
+fromDate = '20200101' # will be greater-than or equl
+endDate = '20200230'
 # -------------------------------
 
 sURLFile = ''#'c:\\Files2013_EDGAR\\pyEDGAR\\testdocs\\nsarindex3.htm'
