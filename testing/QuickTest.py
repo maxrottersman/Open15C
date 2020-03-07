@@ -1,29 +1,14 @@
-GetFieldsList = set([ \
-'annualreturn2009', \
-'annualreturn2010', \
-'annualreturn2011', \
-'annualreturn2012', \
-'annualreturn2013', \
-'annualreturn2014', \
-'annualreturn2015', \
-'annualreturn2016', \
-'annualreturn2017', \
-'annualreturn2018', \
-'averageannualreturnyear01', \
-'averageannualreturnyear01', \
-'averageannualreturnyear05', \
-'averageannualreturnyear05', \
-'averageannualreturnyear10', \
-'averageannualreturnyear10', \
-'distributionandservice12b1feesoverassets', \
-'expensesoverassets', \
-'managementfeesoverassets', \
-'otherexpensesoverassets', \
-'portfolioturnoverrate', \
-'shareholderfeeother', \
- '9z'])
+import os
 
-s = 'annualReturn2009'
+s = 'http://www.sec.gov/Archives/edgar/data/1547950/000161577420002432/0001615774-20-002432-index.htm'
 
-if s.lower() in GetFieldsList:
-    print("yes")
+head, tail = os.path.split(s)
+
+print(head)
+print(tail)
+
+zipfile = tail.replace('-index.htm','-xbrl.zip')
+
+url = head + r'/' + zipfile
+
+print(url)

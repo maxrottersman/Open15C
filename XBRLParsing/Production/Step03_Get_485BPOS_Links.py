@@ -9,6 +9,9 @@ import pandas as pd
 url = 'https://www.sec.gov/Archives/edgar/data/1111178/000111117819000001/0001111178-19-000001-index.htm'
 url = 'https://www.sec.gov/Archives/edgar/data/1141819/000089418919000011/0000894189-19-000011-index.htm' #48bpos
 
+FilingDateStart = '20200101'
+
+
 lSECFilingsIndexURLs = [] # make this global
 
 #
@@ -31,10 +34,10 @@ def create_connection(db_file):
 #
 # Get records
 #
-def dbLoad_lSECFilingsIndexURLs(connSQLite):
+def dbLoad_lSECFilingsIndexURLs(connSQLite, FilingDateStart):
     
     sql = "Select ID, SECFilingIndexURL FROM EdgarFilings WHERE "
-    sql = sql + "FileType like '485BPOS%';"
+    sql = sql + "FileType like '485BPOS%' and FilingDate >= '" + FilingDateStart + "';"
     df = pd.read_sql_query(sql, connSQLite)
     return df    
 
@@ -59,21 +62,21 @@ def get_XML_url(url):
 if __name__ == '__main__':
     dbstr = r'C:\Files2020_Dev\ByProject\Open15C_Data\SECedgar.sqlite'
     connSQLite = create_connection(dbstr)
-    df = dbLoad_lSECFilingsIndexURLs(connSQLite)
+    df = dbLoad_lSECFilingsIndexURLs(connSQLite, FilingDateStart)
     cnt = 1
     for index, row in df.iterrows():
         #print(row[0])
         #print(row[1])
         XMLFile = 'http://www.sec.gov' + get_XML_url(row[1])
 
-            # Only if we have a full link, not partial HAVEN'T TESTED
-            if XMLFile != 'http://www.sec.gov':
-                sql = """UPDATE EdgarFilings SET XMLFile = ? WHERE ID = ?"""
-                data = (XMLFile, row[0])
-                cursor = connSQLite.cursor()
-                cursor.execute(sql,data)
-                connSQLite.commit()
-                cursor.close()
+        # Only if we have a full link, not partial HAVEN'T TESTED
+        if XMLFile != 'http://www.sec.gov':
+            sql = """UPDATE EdgarFilings SET XMLFile = ? WHERE ID = ?"""
+            data = (XMLFile, row[0])
+            cursor = connSQLite.cursor()
+            cursor.execute(sql,data)
+            connSQLite.commit()
+            cursor.close()
 
         cnt += 1
         print(cnt)

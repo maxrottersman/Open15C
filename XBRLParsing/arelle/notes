@@ -1,0 +1,16 @@
+
+works
+.\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002433\ck0001547950-20200224.xml --validate
+
+works
+.\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002433\ck0001547950-20200224.xml --factTable=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002433\facttable.csv
+
+.\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002433\ck0001547950-20200224.xml --facts=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002433\facts.csv
+
+C:\Files2020_Data\XBRLFolders_485BPOS\0000894189-20-001564\ck0001540305-20191031.xml
+
+.\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0000894189-20-001564\ck0001540305-20191031.xml --facts=C:\Files2020_Data\XBRLFolders_485BPOS\0000894189-20-001564\facts.csv
+
+.\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0000894189-20-001564\ck0001540305-20191031.xml --facts=C:\Files2020_Data\XBRLFolders_485BPOS\0000894189-20-001564\factslist.csv --factListCols=Label,contextRef,Value
+
+.\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002432\ck0001547950-20200210.xml --facts=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002432\arellCmdLine_facts.csv
