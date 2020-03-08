@@ -1,0 +1,13 @@
+a_XBRL_processing
+
+CREATE TABLE "Extract_XBRL_485BPOS" (
+	"FolderName"	TEXT,
+	"Series"	TEXT,
+	"Class"	TEXT,
+	"Label" TEXT,
+	"contextRef" TEXT,
+	"unitRef" TEXT,
+	"Dec" TEXT,
+	"Value"	TEXT,
+	"CIKVal"	NUMERIC
+)

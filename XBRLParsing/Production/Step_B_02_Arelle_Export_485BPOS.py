@@ -47,7 +47,7 @@ def dbLoad_485BPOS_Records(connSQLite, fromDate, toDate):
         
 if __name__ == '__main__':
     connSQLite = create_connection(dbstr)
-    fromDate = "20200225"
+    fromDate = "201903015"
     toDate = "20200231"
     df = dbLoad_485BPOS_Records(connSQLite, fromDate, toDate)
 
@@ -66,7 +66,7 @@ if __name__ == '__main__':
                 # Construct local folder to UNZIP file into
                 ZIPUnzipFolder = XBRLFolders_485BPOS + '\\' + CreateZIPFolderName
                 
-                print("Begin processing " + str(index) + " " + ZIPurl + " " + str(row[2])  + " " + str(row[3]))
+                print("Begin processing " + str(index) + " " + str(row[2])  + " " + str(row[3]))
                 print("/")
                 cmd = arelleCmdLine + ' '
                 cmd = cmd + '--file=' + str(row[4]) + ' '
@@ -74,7 +74,7 @@ if __name__ == '__main__':
                 cmd = cmd + ZIPUnzipFolder + '\\' + CreateZIPFolderName + ".csv"
 
                 print(cmd)
-                time.sleep(2)
+                time.sleep(3)
                 # .\arelleCmdLine --file=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002432\ck0001547950-20200210.xml 
                 # --facts=C:\Files2020_Data\XBRLFolders_485BPOS\0001615774-20-002432\arellCmdLine_facts.csv
                 #  
