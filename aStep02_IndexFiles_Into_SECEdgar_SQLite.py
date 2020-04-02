@@ -22,8 +22,8 @@ SECIndexesPath = DataPath / 'SEC_IndexFiles' # / adds right in all os
 DataPathSQLiteDB = DataPath / 'SECedgar.sqlite'
 
 # --------- CONFIG --------------
-fromDate = '20200101' # will be greater-than or equl
-endDate = '20200230'
+fromDate = '20200230' # will be greater-than or equl
+endDate = '20200331'
 # 48BPOS, NSAR and N1A
 # no longer: r'nsar-a',r'nsar-a/a', r'nsar-b',r'nsar-b/a',
 # no interest in A: like r'485apos/a',r'485apos'

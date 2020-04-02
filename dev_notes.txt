@@ -1,3 +1,10 @@
+4/1/2020
+ADD:
+<publicAccountantName>
+
+SQL Server Express
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
 python -m pip install psycopg2 --user
 python -m pip install sshtunnel --user
 python -m pip install pypi --user

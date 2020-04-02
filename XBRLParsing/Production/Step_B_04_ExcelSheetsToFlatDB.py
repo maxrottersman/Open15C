@@ -4,6 +4,7 @@ from os import path
 from io import StringIO, BytesIO
 import re
 import pandas as pd
+import numpy
 
 import sqlite3
 from sqlite3 import Error
@@ -28,7 +29,7 @@ def create_connection(db_file):
     conn = None
     try:
         conn = sqlite3.connect(db_file)
-        print("connected")
+        #print("connected")
     except Error as e:
         print(e)
  
@@ -71,6 +72,7 @@ def cvs_485BPOS_to_Flat485BPOS(FileName, CIKVal, FolderName):
         
         for i, row in enumerate(df.values):
             Label = str(row[0]).strip()
+            lcLabel = Label.lower()
             contextRef = str(row[1])
             unitRef = str(row[2])
             Dec = str(row[3])
@@ -103,21 +105,52 @@ def cvs_485BPOS_to_Flat485BPOS(FileName, CIKVal, FolderName):
             if any(word in Label.lower() for word in Keywords) and chkValue.isdigit() == True:
                
                 dbValue = float(Value)
-                if Label=='Acquired Fund Fees and Expenses': dbLabel='AcquiredFees'
-                if Label=='Other Expenses (as a percentage of Assets):': dbLabel='OtherExp'
-                if Label=='Other expenses': dbLabel='OtherExp'
-                if Label=='Distribution and Service (12b-1) Fees': dbLabel='Dist12b1Fees'
-                if Label=='Management Fees (as a percentage of Assets)': dbLabel='MgmtFees'
-                if Label=='Fee Waiver or Reimbursement': dbLabel='FeeWaiver'
-                if Label=='Total annual fund operating expenses': dbLabel='TotExp'
-                if Label=='Expenses (as a percentage of Assets)': dbLabel='TotExp'
-                if Label=='Net Expenses (as a percentage of Assets)': dbLabel='NetExp'
-                if Label=='Total annual fund operating expenses after expense reimbursement': dbLabel='NetExp'
+                dbValue = numpy.nan_to_num(dbValue) # we don't want NaN's screwing up our pivot when it average dups
+
+                if 'operating expenses' in lcLabel and 'after' in lcLabel: dbLabel='NetExp'
+                if 'net expenses' in lcLabel: dbLabel = 'NetExp'
+                if lcLabel=='netexp': dbLabel = 'NetExp'
+                
+                if ('waiver' in lcLabel or 'reimbursement' in lcLabel) and not 'total' in lcLabel:
+                    dbLabel='FeeWaiver'
+                
+                if lcLabel=='expenses (as a percentage of assets)': dbLabel='TotExp'
+                if lcLabel=='totexp': dbLabel='TotExp'
+
+                if 'acquired' in lcLabel: dbLabel='AcquiredFees'
+                
+                if 'other expenses' in lcLabel: dbLabel='OtherExp'
+                if 'miscellaneous' in lcLabel: dbLabel='OtherExp'
+                if lcLabel=='otherexp' in lcLabel: dbLabel='OtherExp'
+                
+                if lcLabel=='distribution and service (12b-1) fees': dbLabel='Dist12b1Fees'
+                if lcLabel=='service fee': dbLabel='Dist12b1Fees'
+                if '12b-1' in lcLabel: dbLabel='Dist12b1Fees'
+                
+                if 'management' in lcLabel: dbLabel='MgmtFees'
+                if lcLabel=='mgmtfees': dbLabel='MgmtFees'
+                if lcLabel=='investment advisory fees': dbLabel='MgmtFees'
+                # if lcLabel=='acquired fund fees and expenses': dbLabel='AcquiredFees'
+                # if lcLabel=='other expenses (as a percentage of Assets):': dbLabel='OtherExp'
+                # if lcLabel=='other expenses': dbLabel='OtherExp'
+                # if lcLabel=='distribution and service (12b-1) fees': dbLabel='Dist12b1Fees'
+                # if lcLabel=='distribution (rule 12b-1) fees': dbLabel='Dist12b1Fees'
+                # if lcLabel=='management fees (as a percentage of assets)': dbLabel='MgmtFees'
+                # if lcLabel=='management fees': dbLabel='MgmtFees'
+                # if lcLabel=='management fee': dbLabel='MgmtFees'
+                # if lcLabel=='fee waiver or reimbursement': dbLabel='FeeWaiver'
+                # if lcLabel=='waivers and expense reimbursements': dbLabel='FeeWaiver'
+                # if lcLabel=='total annual fund operating expenses': dbLabel='TotExp'
+                # if lcLabel=='expenses (as a percentage of assets)': dbLabel='TotExp'
+                # if lcLabel=='expenses': dbLabel='TotExp'
+                # if lcLabel=='net expenses (as a percentage of Assets)': dbLabel='NetExp'
+                # if lcLabel=='net expenses': dbLabel='NetExp'
+                # if lcLabel=='total annual fund operating expenses after expense reimbursement': dbLabel='NetExp'
+                # if lcLabel=='ttal annual Fund operating expenses after fee waiver and/or expense reimbursement': dbLabel='NetExp'
 
             if dbLabel != '':
                 #print(dbClassNum +"|"+ dbSeriesNum+"|"+str(dbLabel)+"|"+str(dbValue))
                 DataTuple = (dbClassNum, dbSeriesNum, dbLabel, dbValue)
-                DataFiling = []
                 DataFiling.append(DataTuple) 
     except:
         pass
@@ -129,8 +162,10 @@ def SQLInsertFilingsData(dbstr_xbrl, DataFiling):
     connSQLite = create_connection(dbstr_xbrl)
        
     sql = 'INSERT into Flat_485BPOS'
-    sql = sql + '(CIKVal,FilingDate,SeriesNum,ClassNum,AcquiredFees,Dist12b1Fees,MgmtFees,OtherExp,TotExp,FeeWaiver,NetExp)'
-    sql = sql + " values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+    sql = sql + '(CIKVal,FilingDate,SeriesNum,ClassNum,AcquiredFees,Dist12b1Fees,MgmtFees,OtherExp,TotExp,FeeWaiver,NetExp,CVSFile)'
+    sql = sql + " values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+
+    #print(DataFiling)
     
     try:
         #print(sql + '\n')
@@ -149,8 +184,8 @@ def SQLInsertFilingsData(dbstr_xbrl, DataFiling):
         
 if __name__ == '__main__':
     connSQLite = create_connection(dbstr_filings)
-    fromDate = "20200226"
-    toDate = "20200227"
+    fromDate = "20190301"
+    toDate = "20200231"
     df = dbLoad_485BPOS_Records(connSQLite, fromDate, toDate)
 
     if not df.empty:
@@ -160,6 +195,7 @@ if __name__ == '__main__':
                 SECFilingIndexURL = str(row[1])
                 dbCIKVal=row[3]
                 dbFilingDate=str(row[2])
+                print(dbFilingDate)
                 head, tail = os.path.split(SECFilingIndexURL)
                 if len(tail) > 3:
                     # We used name of folder for cvs files
@@ -177,45 +213,48 @@ if __name__ == '__main__':
                     # A flat expense table.
                     DataFiling = cvs_485BPOS_to_Flat485BPOS(cvsFileAndPath, row[3], CreateZIPFolderName)
                     df = pd.DataFrame(DataFiling)
-                    df.columns = ['ClassNum','SeriesNum','Label','dbValue']
-                    #print(df)
-                    df_pivot = df.pivot(index='ClassNum',columns='Label',values='dbValue')
+
+                    if len(df.columns) > 3:
+                        df.columns = ['ClassNum','SeriesNum','Label','dbValue']
+                        #print(df)
+                        df.set_index(['ClassNum','dbValue'], append=True)
+                        df_pivot = df.pivot_table(index='ClassNum',columns='Label',values='dbValue')
 
 
-                    for row in df_pivot.itertuples():
-                        
-                        dbSeriesNum=''
-                        dbClassNum=''
-                        dbAcquiredFees=0
-                        dbDist12b1Fees=0
-                        dbMgmtFees=0
-                        dbOtherExp=0
-                        dbTotExp=0
-                        dbFeeWaiver=0
-                        dbNetExp=0
+                        for row in df_pivot.itertuples():
+                            
+                            dbSeriesNum=''
+                            dbClassNum=''
+                            dbAcquiredFees=0
+                            dbDist12b1Fees=0
+                            dbMgmtFees=0
+                            dbOtherExp=0
+                            dbTotExp=0
+                            dbFeeWaiver=0
+                            dbNetExp=0
 
-                        dbClassNum = getattr(row, 'Index')
-                        if 'AcquiredFees' in df_pivot : dbAcquiredFees = getattr(row, 'AcquiredFees')
-                        if 'OtherExp'  in df_pivot : dbOtherExp = getattr(row, 'OtherExp')
-                        if 'NetExp'  in df_pivot : dbNetExp = getattr(row, 'NetExp')
-                        if 'TotExp'  in df_pivot : dbTotExp = getattr(row, 'TotExp')
-                        if 'Dist12b1Fees'  in df_pivot : dbDist12b1Fees = getattr(row, 'Dist12b1Fees')
-                        if 'MgmtFees'  in df_pivot : dbMgmtFees = getattr(row, 'MgmtFees')
-                        if 'FeeWaiver'  in df_pivot : dbFeeWaiver = getattr(row, 'FeeWaiver')
+                            dbClassNum = getattr(row, 'Index')
+                            if 'AcquiredFees' in df_pivot : dbAcquiredFees = getattr(row, 'AcquiredFees')
+                            if 'OtherExp'  in df_pivot : dbOtherExp = getattr(row, 'OtherExp')
+                            if 'NetExp'  in df_pivot : dbNetExp = getattr(row, 'NetExp')
+                            if 'TotExp'  in df_pivot : dbTotExp = getattr(row, 'TotExp')
+                            if 'Dist12b1Fees'  in df_pivot : dbDist12b1Fees = getattr(row, 'Dist12b1Fees')
+                            if 'MgmtFees'  in df_pivot : dbMgmtFees = getattr(row, 'MgmtFees')
+                            if 'FeeWaiver'  in df_pivot : dbFeeWaiver = getattr(row, 'FeeWaiver')
 
-                        # print(dbClassNum, dbAcquiredFees)
-                        # print(dbClassNum, dbOtherExp)
-                        # print(dbClassNum, dbNetExp)
-                        # print(dbClassNum, dbTotExp)
-                        # print(dbClassNum, dbDist12b1Fees)
-                        # print(dbClassNum, dbMgmtFees)
-                        # print(dbClassNum, dbFeeWaiver)
+                            # print(dbClassNum, dbAcquiredFees)
+                            # print(dbClassNum, dbOtherExp)
+                            # print(dbClassNum, dbNetExp)
+                            # print(dbClassNum, dbTotExp)
+                            # print(dbClassNum, dbDist12b1Fees)
+                            # print(dbClassNum, dbMgmtFees)
+                            # print(dbClassNum, dbFeeWaiver)
 
-                        DataFilingSQLInsert = []
-                        DataTuple = (dbCIKVal,dbFilingDate,dbSeriesNum,dbClassNum,dbAcquiredFees,dbDist12b1Fees,dbMgmtFees,dbOtherExp,dbTotExp,dbFeeWaiver,dbNetExp)
-                        DataFilingSQLInsert.append(DataTuple) 
+                            DataFilingSQLInsert = []
+                            DataTuple = (dbCIKVal,dbFilingDate,dbSeriesNum,dbClassNum,dbAcquiredFees,dbDist12b1Fees,dbMgmtFees,dbOtherExp,dbTotExp,dbFeeWaiver,dbNetExp,cvsFileAndPath)
+                            DataFilingSQLInsert.append(DataTuple) 
 
-                        SQLInsertFilingsData(dbstr_xbrl, DataFilingSQLInsert)
+                            SQLInsertFilingsData(dbstr_xbrl, DataFilingSQLInsert)
 
                         
                         #print(getattr(row, 'Index'),col, getattr(row, col))

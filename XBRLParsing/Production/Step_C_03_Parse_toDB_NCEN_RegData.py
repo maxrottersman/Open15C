@@ -14,7 +14,11 @@ fn = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\alger_n_cen.xml'
 fn_xslt = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\strip_namespace.xsl'
 fn_cleaned = r'C:\Files2020_Dev\ByProject\Open15c\XBRLParsing\tempcleaned.xml'
 
+Folders_NCEN = r'D:\Files2020_Data\Folders_NCEN'
+
 dbstr = r'C:\Files2020_Dev\ByProject\Open15C_Data\SECedgar.sqlite'
+dbstr_NCEN = r'C:\Files2020_Dev\ByProject\Open15C_Data\SEC_FlatNCEN.sqlite3'
+
 
 #
 # Create CONNECTION to SQLite Database
@@ -37,31 +41,30 @@ def create_connection(db_file):
 
 def dbLoad_NCEN_Records(connSQLite, fromDate, toDate):
     
-    sql = "Select ID, XMLFile, FilingDate FROM EdgarFilings WHERE "
+    sql = "Select ID, SECFilingIndexURL, XMLFile, FilingDate FROM EdgarFilings WHERE "
     sql = sql + "(FileType = 'N-CEN' or FileType = 'N-CEN/A') and XMLFile <> '' "
     sql = sql + "and FilingDate >= '" + fromDate +"' and FilingDate <= '" + toDate + "';"
     df = pd.read_sql_query(sql, connSQLite)
     return df    
 
-def prepareXML(url):
+def prepareXML(XMLPathAndFile):
     #parser = etree.HTMLParser()
-    with urlopen(url) as f:
-        tree = etree.parse(f)
-        # Mary it to XSLT that will remove ns
-        xslt = etree.parse(fn_xslt)
+    tree = etree.parse(XMLPathAndFile)
+    # Mary it to XSLT that will remove ns
+    xslt = etree.parse(fn_xslt)
 
-        # Apply XSLT
-        tree_without_namespace = tree.xslt(xslt)
+    # Apply XSLT
+    tree_without_namespace = tree.xslt(xslt)
 
-        # Now we can built string of clean XML
-        # UTF-8
+    # Now we can built string of clean XML
+    # UTF-8
 
-        CleanXMLDoc = (etree.tostring(tree_without_namespace, pretty_print=True, xml_declaration=True, 
-            encoding="UTF-8").decode("UTF-8"))
+    CleanXMLDoc = (etree.tostring(tree_without_namespace, pretty_print=True, xml_declaration=True, 
+        encoding="UTF-8").decode("UTF-8"))
 
-        # OUTPUT RESULT TREE TO FILE
-        with open(fn_cleaned, 'w') as f:
-            f.write(CleanXMLDoc)
+    # OUTPUT RESULT TREE TO FILE
+    with open(fn_cleaned, 'w') as f:
+        f.write(CleanXMLDoc)
     
     tree = etree.parse(fn_cleaned)
     root = tree.getroot()
@@ -112,83 +115,29 @@ def walkNCEN(tree):
 def create_SQLfields():
     
     sqlFields = ( \
-    'mgmtInvFundName', \
-    'mgmtInvSeriesId', \
-    'mgmtInvLei', \
-    'isFirstFilingByFund', \
-    'numAuthorizedClass', \
-    'numAddedClass', \
-    'numTerminatedClass', \
-    'fundType', \
-    'isNonDiversifiedCompany', \
-    'isForeignSubsidiary', \
-    'isFundSecuritiesLending', \
-    'didFundLendSecurities', \
-    'paymentToAgentManagerType', \
-    'avgPortfolioSecuritiesValue', \
-    'netIncomeSecuritiesLending', \
-    'relyOnRuleType', \
-    'isExpenseLimitationInPlace', \
-    'isExpenseReducedOrWaived', \
-    'isFeesWaivedRecoupable', \
-    'isExpenseWaivedRecoupable', \
-    'isTransferAgentHiredOrTerminated', \
-    'isPricingServiceHiredOrTerminated', \
-    'isCustodianHiredOrTerminated', \
-    'isShareholderServiceHiredTerminated', \
-    'isAdminHiredOrTerminated', \
-    'aggregateCommission', \
-    'principalAggregatePurchase', \
-    'isBrokerageResearchPayment', \
-    'mnthlyAvgNetAssets', \
-    'hasLineOfCredit', \
-    'isInterfundBorrowing', \
-    'isSwingPricing', \
-    '')
+    'ReportEndingPeriod', \
+    'registrantCIK', \
+    'website', \
+    'registrantFamilyInvCom', \
+    'investmentCompanyType',
+    'XMLFile')
         
     return sqlFields
 
-def create_dataForfields(FilingDate):    
+def create_dataForfields(XMLFile):    
 
     dataForFields = [ \
     '', \
     '', \
     '', \
     '', \
-    0, \
-    0, \
-    0, \
     '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    '', \
-    0, \
-    0, \
-    '', \
-    0, \
-    '', \
-    '', \
-    '', \
-    FilingDate]
+    XMLFile]
 
     return dataForFields
 
 def NCEN_to_dataForFields(tree, sqlFields, dataForFields, FilingDate):
-    connSQLite = create_connection(dbstr)
+    connSQLite = create_connection(dbstr_NCEN)
     showTags = False
 
     for tag in tree.iter():
@@ -238,14 +187,26 @@ def NCEN_to_dataForFields(tree, sqlFields, dataForFields, FilingDate):
             
 if __name__ == '__main__':
     connSQLite = create_connection(dbstr)
-    fromDate = "20190101"
-    toDate = "20190105"
+    fromDate = "20190401"
+    toDate = "20200331"
     df = dbLoad_NCEN_Records(connSQLite, fromDate, toDate)
     #print(df)
 
     for index, row in df.iterrows():
         print("Begin Parse " + str(index) + " " + str(row[1]))
-        tree = prepareXML(row[1])
+         # folder html file for parsing out ACCESSION NUMBER For folder name
+        SECFilingIndexURL = str(row[1])
+        head, tail = os.path.split(SECFilingIndexURL)
+        CreateFolderName = tail.replace('-index.htm','')
+
+        # URL to our XML file
+        XMLFileURL = str(row[2])
+        head_XML, tail_XML = os.path.split(XMLFileURL)
+        XMLlocalFolder = Folders_NCEN + "\\" + str(CreateFolderName) #+ "\\" + tail_XML
+        XMLPathAndFile = XMLlocalFolder + r'\\' + tail_XML
+
+
+        tree = prepareXML(XMLPathAndFile)
         sqlFields = create_SQLfields()
         dataForFields = create_dataForfields(row[2])
         NCEN_to_dataForFields(tree, sqlFields, dataForFields, row[2])

@@ -6,7 +6,7 @@ o. At oldest SYMBOLs to data where SeriesMatch
 o. Build full database with reimbursements
 o. Check against Mstar
 o. Look into getting objective or other classification data
-o. Parse N-CEN through Arelle
+o. Parse N-CEN it's straight XML
 
 
 PYTHON
@@ -18,6 +18,10 @@ o. Step_B_02_Arelle_Export_485BPOS.py
 o. Step_B_03_ExcelSheetsToDB_485BPOS.py
 	Open each CVS file and write contents to SQLite DB
 
+
+
+
+MOTHBALL EXPORT TO RAW THAN QUERY UP
 SQLITE
 o. CT_XBRL_Expenses485BPOS.sql	
 	Convert to vals for data we have
@@ -29,7 +33,17 @@ o. INSERT_DISTINCT_Flat_Expenses485BPOS.sql
 	unique series/class to fill
 o. IDX_XBRL_Tables.sql
 	Index all our tables
+o. UPDATE_Flat_Expenses485BPOS_TotExp
+	and other 6 update fee queries (slow)
 
+
+Acquired Fund Fees and Expenses
+Other Expenses (as a percentage of Assets):
+Net Expenses (as a percentage of Assets)
+Expenses (as a percentage of Assets)
+Distribution and Service (12b-1) Fees
+Management Fees (as a percentage of Assets)
+Fee Waiver or Reimbursement
 
 
 *** MOTHBALL ACCESS ***
